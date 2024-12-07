@@ -1,0 +1,304 @@
+1
+00:00:00,020 --> 00:00:05,240
+Let's learn how to implement swipe to delete functionality to the recycler view.
+
+2
+00:00:05,240 --> 00:00:12,050
+But at first I need to create card views for the items and change the background of our application.
+
+3
+00:00:12,050 --> 00:00:21,560
+I'll create here inside the contact list item a card view Matchparent Wrap content and inside this card
+
+4
+00:00:21,590 --> 00:00:28,520
+view implement my constraint layout so I copy this and move it inside our card.
+
+5
+00:00:28,520 --> 00:00:32,060
+View this constraint layout that contains the two text views.
+
+6
+00:00:32,060 --> 00:00:43,070
+Here I'll add elevation 20 DPI, corner radius 20 DPI and I'll add some margin margin left and right,
+
+7
+00:00:43,070 --> 00:00:47,870
+20 DPI and margin top five DPI margin.
+
+8
+00:00:47,870 --> 00:00:49,370
+Bottom five DPI.
+
+9
+00:00:49,400 --> 00:00:50,420
+It's good.
+
+10
+00:00:50,420 --> 00:00:56,180
+The cards here is the width should be zero and here zero DPI.
+
+11
+00:00:56,330 --> 00:00:56,870
+Okay.
+
+12
+00:00:56,870 --> 00:00:57,740
+It's good.
+
+13
+00:00:57,740 --> 00:01:01,820
+If we run the application it looks better with the card views.
+
+14
+00:01:01,830 --> 00:01:07,440
+I'll copy this background and paste it in the drawable folder and you can see it.
+
+15
+00:01:07,440 --> 00:01:08,580
+It's very beautiful.
+
+16
+00:01:08,580 --> 00:01:12,150
+Let's make it our main activity background.
+
+17
+00:01:13,890 --> 00:01:22,350
+And here in the constraint layout, set the background back to and it's very simple and classic application.
+
+18
+00:01:22,350 --> 00:01:31,710
+Let's design this fab drawable folder and the new vector asset, and here I'll name it as Ik add clip
+
+19
+00:01:31,710 --> 00:01:32,010
+art.
+
+20
+00:01:32,010 --> 00:01:38,400
+Click on this and search for Add and I'll use this sign click.
+
+21
+00:01:38,400 --> 00:01:40,620
+Okay, you can change the color.
+
+22
+00:01:40,650 --> 00:01:44,190
+I'll set it to red next and click finish.
+
+23
+00:01:44,190 --> 00:01:54,620
+Then add the background tint black and source compat android src and select it baseline underscore at
+
+24
+00:01:54,630 --> 00:01:55,140
+24.
+
+25
+00:01:55,170 --> 00:01:58,770
+I remove this background and it's better.
+
+26
+00:01:58,770 --> 00:02:00,810
+Now you can see the plus sign.
+
+27
+00:02:00,810 --> 00:02:09,360
+And let's move to start deleting items from the database when the user swipe the items in the recycler
+
+28
+00:02:09,360 --> 00:02:16,480
+view open main activity and here under the recycler view dot set adapter I'll implement swipe to delete
+
+29
+00:02:16,480 --> 00:02:25,840
+functional new item touch helper new item touch helper and select simple callback method and you'll
+
+30
+00:02:25,840 --> 00:02:29,140
+implement two methods on move and on swipe.
+
+31
+00:02:29,140 --> 00:02:32,140
+Now let's explain itemtouchhelper.
+
+32
+00:02:32,170 --> 00:02:40,930
+New Itemtouchhelper is used to create an instance of Itemtouchhelper, which is a utility class in Android
+
+33
+00:02:40,930 --> 00:02:49,360
+that provides support for handling touch gestures, especially for swipe and drag and drop actions in
+
+34
+00:02:49,360 --> 00:02:51,400
+a recycler view or similar view.
+
+35
+00:02:51,400 --> 00:02:53,830
+The constructor of Itemtouchhelper.
+
+36
+00:02:54,010 --> 00:02:56,980
+A simple callback takes two arguments.
+
+37
+00:02:56,980 --> 00:02:59,410
+The first argument is zero.
+
+38
+00:02:59,410 --> 00:03:03,310
+In this case specifies the drag and drop directions.
+
+39
+00:03:03,340 --> 00:03:06,790
+Zero means no drag and drop is supported.
+
+40
+00:03:06,790 --> 00:03:15,310
+The second argument is Itemtouchhelper dot left specifies the swipe directions.
+
+41
+00:03:15,310 --> 00:03:20,560
+In this case it indicates the swiping items to the left is supported.
+
+42
+00:03:20,560 --> 00:03:27,340
+So I'm going to swipe the items to the left in order to delete them and we override it.
+
+43
+00:03:27,340 --> 00:03:28,330
+Two methods.
+
+44
+00:03:28,330 --> 00:03:31,300
+The first one is on move.
+
+45
+00:03:31,330 --> 00:03:38,650
+This method is called when an item in recycler view is moved as part of a drag and drop operation.
+
+46
+00:03:38,650 --> 00:03:42,250
+And in this case I'll not use it on swipe.
+
+47
+00:03:42,280 --> 00:03:47,110
+This method is called when a recycler view item is swiped by the user.
+
+48
+00:03:47,110 --> 00:03:47,860
+Parameters.
+
+49
+00:03:47,860 --> 00:03:55,630
+Viewholder and direction Viewholder the viewholder of the item that was swiped and direction and integer
+
+50
+00:03:55,630 --> 00:04:02,440
+indicating the swipe direction left or right and inside the method you define the action to be taken
+
+51
+00:04:02,440 --> 00:04:04,120
+when an item is swiped.
+
+52
+00:04:04,120 --> 00:04:09,940
+So if you swipe the item to the left, what I need to do, I need to delete this item.
+
+53
+00:04:09,940 --> 00:04:22,330
+So contacts C equals to contacts array list dot get viewholder dot get adapter position get adapter
+
+54
+00:04:22,330 --> 00:04:26,950
+position method is a method that is provided by the Viewholder class.
+
+55
+00:04:26,950 --> 00:04:31,930
+It returns the adapter position of the item associated with the Viewholder.
+
+56
+00:04:31,930 --> 00:04:39,670
+The adapter position represents the item's position within the data set that the recycler view is currently
+
+57
+00:04:39,670 --> 00:04:40,690
+displaying.
+
+58
+00:04:40,690 --> 00:04:49,240
+It can change if the items are added, removed or rearranged in the adapters data source and get method
+
+59
+00:04:49,240 --> 00:04:56,380
+is typically used to retrieve data from a data source such as an array list in our case.
+
+60
+00:04:56,380 --> 00:05:00,190
+So I'm getting the swiped item.
+
+61
+00:05:00,190 --> 00:05:04,600
+Then I need to execute the method delete contact.
+
+62
+00:05:04,600 --> 00:05:14,290
+I need to use view model dot delete contact and here I need to pass the contact that I get it its position.
+
+63
+00:05:14,290 --> 00:05:18,190
+Then I need to add a very important thing here.
+
+64
+00:05:18,220 --> 00:05:22,990
+Dot attach to recycler view recycler view.
+
+65
+00:05:22,990 --> 00:05:30,580
+This method attached to recycler view is used with Android's Itemtouchhelper class to attach it to a
+
+66
+00:05:30,580 --> 00:05:31,480
+recycler view.
+
+67
+00:05:31,510 --> 00:05:39,640
+It associates the itemtouchhelper with the recycler view, enabling it to handle swipe and drag and
+
+68
+00:05:39,640 --> 00:05:43,450
+drop gestures for the items within the recycler view.
+
+69
+00:05:43,450 --> 00:05:44,260
+Let's run.
+
+70
+00:05:44,260 --> 00:05:46,600
+This is our great application.
+
+71
+00:05:46,600 --> 00:05:55,390
+Now let's try to swipe the recycler view and you can see I deleted Richard contact from our application.
+
+72
+00:05:55,390 --> 00:06:01,240
+Let me close all applications and then run it to test our database.
+
+73
+00:06:01,240 --> 00:06:07,120
+And you can see Jack and James are still Richard is deleted.
+
+74
+00:06:07,120 --> 00:06:08,680
+Congratulations, guys.
+
+75
+00:06:08,680 --> 00:06:13,510
+We succeeded in adding the delete functionality to our app.
+
+76
+00:06:13,560 --> 00:06:16,470
+Location using swipe to delete.
+

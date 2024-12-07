@@ -1,0 +1,11 @@
+D:\lthsk tren lop\thuchanh7\thuchanh7\bin\Debug\thuchanh7.exe.config
+D:\lthsk tren lop\thuchanh7\thuchanh7\bin\Debug\thuchanh7.exe
+D:\lthsk tren lop\thuchanh7\thuchanh7\bin\Debug\thuchanh7.pdb
+D:\lthsk tren lop\thuchanh7\thuchanh7\obj\Debug\thuchanh7.csproj.AssemblyReference.cache
+D:\lthsk tren lop\thuchanh7\thuchanh7\obj\Debug\thuchanh7.Form1.resources
+D:\lthsk tren lop\thuchanh7\thuchanh7\obj\Debug\thuchanh7.Form2.resources
+D:\lthsk tren lop\thuchanh7\thuchanh7\obj\Debug\thuchanh7.Properties.Resources.resources
+D:\lthsk tren lop\thuchanh7\thuchanh7\obj\Debug\thuchanh7.csproj.GenerateResource.cache
+D:\lthsk tren lop\thuchanh7\thuchanh7\obj\Debug\thuchanh7.csproj.CoreCompileInputs.cache
+D:\lthsk tren lop\thuchanh7\thuchanh7\obj\Debug\thuchanh7.exe
+D:\lthsk tren lop\thuchanh7\thuchanh7\obj\Debug\thuchanh7.pdb

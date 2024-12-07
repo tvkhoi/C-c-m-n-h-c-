@@ -1,0 +1,252 @@
+1
+00:00:00,050 --> 00:00:08,270
+Data binding util dot inflate method is provided by the Android's data binding library Android X data
+
+2
+00:00:08,270 --> 00:00:12,950
+binding for inflating a layout and creating a binding object.
+
+3
+00:00:12,950 --> 00:00:18,200
+And inside this inflate method I need to pass four parameters.
+
+4
+00:00:18,200 --> 00:00:25,820
+The first one is layout inflator dot from parent dot get context.
+
+5
+00:00:25,820 --> 00:00:33,230
+It creates an instance of layout inflator associated with the context of the parent view group.
+
+6
+00:00:33,230 --> 00:00:38,390
+The layout inflator is used to inflate XML layouts into view objects.
+
+7
+00:00:38,390 --> 00:00:44,870
+Again, if you have any doubt or you need more information about layout inflator, please refer to the
+
+8
+00:00:44,870 --> 00:00:46,280
+recycler view section.
+
+9
+00:00:46,280 --> 00:00:53,360
+Then I need to pass the layout, the custom layout that I need to display as items of the recycler view.
+
+10
+00:00:53,360 --> 00:00:57,380
+So r dot layout dot contact list item.
+
+11
+00:00:57,380 --> 00:01:01,890
+This is the resource ID of the layout XML file you want to inflate.
+
+12
+00:01:01,890 --> 00:01:04,709
+The third parameter is the parent.
+
+13
+00:01:04,739 --> 00:01:11,580
+This parameter specifies the parent view group to which the inflated layout should be attached.
+
+14
+00:01:11,580 --> 00:01:15,840
+The inflated layout becomes a child of the parent view group.
+
+15
+00:01:15,840 --> 00:01:20,790
+The last parameter is a boolean fold and this case is false.
+
+16
+00:01:20,790 --> 00:01:27,450
+This parameter indicates whether to attach the inflated layout to the parent view group immediately
+
+17
+00:01:27,450 --> 00:01:28,860
+when set it to false.
+
+18
+00:01:28,860 --> 00:01:33,510
+The inflated layout is not attached to the parent at this point.
+
+19
+00:01:33,510 --> 00:01:40,710
+This is often the case when inflating layouts for recycler view items because recycler view manages
+
+20
+00:01:40,710 --> 00:01:43,020
+the attachment when necessary.
+
+21
+00:01:43,020 --> 00:01:52,350
+Then I need to return a new contact Viewholder contact list item binding passed as parameter returning
+
+22
+00:01:52,380 --> 00:01:56,550
+a Viewholder and passing the item binding as parameter.
+
+23
+00:01:56,550 --> 00:02:03,660
+The second method is on bind Viewholder on bind Viewholder method is called by the recycler view when
+
+24
+00:02:03,660 --> 00:02:10,259
+it needs to display or update an item at a specific position in the list or grid.
+
+25
+00:02:10,259 --> 00:02:18,270
+It's called for each visible item as you scroll through the recycler view and is responsible for updating
+
+26
+00:02:18,270 --> 00:02:26,790
+the items view within the data for that position, the parameters are to one of type contact Viewholder.
+
+27
+00:02:26,790 --> 00:02:34,560
+And this parameter is the Viewholder object for the item at the specified position, it holds references
+
+28
+00:02:34,560 --> 00:02:37,290
+to the views within the items layout.
+
+29
+00:02:37,320 --> 00:02:39,830
+The second parameter is of type integer.
+
+30
+00:02:39,840 --> 00:02:45,150
+This parameter indicates the position of the item in the recycler view's data source.
+
+31
+00:02:45,150 --> 00:02:47,940
+For example, an array list or data source cursor.
+
+32
+00:02:47,940 --> 00:02:50,010
+And in this case it's an array list.
+
+33
+00:02:50,010 --> 00:02:58,230
+So inside the on bind viewholder you use the holder parameter to access the views within the items layout.
+
+34
+00:02:58,230 --> 00:03:00,870
+For example, in our case we have two text views.
+
+35
+00:03:00,870 --> 00:03:11,430
+So I specify holder dot name or email, but since I'm using data binding so I need to use this contact
+
+36
+00:03:11,430 --> 00:03:18,690
+list item binding object to get the references and need to display or update an item at a specified
+
+37
+00:03:18,690 --> 00:03:19,260
+position.
+
+38
+00:03:19,260 --> 00:03:22,470
+For that, I'll make a contact object.
+
+39
+00:03:22,470 --> 00:03:26,910
+Current contact dot get index at position here.
+
+40
+00:03:26,910 --> 00:03:36,600
+I'm getting the current contact, then I'll use holder dot contact dot set contact to current contact
+
+41
+00:03:36,600 --> 00:03:37,860
+again on bind.
+
+42
+00:03:37,860 --> 00:03:44,250
+Viewholder is used to display or update an item at a specific position in the list.
+
+43
+00:03:44,280 --> 00:03:51,060
+This method determines the total number of items in the data set that will be displayed in the recycler
+
+44
+00:03:51,060 --> 00:03:51,450
+view.
+
+45
+00:03:51,450 --> 00:03:58,230
+So this method is used to specify the total number of items that the recycler view should display.
+
+46
+00:03:58,230 --> 00:04:06,560
+And in our case, I need to get the size of the contacts list that we created and here I need to check
+
+47
+00:04:06,560 --> 00:04:16,040
+if contacts array list doesn't equal to null, then go and return contacts dot size, otherwise it will
+
+48
+00:04:16,040 --> 00:04:17,240
+return zero.
+
+49
+00:04:17,240 --> 00:04:24,620
+So this is how we create the adapter and how we link the recycler view with data bind.
+
+50
+00:04:24,620 --> 00:04:30,830
+And one last thing I need to mention and add is the notify data set changed here.
+
+51
+00:04:30,830 --> 00:04:34,430
+I need to use public void set contacts.
+
+52
+00:04:34,430 --> 00:04:38,330
+This is the setter of this array list.
+
+53
+00:04:38,330 --> 00:04:45,380
+Or you can simply add like this alt+ insert setter and this contacts array list.
+
+54
+00:04:45,410 --> 00:04:53,210
+Under this I'll use notify data set changed method notify data set.
+
+55
+00:04:53,210 --> 00:04:59,120
+Changed method is a method provided by recycler view adapter class to inform the.
+
+56
+00:04:59,740 --> 00:05:06,310
+That recycler view that the underlying data set has changed and the recycler view should refresh its
+
+57
+00:05:06,340 --> 00:05:08,990
+views to reflect these changes.
+
+58
+00:05:09,010 --> 00:05:16,390
+It tells the recycler view that the data has changed and that it should rebind the views, possibly
+
+59
+00:05:16,390 --> 00:05:20,360
+creating new views and updating existing ones.
+
+60
+00:05:20,380 --> 00:05:26,680
+You typically call notify data set changed method after making changes to the data source that the recycler
+
+61
+00:05:26,680 --> 00:05:28,000
+view is displaying.
+
+62
+00:05:28,000 --> 00:05:36,040
+So this is our adapter class that extends from recycler view and we learned about how to use data binding
+
+63
+00:05:36,040 --> 00:05:37,480
+with the recycler view.
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            .khoi1 {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+            
+            .khoi2 {
+                font-size: 20px;
+                margin-top: 8px;
+            }
+            .khoi2 input {
+                margin-left: 4px;
+            }
+            .khoi3 {
+                font-size: 20px;
+                margin-top: 8px;
+                margin-left: 55px;
+                padding-bottom: 10px;
+            }
+            .khoi3 button {
+                margin-left: 30px;
+            }
+            .form {
+                margin-top: 100px;
+                text-align: center;
+                border: 0.6px solid black;
+                width:300px;
+                background-color: rgb(220, 145, 220);
+            }
+    </style>
+    <script>
+        var ten_dang_nhap = "khoitran";
+        var mat_khau = "1234567890";
+        var soluong_nhap=0;
+        document.addEventListener("DOMContentLoaded",function(){{
+            //var userf = document.getElementById("user");
+            //userf.addEventListener("change",kiemtra());
+            var dangnhapf = document.getElementById("dangnhap");
+            dangnhapf.addEventListener("click",kiemtra);
+    
+        }});
+        function kiemtra() {
+            var userf = document.getElementById("user");
+            var passf = document.getElementById("pass");
+          
+            if(userf.value==ten_dang_nhap&&passf.value==mat_khau) {
+                alert("Đăng nhập thành công!!!");
+                window.location.href = "http://127.0.0.1:5500/baikiemtra/trangtrang.html";
+               
+            }
+            else {
+                soluong_nhap++;
+                alert("Vui lòng nhập lại!!");
+                if(soluong_nhap==3) {
+                    alert("Tài khoản của bạn đã bị khóa do đăng nhập quá số lần quy định!");
+                    var button_dangnhap = document.getElementById("dangnhap");
+                    button_dangnhap.disabled = true;
+                // Sau một khoảng thời gian, có thể mở khóa button nếu cần
+                    setTimeout(function() {
+                        button_dangnhap.disabled = false;
+                        soluong_nhap = 0;
+                    }, 30000);
+                 }
+                if(userf.value.trim().length===0) {
+                alert("Tên đăng nhập không được để trống !");f
+
+                userf.focus();
+                return;
+                }
+                if(passf.value.trim().length===0) {
+                    alert("Mật khẩu đăng nhập không được để trống !");
+                    passf.focus();
+                    return;
+                }
+                if(userf.value.length<=6) {
+                    alert("Tên đăng nhập phải lớn hơn 6 ký tự");
+                    return;
+                }
+                if(passf.value.length<=8) {
+                    alert("Mật khẩu phải lớn hơn 8 ký tự");
+                    return;
+                }
+                    
+                }  
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <div class="form"> 
+            <div class="khoi">
+                <h1>Đăng nhập</h1>
+            </div>
+            <div class="khoi1">
+                <label for="html">Username</label>
+                <input type="text" id="user">
+            </div>
+            <div class="khoi2">
+                <label for="html">Password</label>
+                <input type="password" id="pass">
+            </div>
+            <div class="khoi3">
+                <button id="dangnhap">Đăng nhập</button>
+                <button id="huy">Hủy</button>
+            </div>
+        
+        </div>
+    </center>
+</body>
+</html>

@@ -1,0 +1,208 @@
+1
+00:00:00,200 --> 00:00:01,190
+Welcome back.
+
+2
+00:00:01,190 --> 00:00:05,270
+We've done with the remote data source repository and the view model.
+
+3
+00:00:05,270 --> 00:00:07,630
+Now let's move to the view part.
+
+4
+00:00:07,640 --> 00:00:15,140
+In this part we're going to design our activity layouts and display the data into UI components.
+
+5
+00:00:15,140 --> 00:00:17,270
+I'll start with the main activity.
+
+6
+00:00:17,270 --> 00:00:21,350
+So go to the layout activity underscore main.
+
+7
+00:00:21,350 --> 00:00:23,870
+And I'll go to the split mode.
+
+8
+00:00:23,870 --> 00:00:26,660
+And I'll start designing my layout.
+
+9
+00:00:26,660 --> 00:00:27,980
+In this example.
+
+10
+00:00:27,980 --> 00:00:30,620
+And in this app I'll use data binding.
+
+11
+00:00:30,620 --> 00:00:34,280
+So for that I need to enable it in the Build.gradle.
+
+12
+00:00:35,180 --> 00:00:44,840
+And here in the Android scope I need to add build features and enable data binding sync.
+
+13
+00:00:44,840 --> 00:00:48,050
+Now then move to the activity underscore main.
+
+14
+00:00:48,050 --> 00:00:51,410
+And here I'll start adding the layout tag.
+
+15
+00:00:51,410 --> 00:00:55,280
+So layout move this layout tag.
+
+16
+00:00:57,890 --> 00:00:59,310
+And this is good.
+
+17
+00:00:59,330 --> 00:01:04,160
+Now I'll move these namespaces and add them here to the layout.
+
+18
+00:01:04,160 --> 00:01:11,960
+And as a part of our layout I'll create inside the drawable and new drawable resource file.
+
+19
+00:01:12,050 --> 00:01:15,980
+This will act as a background for our layout.
+
+20
+00:01:15,980 --> 00:01:19,880
+So I'll name it as gradient underscore back.
+
+21
+00:01:19,880 --> 00:01:25,670
+And we talked about this drawable shapes I transform it into the shape.
+
+22
+00:01:25,670 --> 00:01:32,220
+And here I need to specify the Android shape attribute as rectangular.
+
+23
+00:01:32,240 --> 00:01:34,970
+Then I need to add the gradient.
+
+24
+00:01:45,940 --> 00:01:51,670
+This is my color gradient color and I'll use the corner.
+
+25
+00:01:56,800 --> 00:02:02,980
+I talked about these shapes in the previous video, so please go back to the Drawables lesson to learn
+
+26
+00:02:02,980 --> 00:02:03,520
+more.
+
+27
+00:02:03,550 --> 00:02:11,890
+I'll use this background here, so I'll specify a background attribute to add a drawable gradient back.
+
+28
+00:02:11,890 --> 00:02:12,780
+And this is good.
+
+29
+00:02:12,790 --> 00:02:16,200
+Now let's start designing our views.
+
+30
+00:02:16,210 --> 00:02:22,080
+I'll change this Hello World to a title, so I'll make it as Quiz app.
+
+31
+00:02:22,090 --> 00:02:32,500
+I'll give it an ID text view to margin 200 dpi, size 72 SP and I remove button to button.
+
+32
+00:02:32,530 --> 00:02:37,840
+Okay, so this is our quiz app style would be bold.
+
+33
+00:02:37,840 --> 00:02:39,040
+And the text color.
+
+34
+00:02:39,070 --> 00:02:42,670
+This color okay this is our first text view.
+
+35
+00:02:42,670 --> 00:02:45,520
+The second view is a text view.
+
+36
+00:02:45,550 --> 00:02:46,330
+So.
+
+37
+00:03:02,300 --> 00:03:07,760
+Since our app is a multiple choice, I'll use a radio group.
+
+38
+00:03:07,760 --> 00:03:14,330
+So again, guys, if you have any doubt, please refer to the previous sections to learn about the radio
+
+39
+00:03:14,330 --> 00:03:16,040
+group and radio buttons.
+
+40
+00:03:29,320 --> 00:03:38,500
+Inside this radio group, I'll include four radio buttons, allowing the user to only choose one correct
+
+41
+00:03:38,500 --> 00:03:39,430
+answer.
+
+42
+00:04:07,060 --> 00:04:14,860
+Then outside this radio group and under it I'll create another view of type button wrap content.
+
+43
+00:04:14,860 --> 00:04:15,820
+Wrap content.
+
+44
+00:04:15,820 --> 00:04:19,149
+Its ID is btn button.
+
+45
+00:04:19,149 --> 00:04:20,079
+Next.
+
+46
+00:04:30,660 --> 00:04:33,870
+And the last widget is the text view.
+
+47
+00:04:51,670 --> 00:04:52,810
+And here we go.
+
+48
+00:04:52,810 --> 00:04:54,380
+This is our layout.
+
+49
+00:04:54,400 --> 00:04:55,880
+Congratulations, guys.
+
+50
+00:04:55,900 --> 00:05:03,430
+Also, you can get the layout XML files in the resources folder under this section.
+
+51
+00:05:03,430 --> 00:05:07,930
+So if you want to skip the layout just copy and paste it.
+
+52
+00:05:07,930 --> 00:05:10,990
+You can do it by getting the resource folder.
+

@@ -1,0 +1,5 @@
+D:\Lập trình hướng sự kiện\bin\Release\net8.0\publish\Lập trình hướng sự kiện.exe
+D:\Lập trình hướng sự kiện\bin\Release\net8.0\publish\Lập trình hướng sự kiện.dll
+D:\Lập trình hướng sự kiện\bin\Release\net8.0\publish\Lập trình hướng sự kiện.deps.json
+D:\Lập trình hướng sự kiện\bin\Release\net8.0\publish\Lập trình hướng sự kiện.runtimeconfig.json
+D:\Lập trình hướng sự kiện\bin\Release\net8.0\publish\Lập trình hướng sự kiện.pdb

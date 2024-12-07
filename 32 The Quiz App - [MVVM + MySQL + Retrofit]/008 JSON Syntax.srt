@@ -1,0 +1,196 @@
+1
+00:00:00,140 --> 00:00:08,970
+We succeeded in getting the API key from the Tmdb website, and we learned about Http requests and responses.
+
+2
+00:00:08,990 --> 00:00:16,309
+We succeeded in getting the response of latest movies and popular movies as Json format.
+
+3
+00:00:16,340 --> 00:00:24,720
+Now let's dive into the Json syntax and learn about this amazing lightweight data interchange format.
+
+4
+00:00:24,740 --> 00:00:27,220
+So what is Jason?
+
+5
+00:00:27,230 --> 00:00:36,380
+Jason JavaScript Object Notation is a lightweight data interchange format that is easy for both humans
+
+6
+00:00:36,380 --> 00:00:38,840
+and machines to read and write.
+
+7
+00:00:38,870 --> 00:00:39,410
+Jason.
+
+8
+00:00:39,410 --> 00:00:46,960
+Data consists of a collection of key value pairs and is often used to represent structured data.
+
+9
+00:00:46,970 --> 00:00:50,510
+Here are the primary elements of Jason.
+
+10
+00:00:50,510 --> 00:00:52,790
+The first element is the array.
+
+11
+00:00:52,820 --> 00:01:00,020
+Array in Jason is an ordered list of values enclosed in square brackets.
+
+12
+00:01:00,050 --> 00:01:09,080
+Arrays can contain values of any type, including strings, numbers, objects, arrays, booleans,
+
+13
+00:01:09,080 --> 00:01:09,980
+and null.
+
+14
+00:01:10,010 --> 00:01:12,960
+The second element is objects.
+
+15
+00:01:12,980 --> 00:01:21,040
+An object in Jason is an unordered collection of key value pairs enclosed in curly braces.
+
+16
+00:01:21,050 --> 00:01:26,460
+Each key is a string, and the keys are unique within an object.
+
+17
+00:01:26,480 --> 00:01:34,940
+Values can be strings, numbers, objects, arrays, booleans, null, or any other Json object.
+
+18
+00:01:34,970 --> 00:01:37,220
+The third element is the key.
+
+19
+00:01:37,250 --> 00:01:41,660
+A Json object contains a key that is just a string.
+
+20
+00:01:41,660 --> 00:01:45,230
+Pairs of key value make up a Json object.
+
+21
+00:01:45,230 --> 00:01:52,910
+Each key is a string that represents the name of the data item, and the value can be of any Json data
+
+22
+00:01:52,910 --> 00:01:53,500
+type.
+
+23
+00:01:53,510 --> 00:01:56,850
+Key value pairs are separated by colons.
+
+24
+00:01:56,870 --> 00:01:57,820
+The value.
+
+25
+00:01:57,830 --> 00:02:05,330
+Each key has a value that could be a string, integer, or double, and any other data type in Json.
+
+26
+00:02:05,330 --> 00:02:08,560
+Let's deep dive into these elements.
+
+27
+00:02:08,570 --> 00:02:10,850
+Let's start with the keys.
+
+28
+00:02:10,880 --> 00:02:16,730
+As mentioned before, in Json, keys must be strings written with double quotes.
+
+29
+00:02:16,730 --> 00:02:25,070
+For example, this name is included in double quotes and of type string, so the name represents a key
+
+30
+00:02:25,100 --> 00:02:26,390
+Json value.
+
+31
+00:02:26,390 --> 00:02:33,290
+Values must be one of the following data types a string a number, an object, an array a boolean or
+
+32
+00:02:33,290 --> 00:02:34,670
+null in Json.
+
+33
+00:02:34,670 --> 00:02:37,700
+String values must be written with double quotes.
+
+34
+00:02:37,700 --> 00:02:40,910
+For example, he'll Json objects.
+
+35
+00:02:42,720 --> 00:02:47,100
+Json object literals are surrounded by curly braces.
+
+36
+00:02:47,130 --> 00:02:51,210
+Json object literals contains key value pairs.
+
+37
+00:02:51,240 --> 00:02:54,720
+Key and value are separated by a colon.
+
+38
+00:02:54,750 --> 00:03:01,650
+Keys must be strings, and values must be a valid Json data type, string, number, object, array,
+
+39
+00:03:01,650 --> 00:03:02,580
+boolean and null.
+
+40
+00:03:02,610 --> 00:03:06,120
+Each key value pair is separated by a comma.
+
+41
+00:03:06,150 --> 00:03:10,590
+You can see this comma, so each key value pair is separated by a comma.
+
+42
+00:03:10,620 --> 00:03:12,150
+Json arrays.
+
+43
+00:03:13,910 --> 00:03:19,670
+Arrays in Json are almost the same as arrays in JavaScript.
+
+44
+00:03:19,670 --> 00:03:26,060
+In Json, array values must be of type string, number, object, array, boolean, or null.
+
+45
+00:03:26,090 --> 00:03:30,410
+In a Json file, square bracket represents a Json array.
+
+46
+00:03:30,410 --> 00:03:37,910
+So in this video we learned about the Json syntax and we learned about the elements, the arrays, objects,
+
+47
+00:03:37,940 --> 00:03:39,350
+key value, and values.
+
+48
+00:03:39,350 --> 00:03:47,060
+In the next video, we'll learn how to prettify the response, how to read the response from the website,
+
+49
+00:03:47,060 --> 00:03:54,350
+from the HTML into objects, or plain Json format file formats in order to read them.
+

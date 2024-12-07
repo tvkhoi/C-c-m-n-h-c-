@@ -1,0 +1,223 @@
+1
+00:00:00,080 --> 00:00:07,730
+Bước thứ hai trong việc tạo cơ sở dữ liệu của chúng ta là làm theo mẫu đơn, để cung cấp một phiên bản
+
+2
+00:00:07,730 --> 00:00:09,980
+trong vòng đời của ứng dụng.
+
+3
+00:00:10,010 --> 00:00:17,900
+Một phiên bản cơ sở dữ liệu có thể tốn nhiều tài nguyên và tạo ra nhiều phiên bản cơ sở dữ liệu một cách không cần thiết
+
+4
+00:00:17,900 --> 00:00:21,110
+tiêu tốn bộ nhớ và sức mạnh xử lý.
+
+5
+00:00:21,140 --> 00:00:29,030
+Singleton đảm bảo rằng chỉ có một phiên bản của cơ sở dữ liệu tồn tại trong suốt vòng đời của ứng dụng
+
+6
+00:00:29,030 --> 00:00:31,880
+chu kỳ tối ưu hóa việc sử dụng tài nguyên.
+
+7
+00:00:31,880 --> 00:00:39,740
+Vì vậy, tôi sẽ tạo một cá thể tĩnh riêng tư từ cơ sở dữ liệu liên hệ này và tôi sẽ gọi nó là
+
+số 8
+00:00:39,740 --> 00:00:41,660
+phiên bản DB phiên bản.
+
+9
+00:00:41,660 --> 00:00:43,850
+Tôi muốn bạn tập trung vào tôi.
+
+10
+00:00:43,850 --> 00:00:51,680
+Tôi sẽ triển khai mẫu thiết kế đơn lẻ trong Java để cung cấp một phiên bản duy nhất trong vòng đời
+
+11
+00:00:51,680 --> 00:00:59,150
+của ứng dụng để tối ưu hóa việc sử dụng tài nguyên và ngăn việc tạo nhiều phiên bản của cơ sở dữ liệu.
+
+12
+00:00:59,150 --> 00:01:05,750
+Cơ sở dữ liệu liên hệ được đồng bộ hóa tĩnh công khai và lấy phiên bản.
+
+13
+00:01:05,750 --> 00:01:11,330
+Phương pháp này được sử dụng để cung cấp cơ sở dữ liệu liên hệ khi trời lạnh.
+
+14
+00:01:11,330 --> 00:01:18,020
+Tôi sẽ chuyển ngữ cảnh làm tham số cho phương thức này và hãy bắt đầu viết mã ở đây.
+
+15
+00:01:18,020 --> 00:01:25,730
+Tôi cần kiểm tra xem có phiên bản cơ sở dữ liệu nào hiện có trong vòng đời của ứng dụng hay không,
+
+16
+00:01:25,730 --> 00:01:27,080
+thì tôi sẽ cung cấp nó.
+
+17
+00:01:27,080 --> 00:01:31,580
+Nếu không, tôi sẽ tạo một phiên bản mới của cơ sở dữ liệu phòng.
+
+18
+00:01:31,580 --> 00:01:39,920
+Vì vậy, nếu phiên bản DB này bằng null thì không có phiên bản nào của cơ sở dữ liệu.
+
+19
+00:01:39,920 --> 00:01:42,800
+Tôi cần tạo một phiên bản phòng mới.
+
+20
+00:01:42,800 --> 00:01:52,640
+Vì vậy, phiên bản db tương đương với trình tạo cơ sở dữ liệu dấu chấm phòng và bên trong phương thức trình tạo này, tôi cần chuyển
+
+21
+00:01:52,640 --> 00:01:56,870
+dấu chấm ngữ cảnh, lấy bối cảnh ứng dụng làm tham số đầu tiên.
+
+22
+00:01:56,900 --> 00:02:02,700
+Sau đó, tôi cần truyền tham số thứ hai thuộc loại lớp.
+
+23
+00:02:02,700 --> 00:02:09,539
+Và ở đây tôi cần chỉ định cơ sở dữ liệu phòng và cơ sở dữ liệu liên hệ này đóng vai trò là cơ sở dữ liệu phòng,
+
+24
+00:02:09,539 --> 00:02:12,120
+vì vậy tôi cần phải vượt qua nó lớp chấm.
+
+25
+00:02:12,120 --> 00:02:22,200
+Và tham số thứ ba là tên của cơ sở dữ liệu này và tôi sẽ đặt tên nó là contact gạch dưới DB lần nữa,
+
+26
+00:02:22,200 --> 00:02:24,750
+xây dựng cơ sở dữ liệu chấm phòng.
+
+27
+00:02:24,780 --> 00:02:33,330
+Đây là một phương thức xuất xưởng được thư viện phòng cung cấp để tạo cơ sở dữ liệu mới hoặc truy cập cơ sở dữ liệu hiện có.
+
+28
+00:02:33,330 --> 00:02:33,780
+một.
+
+29
+00:02:33,780 --> 00:02:41,610
+Nó cho phép bạn định cấu hình và xây dựng một phiên bản cơ sở dữ liệu phòng Context Dot lấy bối cảnh ứng dụng.
+
+30
+00:02:41,610 --> 00:02:47,250
+Ngữ cảnh thường là ngữ cảnh của thành phần ứng dụng, như một hoạt động hoặc ứng dụng.
+
+31
+00:02:47,250 --> 00:02:54,540
+Và ở đây, phương thức get bối cảnh ứng dụng được sử dụng để lấy bối cảnh ứng dụng, thường được ưa thích hơn
+
+32
+00:02:54,540 --> 00:03:01,530
+khi làm việc với cơ sở dữ liệu vì nó có vòng đời dài hơn, chẳng hạn như bối cảnh hoạt động.
+
+33
+00:03:01,530 --> 00:03:08,580
+Điều này giúp ngăn ngừa rò rỉ bộ nhớ và đây là cơ sở dữ liệu của phòng cơ sở dữ liệu mà bạn đã xác định bằng cách sử dụng
+
+34
+00:03:08,580 --> 00:03:15,180
+chú thích phòng và đây là tên của cơ sở dữ liệu. Cơ sở dữ liệu của phòng thường dựa trên tệp và
+
+35
+00:03:15,180 --> 00:03:20,640
+tên này được sử dụng để xác định tệp cơ sở dữ liệu trên bộ lưu trữ của thiết bị.
+
+36
+00:03:20,640 --> 00:03:26,550
+Sau đó, tôi cần gọi lại cuộc di cư mang tính hủy diệt.
+
+37
+00:03:26,550 --> 00:03:31,440
+Phương pháp này được sử dụng để chỉ định chiến lược di chuyển cơ sở dữ liệu.
+
+38
+00:03:31,440 --> 00:03:34,050
+Trong trường hợp này, phương pháp này được sử dụng.
+
+39
+00:03:34,050 --> 00:03:42,090
+Điều đó có nghĩa là nếu một phiên bản mới của lược đồ cơ sở dữ liệu được phát hiện do những thay đổi trong cấu trúc thực thể
+
+40
+00:03:42,090 --> 00:03:49,220
+room sẽ loại bỏ và tạo lại cơ sở dữ liệu loại bỏ tất cả dữ liệu hiện có một cách hiệu quả.
+
+41
+00:03:49,230 --> 00:03:57,930
+Điều này được gọi là di chuyển phá hoại và rất hữu ích trong quá trình phát triển hoặc khi có thể chấp nhận được việc mất
+
+42
+00:03:57,960 --> 00:04:01,230
+dữ liệu hiện có cho các ứng dụng sản xuất.
+
+43
+00:04:01,230 --> 00:04:08,910
+Bạn thường triển khai các chiến lược di chuyển phức tạp hơn để ngăn chặn dữ liệu trong hoặc để bảo toàn
+
+44
+00:04:08,910 --> 00:04:11,100
+dữ liệu trong quá trình thay đổi lược đồ.
+
+45
+00:04:11,100 --> 00:04:19,019
+Và cuối cùng, phương thức build được gọi để xây dựng instance cơ sở dữ liệu phòng theo quy định
+
+46
+00:04:19,019 --> 00:04:19,860
+cấu hình.
+
+47
+00:04:19,860 --> 00:04:24,960
+Đây là trường hợp không có phiên bản nào nếu phiên bản DB bằng null.
+
+48
+00:04:24,960 --> 00:04:29,820
+Nếu không thì tôi cần để trả về phiên bản mà nó được tạo.
+
+49
+00:04:29,820 --> 00:04:37,470
+Vì vậy, nếu có bất kỳ phiên bản nào được tạo trong các lần thực thi hoặc lệnh trước đó, thì tôi cần trả về phiên bản này.
+
+50
+00:04:37,470 --> 00:04:46,080
+DB Vì vậy, đây là cách chúng tôi chỉ tạo một phiên bản cơ sở dữ liệu của mình để bảo toàn bộ nhớ và ngăn chặn
+
+51
+00:04:46,080 --> 00:04:54,030
+nó khỏi rò rỉ bộ nhớ và được đồng bộ hóa được sử dụng để ngăn chặn mọi hoạt động dọn dẹp cơ sở dữ liệu liên hệ.
+
+52
+00:04:54,390 --> 00:04:56,760
+Và đây là dành cho các chủ đề.
+
+53
+00:04:56,760 --> 00:04:59,880
+Vì vậy phương thức get instance chỉ đảm bảo điều đó.
+
+54
+00:04:59,970 --> 00:05:07,110
+Một phiên bản của cơ sở dữ liệu liên hệ được tạo và sử dụng trong suốt vòng đời của ứng dụng.
+
+55
+00:05:07,110 --> 00:05:15,210
+Mẫu đơn này giúp duy trì tính nhất quán, luồng, an toàn và sử dụng tài nguyên hiệu quả
+
+56
+00:05:15,210 --> 00:05:17,670
+khi làm việc với cơ sở dữ liệu phòng.

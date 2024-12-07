@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\tbl-20230412T195749Z-001\\tbl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|d:\\tbl-20230412t195749z-001\\tbl\\tbl\\xoa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|solutionrelative:tbl\\xoa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|d:\\tbl-20230412t195749z-001\\tbl\\tbl\\xoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|solutionrelative:tbl\\xoa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\giohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|solutionrelative:tbl\\giohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\giohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|solutionrelative:tbl\\giohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|d:\\tbl-20230412t195749z-001\\tbl\\tbl\\chitietsanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|solutionrelative:tbl\\chitietsanpham.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|solutionrelative:tbl\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\chitietsanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|solutionrelative:tbl\\chitietsanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\dangki.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|solutionrelative:tbl\\dangki.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\objects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF76AAE-07C3-47D6-A308-A217537A0C3C}|tbl\\tbl.csproj|solutionrelative:tbl\\objects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Xoa.aspx.cs",
+              "DocumentMoniker": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Xoa.aspx.cs",
+              "RelativeDocumentMoniker": "tbl\\Xoa.aspx.cs",
+              "ToolTip": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Xoa.aspx.cs",
+              "RelativeToolTip": "tbl\\Xoa.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T01:39:44.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Xoa.aspx",
+              "DocumentMoniker": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Xoa.aspx",
+              "RelativeDocumentMoniker": "tbl\\Xoa.aspx",
+              "ToolTip": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Xoa.aspx",
+              "RelativeToolTip": "tbl\\Xoa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-13T01:39:41.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chitietsanpham.aspx.cs",
+              "DocumentMoniker": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Chitietsanpham.aspx.cs",
+              "RelativeDocumentMoniker": "tbl\\Chitietsanpham.aspx.cs",
+              "ToolTip": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Chitietsanpham.aspx.cs",
+              "RelativeToolTip": "tbl\\Chitietsanpham.aspx.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T10:49:57.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Global.asax.cs",
+              "RelativeDocumentMoniker": "tbl\\Global.asax.cs",
+              "ToolTip": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Global.asax.cs",
+              "RelativeToolTip": "tbl\\Global.asax.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T04:04:08.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\objects\\User.cs",
+              "RelativeDocumentMoniker": "tbl\\objects\\User.cs",
+              "ToolTip": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\objects\\User.cs",
+              "RelativeToolTip": "tbl\\objects\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T04:03:26.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Giohang.aspx.cs",
+              "DocumentMoniker": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Giohang.aspx.cs",
+              "RelativeDocumentMoniker": "tbl\\Giohang.aspx.cs",
+              "ToolTip": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Giohang.aspx.cs",
+              "RelativeToolTip": "tbl\\Giohang.aspx.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T04:02:02.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Giohang.aspx",
+              "DocumentMoniker": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Giohang.aspx",
+              "RelativeDocumentMoniker": "tbl\\Giohang.aspx",
+              "ToolTip": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Giohang.aspx",
+              "RelativeToolTip": "tbl\\Giohang.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-12T03:48:28.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dangki.aspx",
+              "DocumentMoniker": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Dangki.aspx",
+              "RelativeDocumentMoniker": "tbl\\Dangki.aspx",
+              "ToolTip": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Dangki.aspx",
+              "RelativeToolTip": "tbl\\Dangki.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-12T03:48:22.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chitietsanpham.aspx",
+              "DocumentMoniker": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Chitietsanpham.aspx",
+              "RelativeDocumentMoniker": "tbl\\Chitietsanpham.aspx",
+              "ToolTip": "D:\\tbl-20230412T195749Z-001\\tbl\\tbl\\Chitietsanpham.aspx",
+              "RelativeToolTip": "tbl\\Chitietsanpham.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-12T03:47:52.554Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

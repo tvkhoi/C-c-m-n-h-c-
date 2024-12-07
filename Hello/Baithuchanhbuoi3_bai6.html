@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Baithuchanhbuoi3_bai6.js"></script>
+    <style>
+        .khoi1 {
+            
+        }
+        .khoi2 {
+            padding-top: 15px;
+        }
+        .khoi3 {
+            padding-top: 15px;
+           margin-left: 55px;
+           
+        }
+        .khoi3 button {
+            margin-left: 20px;
+        }
+        .khoi2 label {
+            margin-left: 5px;
+        }
+        .ketqua {
+            width: 108px;
+            height: 25px;
+            border: 0.2px solid rgb(51, 50, 50);
+            margin-left: 75px;
+            display: flex;
+            padding-left: 3px;
+            
+        } 
+        .cung {
+            float: left;
+        }
+        .form {
+            box-sizing:border-box;
+            width: 220px;
+            align-content: center;
+        }
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <fieldset class="form">
+            <div class="khoi1">
+                <label for="html">Ngày sinh</label>
+                <input type="date" id="ngaysinh">
+            </div>
+            <div class="khoi2">
+                <label for="html" class="cung">Cung</label>
+                <div class="ketqua" id="ketqua"></div>
+            </div>
+            <div class="khoi3">
+                <button onclick="xuli()">Xem</button>
+                <button onclick="huy()">Xóa</button>
+            </div>    
+        </fieldset>
+    </center>
+</body>
+</html>

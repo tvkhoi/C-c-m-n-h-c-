@@ -1,0 +1,6 @@
+ALTER TABLE	dbo.Khoa 
+ ADD CONSTRAINT Rang_buoc UNIQUE(TenKhoa);
+ GO
+ALTER TABLE dbo.Khoa
+ ALTER CONSTRAINT Rang_buoc	PRIMARY KEY (MaK);
+ GO

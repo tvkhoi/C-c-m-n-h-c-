@@ -1,0 +1,10 @@
+D:\lthsk tren lop\thuchanh3\thuchanh3\bin\Debug\thuchanh3.exe.config
+D:\lthsk tren lop\thuchanh3\thuchanh3\bin\Debug\thuchanh3.exe
+D:\lthsk tren lop\thuchanh3\thuchanh3\bin\Debug\thuchanh3.pdb
+D:\lthsk tren lop\thuchanh3\thuchanh3\obj\Debug\thuchanh3.csproj.AssemblyReference.cache
+D:\lthsk tren lop\thuchanh3\thuchanh3\obj\Debug\thuchanh3.Form1.resources
+D:\lthsk tren lop\thuchanh3\thuchanh3\obj\Debug\thuchanh3.Properties.Resources.resources
+D:\lthsk tren lop\thuchanh3\thuchanh3\obj\Debug\thuchanh3.csproj.GenerateResource.cache
+D:\lthsk tren lop\thuchanh3\thuchanh3\obj\Debug\thuchanh3.csproj.CoreCompileInputs.cache
+D:\lthsk tren lop\thuchanh3\thuchanh3\obj\Debug\thuchanh3.exe
+D:\lthsk tren lop\thuchanh3\thuchanh3\obj\Debug\thuchanh3.pdb

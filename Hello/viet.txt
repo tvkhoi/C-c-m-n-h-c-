@@ -1,0 +1,10 @@
+Onpice,1,truyen tranh,Tran Van Khoi,Binh Mai,4,500000,1400
+7 vien ,3,truyen tranh,Mai Chau,Kim Binh,5,100000,2000
+Naruto,2,truyen cuoi,Kim Chau,Trong Hoang,3,50000,2020
+Co so lap trinh,4,Hoc tap,Tien Thanh,Dai hoc Mo Ha Noi,7,30000,2000
+Mang ,5,Hoc tap,Vuong,Dai hoc Mo Ha Noi,4,30000,2000
+Giai tich,8,Hoc tap,ka ka,Dai hoc Mo Ha Noi,5,29000,2022
+Tieng anh1,0,Hoc tap,Giap,Dai hoc Mo Ha Noi,2,20000,1600
+Hai van lang,6,truyen hai,Mai Linh,Mai Hoang,3,60000,2019
+Hai tet,9,truyen hai,Quang Teo,Quang Trong,8,100000,2012
+Doremon,2,truyen tranh,Okami,Yahamito,7,200000,2011

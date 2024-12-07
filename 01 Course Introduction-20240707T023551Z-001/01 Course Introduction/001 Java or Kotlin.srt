@@ -1,0 +1,203 @@
+1
+00:00:00,080 --> 00:00:02,110
+Xin chào các bạn của tôi, và chào mừng trở lại.
+
+2
+00:00:02,120 --> 00:00:08,870
+Trong video này, chúng ta sẽ thảo luận về câu hỏi quan trọng nhất và thường gặp nhất trong ứng dụng Android
+
+3
+00:00:08,870 --> 00:00:11,350
+phát triển Java hoặc Kotlin.
+
+4
+00:00:11,360 --> 00:00:17,660
+Java là ngôn ngữ lâu đời và được sử dụng rộng rãi để phát triển ứng dụng Android.
+
+5
+00:00:17,660 --> 00:00:19,790
+Nó cung cấp sự trưởng thành.
+
+6
+00:00:19,820 --> 00:00:27,170
+Java có sự hiện diện vững chắc trong hệ sinh thái Android với nhiều thư viện, công cụ và kho dữ liệu lớn
+
+7
+00:00:27,170 --> 00:00:29,240
+cộng đồng các nhà phát triển.
+
+số 8
+00:00:29,240 --> 00:00:36,230
+Mã Java biên dịch thành mã byte được tối ưu hóa cho Máy ảo Java Java.
+
+9
+00:00:36,260 --> 00:00:39,550
+Điều này có thể mang lại hiệu suất ứng dụng tốt.
+
+10
+00:00:39,560 --> 00:00:49,250
+Java có thể được sử dụng cho nhiều loại ứng dụng Android từ ứng dụng di động đơn giản đến doanh nghiệp phức tạp
+
+11
+00:00:49,250 --> 00:00:50,750
+giải pháp cấp độ.
+
+12
+00:00:50,780 --> 00:00:58,880
+Kotlin là ngôn ngữ lập trình hiện đại đã trở nên phổ biến đáng kể trong quá trình phát triển Android
+
+13
+00:00:58,880 --> 00:00:59,680
+cộng đồng.
+
+14
+00:00:59,690 --> 00:01:02,530
+Nó mang lại một số lợi thế.
+
+15
+00:01:02,540 --> 00:01:10,760
+Kotlin được biết đến với cú pháp ngắn gọn và biểu cảm, giảm bớt mã soạn sẵn và làm cho mã trở nên hiệu quả hơn.
+
+16
+00:01:10,760 --> 00:01:11,450
+có thể đọc được.
+
+17
+00:01:11,480 --> 00:01:19,760
+Kotlin cung cấp các tính năng an toàn rỗng tích hợp sẵn, giúp ngăn ngừa các sự cố thời gian chạy thường gặp bằng cách phát hiện
+
+18
+00:01:19,760 --> 00:01:22,760
+ngoại lệ con trỏ null tại thời điểm biên dịch.
+
+19
+00:01:22,760 --> 00:01:30,650
+Kotlin giới thiệu các tính năng ngôn ngữ hiện đại như hàm mở rộng, biểu thức lambda và coroutine,
+
+20
+00:01:30,650 --> 00:01:34,190
+cải thiện năng suất của nhà phát triển và chất lượng mã.
+
+21
+00:01:34,220 --> 00:01:39,490
+Sau đây là so sánh các tính năng ngôn ngữ khác nhau giữa Java và Kotlin.
+
+22
+00:01:39,500 --> 00:01:43,640
+Java có cú pháp dài dòng và nặng nề hơn.
+
+23
+00:01:43,640 --> 00:01:50,900
+Nó thường yêu cầu nhiều mã soạn sẵn hơn, đặc biệt đối với các tác vụ như getters khai báo biến, setters,
+
+24
+00:01:50,900 --> 00:01:52,820
+và các lớp ẩn danh.
+
+25
+00:01:52,850 --> 00:01:56,990
+Kotlin được biết đến với cú pháp ngắn gọn và biểu cảm.
+
+26
+00:01:56,990 --> 00:02:02,840
+Nó làm giảm đáng kể mã soạn sẵn và làm cho mã dễ đọc hơn.
+
+27
+00:02:02,840 --> 00:02:09,039
+Ví dụ: trong Kotlin, bạn không cần khai báo getters và setters một cách rõ ràng.
+
+28
+00:02:09,050 --> 00:02:14,120
+Java không tích hợp sẵn các tính năng an toàn con trỏ null.
+
+29
+00:02:14,120 --> 00:02:21,350
+Bạn có thể gán null cho bất kỳ tham chiếu nào, điều này có thể dẫn đến ngoại lệ con trỏ null trong thời gian chạy.
+
+30
+00:02:21,350 --> 00:02:24,890
+Kotlin cung cấp các tính năng an toàn gốc.
+
+31
+00:02:24,890 --> 00:02:33,920
+Bạn phải khai báo rõ ràng liệu một biến có thể rỗng hay không bằng cách sử dụng dấu chấm than hoặc
+
+32
+00:02:33,920 --> 00:02:35,060
+dấu hỏi.
+
+33
+00:02:35,060 --> 00:02:35,810
+Người vận hành.
+
+34
+00:02:35,810 --> 00:02:43,400
+Điều này giúp nắm bắt các ngoại lệ con trỏ null tại thời điểm biên dịch, giảm nguy cơ xảy ra sự cố.
+
+35
+00:02:43,400 --> 00:02:50,870
+Java đã giới thiệu các biểu thức lambda trong Java 8, nhưng cú pháp có thể hơi dài dòng.
+
+36
+00:02:50,900 --> 00:02:59,300
+Lambdas thường được sử dụng với các giao diện chức năng, giao diện có một phương thức trừu tượng duy nhất hoặc ẩn danh
+
+37
+00:02:59,300 --> 00:03:00,620
+các lớp bên trong.
+
+38
+00:03:00,650 --> 00:03:04,400
+Kotlin có biểu thức lambda ngắn gọn hơn.
+
+39
+00:03:04,400 --> 00:03:12,560
+Nó hỗ trợ các biểu thức lambda và các hàm bậc cao hơn, giúp làm việc với hàm dễ dàng hơn
+
+40
+00:03:12,560 --> 00:03:14,510
+các cấu trúc lập trình.
+
+41
+00:03:14,510 --> 00:03:18,860
+Java không có hỗ trợ riêng cho coroutine.
+
+42
+00:03:18,890 --> 00:03:27,770
+Để đạt được hành vi đồng bộ và không chặn thường yêu cầu sử dụng các thư viện như Rxjava hoặc triển khai
+
+43
+00:03:27,770 --> 00:03:29,780
+cơ chế gọi lại phức tạp.
+
+44
+00:03:29,810 --> 00:03:33,740
+Kotlin đã xây dựng tính năng hỗ trợ cho coroutine.
+
+45
+00:03:33,770 --> 00:03:41,420
+Coroutine cung cấp một cách đơn giản hơn để viết mã đồng bộ, không chặn, giúp mã
+
+46
+00:03:41,420 --> 00:03:47,330
+dễ dàng hơn để xử lý các tác vụ như yêu cầu mạng và hoạt động đồng thời.
+
+47
+00:03:47,330 --> 00:03:55,610
+Tóm lại, Kotlin thường cung cấp các tính năng ngôn ngữ hiện đại và ngắn gọn hơn so với Java.
+
+48
+00:03:55,610 --> 00:04:03,290
+Nó vượt trội trong các hàm mở rộng an toàn null, biểu thức lambda và coroutine, khiến nó trở thành một công cụ được ưa thích
+
+49
+00:04:03,290 --> 00:04:05,810
+sự lựa chọn của nhiều nhà phát triển Android.
+
+50
+00:04:05,810 --> 00:04:13,670
+Tuy nhiên, Java vẫn có sự hiện diện đáng kể trong hệ sinh thái Android và rất đáng để xem xét
+
+51
+00:04:13,670 --> 00:04:20,209
+các yêu cầu và ràng buộc cụ thể của dự án của bạn khi lựa chọn giữa

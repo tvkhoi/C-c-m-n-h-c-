@@ -1,0 +1,272 @@
+1
+00:00:00,200 --> 00:00:02,000
+Back to our Json response.
+
+2
+00:00:02,000 --> 00:00:05,270
+If we look closer, we have this square bracket.
+
+3
+00:00:05,270 --> 00:00:12,260
+So our response starts with the square bracket indicating that the whole response is an array Json array.
+
+4
+00:00:12,260 --> 00:00:19,250
+And inside this array we have this first object, and this is the second Json object separated by the
+
+5
+00:00:19,250 --> 00:00:19,640
+comma.
+
+6
+00:00:19,640 --> 00:00:27,710
+We can't directly serialize and deserialize this Json object using this question class, because this
+
+7
+00:00:27,710 --> 00:00:33,680
+question class has six fields and these are indicating the object.
+
+8
+00:00:33,710 --> 00:00:34,280
+This.
+
+9
+00:00:34,280 --> 00:00:37,880
+But this object is nested from the array.
+
+10
+00:00:37,880 --> 00:00:42,800
+So the solution for this problem is to create another modal class.
+
+11
+00:00:42,800 --> 00:00:49,190
+So inside this modal package I'll create a new Java class and I'll name it as question list.
+
+12
+00:00:49,190 --> 00:00:51,500
+This is an empty class.
+
+13
+00:00:51,500 --> 00:01:02,600
+I'll extend it from array list because we have a nested objects inside this array, because our response
+
+14
+00:01:02,600 --> 00:01:06,740
+starts with this array, and there is no key for this array.
+
+15
+00:01:06,740 --> 00:01:11,120
+So I can directly use this empty class.
+
+16
+00:01:11,120 --> 00:01:14,870
+It's of type question import the array list class.
+
+17
+00:01:14,870 --> 00:01:16,100
+And here we go.
+
+18
+00:01:16,100 --> 00:01:19,700
+This is our second modal class called question list.
+
+19
+00:01:19,700 --> 00:01:25,280
+It's an empty class just to get the response and include this response.
+
+20
+00:01:25,280 --> 00:01:31,460
+Because the response the API response and the Json response start with this square bracket.
+
+21
+00:01:31,490 --> 00:01:36,320
+No key or value is directly a value of an array.
+
+22
+00:01:36,350 --> 00:01:38,480
+Back to the retrofit steps.
+
+23
+00:01:38,480 --> 00:01:40,460
+We added the data classes.
+
+24
+00:01:40,460 --> 00:01:43,700
+Now let's move to create the API service interface.
+
+25
+00:01:43,700 --> 00:01:50,420
+We need to create an interface to define our different methods that will be used for network transactions.
+
+26
+00:01:50,420 --> 00:01:54,800
+I'll create a new package, I'll name it as retrofit.
+
+27
+00:01:54,800 --> 00:02:02,840
+And inside this retrofit package I'll create a new interface and I'll name it as questions API.
+
+28
+00:02:03,050 --> 00:02:10,370
+A retrofit API service interface is an essential component used to define the structure and behavior
+
+29
+00:02:10,370 --> 00:02:13,460
+of network requests to a RESTful API.
+
+30
+00:02:13,490 --> 00:02:21,950
+This interface acts as a contract, as a bridge between your Android application and the web service,
+
+31
+00:02:21,950 --> 00:02:27,260
+specifying the available API endpoints and the expected response format.
+
+32
+00:02:27,290 --> 00:02:34,160
+The retrofit then uses this interface to create the necessary implementation for making network requests.
+
+33
+00:02:34,190 --> 00:02:42,440
+Each method inside this interface should specify the Http request method either get, post, put, delete,
+
+34
+00:02:42,440 --> 00:02:50,690
+and the endpoint URL relative to the base URL, and any required query parameters, request bodies,
+
+35
+00:02:50,690 --> 00:02:51,620
+or headers.
+
+36
+00:02:51,620 --> 00:02:55,070
+You can also specify the expected response form.
+
+37
+00:02:55,070 --> 00:02:58,520
+In this example, I'll use apt get.
+
+38
+00:02:58,550 --> 00:03:07,070
+Again, guys, I want from you to focus with me and please refer to the previous sections and especially
+
+39
+00:03:07,070 --> 00:03:13,820
+the mVVM plus retrofit in order to understand all these Http requests and responses.
+
+40
+00:03:13,820 --> 00:03:17,870
+And also I clarified them in very deep detail.
+
+41
+00:03:17,870 --> 00:03:25,430
+So please go back to the mVVM plus retrofit section and get details about these terms.
+
+42
+00:03:25,430 --> 00:03:28,280
+But don't worry, I'll clarify everything.
+
+43
+00:03:28,280 --> 00:03:36,380
+I write the annotation get specify the Http method and the relevant parts of the URL.
+
+44
+00:03:36,410 --> 00:03:39,470
+Here I need to define the endpoint.
+
+45
+00:03:39,470 --> 00:03:42,560
+So if we go back to the response the endpoint.
+
+46
+00:03:42,590 --> 00:03:47,390
+Here is my quiz API dot php.
+
+47
+00:03:47,390 --> 00:03:50,870
+So I'll copy it and I'll paste it here.
+
+48
+00:03:50,870 --> 00:03:52,910
+This is the end point.
+
+49
+00:03:52,910 --> 00:03:57,230
+Then I'll use coal and the retrofit to.
+
+50
+00:03:57,230 --> 00:04:02,480
+And here I need to specify questions list question list.
+
+51
+00:04:02,480 --> 00:04:07,760
+It's a class that we created before and I'll name the method get questions.
+
+52
+00:04:07,760 --> 00:04:17,120
+In retrofit, the coal class is used to wrap a network request and represents the result of an asynchronous
+
+53
+00:04:17,149 --> 00:04:17,959
+operation.
+
+54
+00:04:17,959 --> 00:04:26,600
+The generic type question list represents the expected response type, and I am expecting this response
+
+55
+00:04:26,600 --> 00:04:32,810
+from the API starting with this square bracket, which is a Json array.
+
+56
+00:04:33,050 --> 00:04:36,230
+This is the name of the method get questions.
+
+57
+00:04:36,230 --> 00:04:41,390
+So it's returning type is call of questions list.
+
+58
+00:04:41,390 --> 00:04:50,060
+When calling this method get questions, it will send a network request and expect to receive a response
+
+59
+00:04:50,060 --> 00:04:51,830
+of type question list.
+
+60
+00:04:51,830 --> 00:04:58,880
+And this question list acts as a structure of the response data you expect from the API.
+
+61
+00:04:58,910 --> 00:04:59,840
+And as said before.
+
+62
+00:04:59,960 --> 00:05:04,460
+For we are expecting an array without a key value pairs.
+
+63
+00:05:04,460 --> 00:05:07,760
+It's directly an array of Json response.
+
+64
+00:05:07,760 --> 00:05:13,460
+So for that we use this empty class that extends from array list of quests.
+
+65
+00:05:13,460 --> 00:05:18,350
+So here I'm expecting to get a question list structure.
+
+66
+00:05:18,350 --> 00:05:19,010
+Again.
+
+67
+00:05:19,010 --> 00:05:27,260
+This method get questions is defined to send a network request to a specific API endpoint, which is
+
+68
+00:05:27,260 --> 00:05:35,030
+my quiz API dot PHP and expects a response in the form of a call containing the question list.
+

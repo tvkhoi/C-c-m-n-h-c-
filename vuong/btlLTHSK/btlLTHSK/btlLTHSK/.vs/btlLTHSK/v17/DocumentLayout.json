@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|d:\\vuong\\btllthsk\\btllthsk\\btllthsk\\btllthsk\\resources\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\resources\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\hdnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\hdnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\chitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\chitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\resources\\chitietnhapcs01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\resources\\chitietnhapcs01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\chitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\chitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\resources\\hoadonnhapcs01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\resources\\hoadonnhapcs01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\KhachHang.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\Resources\\KhachHang.cs",
+              "ToolTip": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\KhachHang.cs",
+              "RelativeToolTip": "btlLTHSK\\Resources\\KhachHang.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAAANIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T02:56:42.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HDNhapHang.cs [Design]",
+              "DocumentMoniker": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\HDNhapHang.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\HDNhapHang.cs",
+              "ToolTip": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\HDNhapHang.cs [Design]",
+              "RelativeToolTip": "btlLTHSK\\HDNhapHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:32:00.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietNhap.cs [Design]",
+              "DocumentMoniker": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\ChiTietNhap.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\ChiTietNhap.cs",
+              "ToolTip": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\ChiTietNhap.cs [Design]",
+              "RelativeToolTip": "btlLTHSK\\ChiTietNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:10:43.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChiTietNhapcs01.cs",
+              "DocumentMoniker": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\ChiTietNhapcs01.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\Resources\\ChiTietNhapcs01.cs",
+              "ToolTip": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\ChiTietNhapcs01.cs",
+              "RelativeToolTip": "btlLTHSK\\Resources\\ChiTietNhapcs01.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAKAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T14:39:28.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChiTietNhap.cs",
+              "DocumentMoniker": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\ChiTietNhap.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\ChiTietNhap.cs",
+              "ToolTip": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\ChiTietNhap.cs",
+              "RelativeToolTip": "btlLTHSK\\ChiTietNhap.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwFwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T14:16:16.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HoadonNhapcs01.cs",
+              "DocumentMoniker": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\HoadonNhapcs01.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\Resources\\HoadonNhapcs01.cs",
+              "ToolTip": "D:\\vuong\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\HoadonNhapcs01.cs",
+              "RelativeToolTip": "btlLTHSK\\Resources\\HoadonNhapcs01.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAUwIoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T14:16:16.224Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

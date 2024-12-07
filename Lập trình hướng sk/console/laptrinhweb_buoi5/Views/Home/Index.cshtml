@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+ 
+        <center>
+            <table class="bang" id="bang" onplay="dulieu()">
+                <tr>
+                    <td>STT</td>
+                    <td>Tên VXL</td>
+                    <td>Hãng sx</td>
+                    <td>Ngày ra mắt</td>
+                    <td>Giá (vnđ)</td>
+                </tr>
+                <!-- <tr class="bodybang"></tr> -->
+            </table>
+            <fieldset class="form">
+                <div class="khoi1">
+                    <label for="html">Tên VXL</label>
+                    <input id="ten" type="text">
+                </div>
+                <div class="khoi2">
+                    <label for="html">Hãng</label>
+                    <input id="hang" type="text">
+                </div>
+                <div class="khoi3">
+                    <label for="html">Ngày ra mắt</label>
+                    <input id="chuoingaythangnam" type="text">
+                </div>
+                <div class="khoi4">
+                    <label for="html">Giá</label>
+                    <input id="gia" type="text">
+                </div>
+                <div class="khoi5">
+                    <button id="them">Thêm</button>
+                    <button onclick="huy()">Hủy</button>
+                </div>
+            </fieldset>
+        </center>

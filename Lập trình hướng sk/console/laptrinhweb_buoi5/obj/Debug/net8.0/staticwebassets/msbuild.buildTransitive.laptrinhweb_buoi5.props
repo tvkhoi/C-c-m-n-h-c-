@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\laptrinhweb_buoi5.props" />
+</Project>

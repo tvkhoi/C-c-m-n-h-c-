@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Web Chat GI App</title>
+    <style>
+        .frame-main {
+            display: grid;
+            grid-template-areas:
+                "a1 a2"
+                "a3 a3";
+            grid-template-rows: 88.5vh 8.5vh;
+            grid-template-columns: 19vw 79.5vw;
+            grid-gap: 5px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .frame-members {
+            grid-area: a1;
+            width: 100%;
+            height: 100%;
+        }
+
+        .frame-messagelist {
+            grid-area: a2;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        .frame-messagesender {
+            grid-area: a3;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame-main">
+        <iframe class="frame-members" src="Members.aspx" title="Members"></iframe>
+        <iframe class="frame-messagelist" src="MessageList.aspx" title="Message List"></iframe>
+        <iframe class="frame-messagesender" src="PostMsg.html" title="Message Sender"></iframe>
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>

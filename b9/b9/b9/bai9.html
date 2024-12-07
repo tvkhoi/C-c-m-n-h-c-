@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scake=1.0" />
+    <title>Bai09</title>
+</head>
+<body>
+    <form method="post" action="xuly.aspx" id="cpuForm" onsubmit="return valid()">
+        <div class="addData">
+            <table id="addDataTable" class="center">
+                <tr>
+                    <td>Tên VXL</td>
+                    <td><input type="text" id="cpuName" name="cpuName" /></td>
+                </tr>
+                <tr>
+                    <td>Hãng</td>
+                    <td><input type="text" id="cpuFirm" name="cpuFirm" /></td>
+                </tr>
+                <tr>
+                    <td>Ngày ra mắt</td>
+                    <td><input type="date" id="cpuDate" name="cpuDate" /></td>
+                </tr>
+                <tr>
+                    <td>Giá</td>
+                    <td><input type="number" id="cpuPrice" name="cpuPrice" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td dir="rtl">
+                        <input type="button" value="Hủy" onclick="cancel()" />
+                        <input type="submit" value="Thêm" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </form>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .right {
+            margin-left: auto;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table,
+        .border-column {
+            border: 1px solid #333;
+        }
+
+        .border-column {
+            padding: 4px 16px;
+        }
+
+        .addData {
+            margin-top: 100px;
+        }
+
+        #addDataTable {
+            padding: 12px;
+        }
+    </style>
+    <script>
+        let inpName = document.getElementById("cpuName");
+        let inpFirm = document.getElementById("cpuFirm");
+        let inpDate = document.getElementById("cpuDate");
+        let inpPrice = document.getElementById("cpuPrice");
+        let dataTable = document.getElementById("dataTable");
+        function valid() {
+            let name = inpName.value.trim();
+            let firm = inpFirm.value.trim();
+            let date = inpDate.value;
+            let price = inpPrice.value.trim();
+            if (!(checkValid(name, firm, date, price))) {
+                let tb = "Nhập lại";
+                if (name == "") {
+                    tb += " tên,";
+                } if (firm == "") {
+                    tb += " hãng,";
+                } if (date == "" || !validDate(inpDate.value)) {
+                    tb += " ngày,";
+                } if (price == "" || price <= 0) {
+                    tb += " giá,";
+                }
+                tb = tb.substring(0, tb.length - 1);
+                tb += " của sản phẩm!!!";
+                alert(tb);
+                return false;
+            } else {
+                return true;
+            }
+        }
+        function cancel() {
+            document.getElementById("cpuForm").reset;
+        }
+        function checkValid(name, firm, date, price) {
+            if (
+                name == "" ||
+                firm == "" ||
+                date == "" ||
+                price == "" ||
+                price <= 0 ||
+                !validDate(inpDate.value)
+            )
+                return false;
+            else return true;
+        }
+        function validDate(date) {
+            let now = new Date();
+            let timeCheck = new Date(date);
+            now.setHours(0, 0, 0, 0);
+            timeCheck.setHours(0, 0, 0, 0);
+            if (timeCheck.getTime() >= now.getTime()) return true;
+            else return false;
+        }
+
+        function formatDate(date) {
+            let x = date.split("-");
+            [x[0], x[2]] = [x[2], x[0]];
+            return x.join("/");
+        }
+
+        function formatPrice(price) {
+            let sPrice = price.toString();
+            for (i = sPrice.length - 3; i > 0; i -= 3) {
+                sPrice = sPrice.slice(0, i) + "." + sPrice.slice(i, sPrice.length);
+            }
+            return sPrice;
+        }
+    </script>
+</body>
+</html>

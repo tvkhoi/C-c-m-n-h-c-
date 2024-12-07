@@ -1,0 +1,244 @@
+1
+00:00:00,410 --> 00:00:01,340
+Welcome back.
+
+2
+00:00:01,340 --> 00:00:08,960
+We're going to use this API that we created before in order to get the data from database into Json
+
+3
+00:00:08,960 --> 00:00:09,470
+format.
+
+4
+00:00:09,470 --> 00:00:16,520
+So copy this PHP file, make sure that it is of extension PHP file.
+
+5
+00:00:16,550 --> 00:00:17,750
+Go to see.
+
+6
+00:00:19,550 --> 00:00:24,320
+Damp HD docs and create a new folder.
+
+7
+00:00:24,320 --> 00:00:31,860
+I'll name it as quiz, and inside this quiz folder I'll place my quiz API dot php file.
+
+8
+00:00:31,880 --> 00:00:38,360
+Make sure exam docs, quiz and my quiz API dot php.
+
+9
+00:00:38,750 --> 00:00:41,020
+Now turn on exam.
+
+10
+00:00:41,060 --> 00:00:45,070
+Click start start and then open Chrome.
+
+11
+00:00:45,080 --> 00:00:46,550
+Go to localhost.
+
+12
+00:00:46,550 --> 00:00:48,290
+And this is our dashboard.
+
+13
+00:00:48,290 --> 00:00:54,330
+And I'll remove this dashboard here and I'll add quiz.
+
+14
+00:00:54,350 --> 00:00:56,120
+This is the folder.
+
+15
+00:00:56,120 --> 00:01:03,410
+If we click enter we can see that this folder contains my quiz API dot php file.
+
+16
+00:01:03,410 --> 00:01:06,290
+If I click on it or add the extension.
+
+17
+00:01:06,290 --> 00:01:09,560
+My quiz API dot php.
+
+18
+00:01:10,070 --> 00:01:11,900
+PHP file click enter.
+
+19
+00:01:11,900 --> 00:01:13,400
+Then we have this error.
+
+20
+00:01:13,430 --> 00:01:18,290
+Don't worry, I'll show you how to solve the problems step by step.
+
+21
+00:01:18,290 --> 00:01:22,340
+Here we have uncaught Mysqli SQL exception.
+
+22
+00:01:22,340 --> 00:01:25,880
+No connection could be made because the target machine actively refuse it.
+
+23
+00:01:25,880 --> 00:01:29,060
+Since we didn't specify the port name.
+
+24
+00:01:29,060 --> 00:01:33,070
+Here we have port 4306.
+
+25
+00:01:33,080 --> 00:01:40,550
+I open the php file with notepad and here I need to specify the port name.
+
+26
+00:01:40,550 --> 00:01:47,750
+So whenever you encounter such an error, you need to specify the port name here 4306.
+
+27
+00:01:47,750 --> 00:01:55,880
+Make sure to save okay Ctrl S, then refresh and the error is changed to another error.
+
+28
+00:01:55,880 --> 00:01:58,040
+So the first error is solved.
+
+29
+00:01:58,070 --> 00:01:59,990
+There is another error table.
+
+30
+00:01:59,990 --> 00:02:04,310
+My quiz db dot math quiz doesn't exist.
+
+31
+00:02:04,340 --> 00:02:07,280
+Let me see here in the line six.
+
+32
+00:02:07,280 --> 00:02:09,740
+So in the select statement.
+
+33
+00:02:09,740 --> 00:02:13,070
+So go to the select Statement and Math underscore quiz.
+
+34
+00:02:13,070 --> 00:02:16,310
+Let's go to the database my quiz DB.
+
+35
+00:02:16,640 --> 00:02:22,880
+And here the table is called math underscore table and not math underscore quiz.
+
+36
+00:02:22,880 --> 00:02:27,230
+So here I need to change it to math underscore table.
+
+37
+00:02:27,230 --> 00:02:30,170
+Save it ctrl s then refresh.
+
+38
+00:02:30,170 --> 00:02:31,340
+And here we go.
+
+39
+00:02:31,340 --> 00:02:35,900
+There is another error undefined variable question array.
+
+40
+00:02:35,900 --> 00:02:41,060
+Maybe I missed something here in the question array on line 41.
+
+41
+00:02:41,060 --> 00:02:43,340
+Let me go to line 41.
+
+42
+00:02:43,340 --> 00:02:46,580
+And questions array okay.
+
+43
+00:02:46,580 --> 00:02:52,160
+You see I missed letter S Ctrl S to save then refresh.
+
+44
+00:02:52,160 --> 00:02:53,270
+And here we go.
+
+45
+00:02:53,270 --> 00:02:55,550
+This is our Json response.
+
+46
+00:02:55,550 --> 00:02:58,070
+You can see it starts with an array.
+
+47
+00:02:58,070 --> 00:03:02,060
+And then this is our first object question.
+
+48
+00:03:02,060 --> 00:03:02,840
+Option one.
+
+49
+00:03:02,840 --> 00:03:03,770
+Option two.
+
+50
+00:03:03,770 --> 00:03:06,850
+Option three option four and correct option.
+
+51
+00:03:06,860 --> 00:03:08,390
+Congratulations guys.
+
+52
+00:03:08,390 --> 00:03:13,880
+We fetch it the database data into Json response.
+
+53
+00:03:13,910 --> 00:03:18,920
+Again let's go to here and I'll add another row.
+
+54
+00:03:18,920 --> 00:03:21,950
+So I'll select math Table Insert.
+
+55
+00:03:21,950 --> 00:03:24,920
+And here I'll add the question.
+
+56
+00:03:30,670 --> 00:03:33,400
+And the correct answer is 81.
+
+57
+00:03:33,430 --> 00:03:38,160
+Click Go Browse and you can see this is the second question.
+
+58
+00:03:38,170 --> 00:03:41,020
+Then let's go back to here refresh.
+
+59
+00:03:41,020 --> 00:03:45,790
+And you can see it's a second Json object added here.
+
+60
+00:03:45,790 --> 00:03:47,380
+This is the first question.
+
+61
+00:03:47,380 --> 00:03:50,890
+You can see the comma and the second question.
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfProduct >
+  <Product>
+    <Id>0</Id>
+    <Name>huawei p30 lite</Name>
+    <Price>6000000</Price>
+    <Images>images/huawei-p30-lite-7490.png</Images>
+  </Product>
+</ArrayOfProduct>

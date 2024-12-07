@@ -1,0 +1,124 @@
+{
+  "sanphamf": [
+    {
+      "masp": "sp1",
+      "hinhanh": "~/img/item1.jpg",
+      "ten": "ACER",
+      "mota": "Laptop Acer Nitro 5 Tiger AN515-58-52SP (i5-12500H/RAM 8GB/RTX 3050/512GB SSD/ Windows 11)",
+      "gia": "21.990.000 ₫",
+      "giagoc": "29.490.000₫",
+      "giamgia": "-25.43%",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp2",
+      "hinhanh": "~/img/item2.jpg",
+      "ten": "ACER",
+      "mota": "Laptop ACER Aspire 7 A715-42G-R05G (R5-5500U/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)",
+      "gia": "14.090.000 ₫",
+      "giagoc": "20.490.000₫",
+      "giamgia": "-31.25%",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp3",
+      "hinhanh": "~/img/item3.jpg",
+      "ten": "ACER",
+      "mota": "Laptop Acer Nitro 16 Phoenix AN16-41-R5M4 (NH.QKBSV.003) (AMD Ryzen 5-7535HS) (Đen)",
+      "gia": "25.690.000 ₫",
+      "giagoc": "29.990.000₫",
+      "giamgia": "-14.38%",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp4",
+      "hinhanh": "~/img/item4.jpg",
+      "ten": "ACER",
+      "mota": "Laptop ACER Predator Helios Neo PHN16-71-53M7 (i5-13500HX/RAM 16GB/512GB SSD/ Windows 11)",
+      "gia": "35.790.000 ₫",
+      "giagoc": "37.790.000₫",
+      "giamgia": "-5.79%",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp5",
+      "hinhanh": "~/img/item5.jpg",
+      "ten": "ACER",
+      "mota": "Laptop Acer Gaming Aspire 7 A715-76G-59MW (i5-12450H/ RAM 16GB/ 512GB SSD/ Windows 11) (Đen)",
+      "gia": "17.990.000 ₫",
+      "giagoc": "29.490.000₫",
+      "giamgia": "21.490.000₫",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp6",
+      "hinhanh": "~/img/item1.jpg",
+      "ten": "ACER",
+      "mota": "Laptop Acer Nitro 5 Tiger AN515-58-52SP (i5-12500H/RAM 8GB/RTX 3050/512GB SSD/ Windows 11)",
+      "gia": "21.990.000 ₫",
+      "giagoc": "29.490.000₫",
+      "giamgia": "-25.43%",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp7",
+      "hinhanh": "~/img/item2.jpg",
+      "ten": "ACER",
+      "mota": "Laptop ACER Aspire 7 A715-42G-R05G (R5-5500U/RAM 8GB/GTX 1650/512GB SSD/ Windows 11)",
+      "gia": "14.090.000 ₫",
+      "giagoc": "20.490.000₫",
+      "giamgia": "-31.25%",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp8",
+      "hinhanh": "~/img/item3.jpg",
+      "ten": "ACER",
+      "mota": "Laptop Acer Nitro 16 Phoenix AN16-41-R5M4 (NH.QKBSV.003) (AMD Ryzen 5-7535HS) (Đen)",
+      "gia": "25.690.000 ₫",
+      "giagoc": "29.990.000₫",
+      "giamgia": "-14.38%",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp9",
+      "hinhanh": "~/img/item4.jpg",
+      "ten": "ACER",
+      "mota": "Laptop ACER Predator Helios Neo PHN16-71-53M7 (i5-13500HX/RAM 16GB/512GB SSD/ Windows 11)",
+      "gia": "35.790.000 ₫",
+      "giagoc": "37.790.000₫",
+      "giamgia": "-5.79%",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp10",
+      "hinhanh": "~/img/item5.jpg",
+      "ten": "ACER",
+      "mota": "Laptop Acer Gaming Aspire 7 A715-76G-59MW (i5-12450H/ RAM 16GB/ 512GB SSD/ Windows 11) (Đen)",
+      "gia": "17.990.000 ₫",
+      "giagoc": "29.490.000₫",
+      "giamgia": "21.490.000₫",
+      "congketnoi": "USB Type-C, Jack tai nghe 3.5 mm, USB 3.2 và HDMI.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    }
+  ]
+}

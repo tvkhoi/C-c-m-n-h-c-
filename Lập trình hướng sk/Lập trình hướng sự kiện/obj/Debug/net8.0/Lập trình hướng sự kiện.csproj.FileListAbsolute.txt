@@ -1,0 +1,28 @@
+D:\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.exe
+D:\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.deps.json
+D:\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.runtimeconfig.json
+D:\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.dll
+D:\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.pdb
+D:\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.AssemblyInfoInputs.cache
+D:\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.AssemblyInfo.cs
+D:\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.csproj.CoreCompileInputs.cache
+D:\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.dll
+D:\Lập trình hướng sự kiện\obj\Debug\net8.0\refint\Lập trình hướng sự kiện.dll
+D:\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.pdb
+D:\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.genruntimeconfig.cache
+D:\Lập trình hướng sự kiện\obj\Debug\net8.0\ref\Lập trình hướng sự kiện.dll
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.exe
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.deps.json
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.runtimeconfig.json
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.dll
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\bin\Debug\net8.0\Lập trình hướng sự kiện.pdb
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.GeneratedMSBuildEditorConfig.editorconfig
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.AssemblyInfoInputs.cache
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.AssemblyInfo.cs
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.csproj.CoreCompileInputs.cache
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.dll
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\obj\Debug\net8.0\refint\Lập trình hướng sự kiện.dll
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.pdb
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\obj\Debug\net8.0\Lập trình hướng sự kiện.genruntimeconfig.cache
+d:\Lập trình hướng sk\Lập trình hướng sự kiện\obj\Debug\net8.0\ref\Lập trình hướng sự kiện.dll

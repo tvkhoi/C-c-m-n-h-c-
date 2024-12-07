@@ -1,0 +1,11 @@
+________________________________________________________________________________Danh sach : sach________________________________________________________________________________
+
+STT            Ten sach                 Ma sach                  The loai                 Ten tac gia              Nha suat ban             So luong                 Gia sach                 
+1              7 vien ngoc rong         3                        1                        1                        1                        1                        1                        
+2              7 vien ngoc rong         3                        1                        1                        1                        1                        1                        
+3              Onpice                   1                        3                        3                        3                        3                        3                        
+4              Onpice                   1                        3                        3                        3                        3                        3                        
+5              d2                       4                        2                        2                        2                        2                        2                        
+6              d2                       4                        2                        2                        2                        2                        2                        
+7              naruto                   2                        3                        4                        5                        6                        7                        
+8              naruto                   2                        3                        4                        5                        6                        7                        

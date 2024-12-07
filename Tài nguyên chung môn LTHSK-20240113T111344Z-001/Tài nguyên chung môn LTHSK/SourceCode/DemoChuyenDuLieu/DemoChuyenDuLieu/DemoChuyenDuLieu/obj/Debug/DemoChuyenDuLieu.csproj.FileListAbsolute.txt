@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\bin\Debug\DemoChuyenDuLieu.exe.config
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\bin\Debug\DemoChuyenDuLieu.exe
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\bin\Debug\DemoChuyenDuLieu.pdb
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\obj\Debug\DemoChuyenDuLieu.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\obj\Debug\DemoChuyenDuLieu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\obj\Debug\DemoChuyenDuLieu.Form1.resources
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\obj\Debug\DemoChuyenDuLieu.Properties.Resources.resources
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\obj\Debug\DemoChuyenDuLieu.TrangChu.resources
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\obj\Debug\DemoChuyenDuLieu.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\obj\Debug\DemoChuyenDuLieu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\obj\Debug\DemoChuyenDuLieu.exe
+C:\Users\Admin\Desktop\DemoChuyenDuLieu\DemoChuyenDuLieu\obj\Debug\DemoChuyenDuLieu.pdb

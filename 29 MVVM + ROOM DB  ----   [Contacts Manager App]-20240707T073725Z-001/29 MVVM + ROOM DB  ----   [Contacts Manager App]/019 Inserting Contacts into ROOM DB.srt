@@ -1,0 +1,172 @@
+1
+00:00:00,140 --> 00:00:01,120
+Welcome back.
+
+2
+00:00:01,130 --> 00:00:07,190
+Instead of sending the name and the email to the main activity and the main activity will create a contact
+
+3
+00:00:07,190 --> 00:00:14,840
+and send it to the database we're going to use the ViewModel instance passed from the Add new contact
+
+4
+00:00:14,840 --> 00:00:21,470
+activity to the Add new contact Click handler and use it to insert it into our database.
+
+5
+00:00:21,470 --> 00:00:29,360
+So there is no need to put extra because this method using the intents and put extra will cause some
+
+6
+00:00:29,360 --> 00:00:35,840
+errors when calling the main activity and sending it and the main activity will insert the database.
+
+7
+00:00:35,870 --> 00:00:39,920
+I'll commend this and I'll show you a better approach.
+
+8
+00:00:39,920 --> 00:00:46,490
+I'll create a new ViewModel instance in the add new contact activity before the handler.
+
+9
+00:00:46,520 --> 00:00:56,600
+My ViewModel, my ViewModel equals new ViewModel provider and I'll pass this as the owner dot get and
+
+10
+00:00:56,600 --> 00:01:01,670
+here I need to get my ViewModel class here.
+
+11
+00:01:01,670 --> 00:01:05,090
+I'm getting an instance of the ViewModel here.
+
+12
+00:01:05,090 --> 00:01:07,550
+I'll pass it my view mode.
+
+13
+00:01:07,550 --> 00:01:15,380
+Let's go to the constructor of this add new contact handler and I'll create my ViewModel, my ViewModel.
+
+14
+00:01:15,380 --> 00:01:16,670
+Why I'm doing this?
+
+15
+00:01:16,670 --> 00:01:20,120
+Why I can't create my ViewModel directly here.
+
+16
+00:01:20,120 --> 00:01:24,410
+My ViewModel equal to new my ViewModel provider.
+
+17
+00:01:24,410 --> 00:01:31,070
+And here you can't pass this because you need an activity or fragment.
+
+18
+00:01:31,070 --> 00:01:36,830
+And this class is not extending from the appcompat or any activity.
+
+19
+00:01:36,830 --> 00:01:43,760
+So for that you need to pass the ViewModel in the constructor and then use it here.
+
+20
+00:01:43,760 --> 00:01:44,480
+You understand?
+
+21
+00:01:44,480 --> 00:01:47,930
+Guys, I want from you to focus with me in this idea.
+
+22
+00:01:47,960 --> 00:01:55,250
+I'm changing the constructor and creating my ViewModel instance just to solve this error.
+
+23
+00:01:55,250 --> 00:02:02,640
+Because when you create a My ViewModel, you need to pass inside the ViewModel provider as a ViewModel
+
+24
+00:02:02,640 --> 00:02:08,460
+store owner and this is passed from an activity or fragment exclusively.
+
+25
+00:02:08,460 --> 00:02:13,680
+So for that I remove this line and here I'll change the constructor.
+
+26
+00:02:13,680 --> 00:02:19,230
+My ViewModel, this dot, my ViewModel equal to my ViewModel.
+
+27
+00:02:19,230 --> 00:02:23,670
+Now my ViewModel is passed from add new contact activity.
+
+28
+00:02:23,670 --> 00:02:31,260
+I'll use this ViewModel in order to insert this information about the name and email of the contact
+
+29
+00:02:31,260 --> 00:02:33,900
+and create a new contact object.
+
+30
+00:02:33,900 --> 00:02:42,930
+I'll name it, see new contacts and I'll set contact dot get name and contact dot get email.
+
+31
+00:02:42,960 --> 00:02:52,500
+I need to insert this contact using ViewModel, my ViewModel dot add new contact and I'll pass.
+
+32
+00:02:52,530 --> 00:02:54,030
+See again guys.
+
+33
+00:02:54,030 --> 00:03:02,850
+When dealing with viewmodels, please pay attention to create an instance from it and pass it to the
+
+34
+00:03:02,850 --> 00:03:06,510
+classes that acts as click handlers here.
+
+35
+00:03:06,510 --> 00:03:15,060
+This class is not extending from appcompat activity, so this class is a normal class, not an activity.
+
+36
+00:03:15,060 --> 00:03:16,380
+This is an activity.
+
+37
+00:03:16,380 --> 00:03:22,110
+So inside the activity I can use ViewModel and create instances from ViewModel.
+
+38
+00:03:22,110 --> 00:03:31,740
+Let me run go to this activity and I'll name it as Richard Richard at Gmail, Click add contact to the
+
+39
+00:03:31,740 --> 00:03:33,360
+database and here we go.
+
+40
+00:03:33,360 --> 00:03:39,420
+We are directed to the main activity and Richard contact is added to our database.
+
+41
+00:03:39,420 --> 00:03:40,950
+Congratulations, guys.
+
+42
+00:03:40,950 --> 00:03:50,100
+We succeeded in inserting data into our database using an instance of my ViewModel passed to the constructor
+
+43
+00:03:50,100 --> 00:03:52,380
+of the Click Handler class.
+

@@ -1,0 +1,124 @@
+{
+  "sanphamf": [
+    {
+      "masp": "sp1",
+      "hinhanh": "~/img/pk_1.jpg",
+      "ten": "URGREEN",
+      "mota": "Bộ chia HDMI 1x8, 1 ra 8 cổng Ugreen 40203",
+      "gia": "1.890.000 ₫",
+      "giagoc": "1.890.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "sp2",
+      "hinhanh": "~/img/pk_2.jpg",
+      "ten": "ASUS",
+      "mota": "Giá đỡ card màn hình ASUS ROG XH01 HERCULX ",
+      "gia": "1.190.000₫",
+      "giagoc": "1.190.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "sp3",
+      "hinhanh": "~/img/pk_3.jpg",
+      "ten": "REMAX",
+      "mota": "Cáp sạc Remax 3 in 1 dây rút RC-C018 ",
+      "gia": "99.000 ₫",
+      "giagoc": "119.000₫",
+      "giamgia": "-16.087%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "sp4",
+      "hinhanh": "~/img/pk_4.jpg",
+      "ten": "URGREEN",
+      "mota": "Cáp VGA Ugreen 3+6C 11633 (10M) ",
+      "gia": "369.000 ₫",
+      "giagoc": "369.000",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "sp5",
+      "hinhanh": "~/img/pk_5.jpg",
+      "ten": "PISEN",
+      "mota": "Pin sạc dự phòng PISEN QUICK High Power Box 20W 10000mAh TS-D308(GLB) (Đen)",
+      "gia": "696.000 ₫",
+      "giagoc": "696.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "sp6",
+      "hinhanh": "~/img/pk_6.jpg",
+      "ten": "PISEN",
+      "mota": "Pin sạc dự phòng PISEN QUICK - Power Tiny 20W 10000mAh TS-D304(GLB) (Đen)",
+      "gia": "656.000 ₫",
+      "giagoc": "656.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "sp7",
+      "hinhanh": "~/img/pk_7.jpg",
+      "ten": "URGREEN",
+      "mota": "Cáp truyền dữ liệu Type-C Xám 1.5M Ugreen (50751) ",
+      "gia": "259.000 ₫",
+      "giagoc": "289.000₫",
+      "giamgia": "-10.381%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "sp8",
+      "hinhanh": "~/img/pk_8.jpg",
+      "ten": "KINGSTON",
+      "mota": "USB 128GB KINGSTON Portable DataTraveler Exodia Onyx",
+      "gia": "390.000 ₫",
+      "giagoc": "390.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "sp9",
+      "hinhanh": "~/img/pk_9.jpg",
+      "ten": "URGREEN",
+      "mota": "Cáp dữ liệu USB 3.0 sang Type-C 0.5M Ugreen (20881) ",
+      "gia": "99.000 ₫",
+      "giagoc": "99.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "sp10",
+      "hinhanh": "~/img/pk_10.jpg",
+      "ten": "MAZER",
+      "mota": "Cổng Chuyển Đổi Mazer Multimedia Pro Hub 10-in-1 USB-C (M-UC2MULTI7006-BK)",
+      "gia": "1.790.000 ₫",
+      "giagoc": "2.480.000₫",
+      "giamgia": "-27.823%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    }
+  ]
+}

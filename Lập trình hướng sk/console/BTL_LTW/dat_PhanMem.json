@@ -1,0 +1,124 @@
+{
+  "sanphamf": [
+    {
+      "masp": "pm1",
+      "hinhanh": "~/img/pm_1.jpg",
+      "ten": "MICROSOFT",
+      "mota": "Microsoft 365 Personal 32/64bit chính hãng (1 năm, 1 tài khoản, 5 thiết bị)",
+      "gia": "090.000 ₫",
+      "giagoc": "1.490.000₫",
+      "giamgia": "-33%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "pm2",
+      "hinhanh": "~/img/pm_2.jpg",
+      "ten": "MICROSOFT",
+      "mota": "Microsoft 365 Family 32/64bit chính hãng (1 năm, 6 tài khoản, 30 thiết bị) ",
+      "gia": "1.490.000₫",
+      "giagoc": "1.990.000₫",
+      "giamgia": "-25%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "pm3",
+      "hinhanh": "~/img/pm_3.jpg",
+      "ten": "MICROSOFT",
+      "mota": "Microsoft Office Home & Student 2021 chính hãng (Vĩnh viễn, 1 thiết bị Windows/Mac) ",
+      "gia": "2.190.000 ₫",
+      "giagoc": "2.990.000₫",
+      "giamgia": "-26%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "pm4",
+      "hinhanh": "~/img/pm_4.jpg",
+      "ten": "MICROSOFT",
+      "mota": "Microsoft Windows 11 Home 64-bit chính hãng ",
+      "gia": "3.690.000 ₫",
+      "giagoc": "3.690.000",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "pm5",
+      "hinhanh": "~/img/pm_5.jpg",
+      "ten": "MICROSOFT",
+      "mota": "Microsoft Windows 11 Pro 64-bit chính hãng",
+      "gia": "5.490.000 ₫",
+      "giagoc": "5.490.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "pm6",
+      "hinhanh": "~/img/pm_6.jpg",
+      "ten": "VIETMAP",
+      "mota": "Vietmap Live Pro chính hãng",
+      "gia": "450.000 ₫",
+      "giagoc": "500.000₫",
+      "giamgia": "-10%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "pm7",
+      "hinhanh": "~/img/pm_7.jpg",
+      "ten": "ESET",
+      "mota": "ESET NOD32 Antivirus chính hãng ",
+      "gia": "170.000 ₫",
+      "giagoc": "170.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "pm8",
+      "hinhanh": "~/img/pm_8.jpg",
+      "ten": "KASPERSKY",
+      "mota": "Kaspersky Plus 01 PC chính hãng",
+      "gia": "290.000 ₫",
+      "giagoc": "290.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "pm9",
+      "hinhanh": "~/img/pm_9.jpg",
+      "ten": "ESET",
+      "mota": "ESET Home Security Essential 3 thiết bị chính hãng ",
+      "gia": "320.000 ₫",
+      "giagoc": "640.000₫",
+      "giamgia": "-50%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    },
+    {
+      "masp": "pm10",
+      "hinhanh": "~/img/pm_9.jpg",
+      "ten": "ESET",
+      "mota": "ESET Home Security Essential 1 thiết bị chính hãng",
+      "gia": "290.000 ₫",
+      "giagoc": "290.000₫",
+      "giamgia": "0%",
+      "congketnoi": "",
+      "vixuly": "",
+      "card": ""
+    }
+  ]
+}

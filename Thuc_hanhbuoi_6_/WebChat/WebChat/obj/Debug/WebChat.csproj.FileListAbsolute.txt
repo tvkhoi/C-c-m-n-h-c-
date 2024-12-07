@@ -1,0 +1,14 @@
+D:\Documents\University\LapTrinhWebCoBan\WebChat\WebChat\bin\WebChat.dll.config
+D:\Documents\University\LapTrinhWebCoBan\WebChat\WebChat\bin\WebChat.dll
+D:\Documents\University\LapTrinhWebCoBan\WebChat\WebChat\bin\WebChat.pdb
+D:\Documents\University\LapTrinhWebCoBan\WebChat\WebChat\obj\Debug\WebChat.csproj.AssemblyReference.cache
+D:\Documents\University\LapTrinhWebCoBan\WebChat\WebChat\obj\Debug\WebChat.csproj.CoreCompileInputs.cache
+D:\Documents\University\LapTrinhWebCoBan\WebChat\WebChat\obj\Debug\WebChat.dll
+D:\Documents\University\LapTrinhWebCoBan\WebChat\WebChat\obj\Debug\WebChat.pdb
+D:\Documents\University\LapTrinhWebCoBan\thuchanh\WebChat\WebChat\bin\WebChat.dll.config
+D:\Documents\University\LapTrinhWebCoBan\thuchanh\WebChat\WebChat\bin\WebChat.dll
+D:\Documents\University\LapTrinhWebCoBan\thuchanh\WebChat\WebChat\bin\WebChat.pdb
+D:\Documents\University\LapTrinhWebCoBan\thuchanh\WebChat\WebChat\obj\Debug\WebChat.csproj.AssemblyReference.cache
+D:\Documents\University\LapTrinhWebCoBan\thuchanh\WebChat\WebChat\obj\Debug\WebChat.csproj.CoreCompileInputs.cache
+D:\Documents\University\LapTrinhWebCoBan\thuchanh\WebChat\WebChat\obj\Debug\WebChat.dll
+D:\Documents\University\LapTrinhWebCoBan\thuchanh\WebChat\WebChat\obj\Debug\WebChat.pdb

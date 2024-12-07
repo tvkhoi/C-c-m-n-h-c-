@@ -1,0 +1,18 @@
+.content{
+    align-items: center;
+    width: 720px;
+    height: 316px;
+}
+.item1 {
+    
+   background: rgb(196, 14, 14); 
+}
+.item1_1 {
+    padding: 12px 12px 12 px 12 px;
+}
+.item2 {
+    background: rgb(196, 14, 14); 
+ }
+ .item3 {
+    background: rgb(196, 14, 14); 
+ }

@@ -1,0 +1,236 @@
+1
+00:00:00,110 --> 00:00:02,120
+We tried to get the first question.
+
+2
+00:00:02,120 --> 00:00:03,650
+Everything is working fine.
+
+3
+00:00:03,650 --> 00:00:08,060
+The layout, the activity, the architecture, but nothing happened.
+
+4
+00:00:08,090 --> 00:00:11,330
+We need to specify the security rules.
+
+5
+00:00:11,330 --> 00:00:14,780
+So the problem here is a security issue.
+
+6
+00:00:14,810 --> 00:00:17,930
+I'll create a new file in the XML.
+
+7
+00:00:17,960 --> 00:00:23,090
+So open XML and create new XML resource file.
+
+8
+00:00:23,090 --> 00:00:29,870
+And I'll name it as network underscore security underscore config.
+
+9
+00:00:29,900 --> 00:00:38,730
+Go split mode and I'll change this preference screen to network dash security dash config.
+
+10
+00:00:38,750 --> 00:00:40,850
+Here I remove this namespace.
+
+11
+00:00:40,850 --> 00:00:46,780
+And this file is used to define network security configurations for your app.
+
+12
+00:00:46,790 --> 00:00:53,870
+It's important to use this configuration file to enhance the security and protect sensitive data during
+
+13
+00:00:53,870 --> 00:00:55,100
+network communication.
+
+14
+00:00:55,100 --> 00:01:03,710
+For example, you can require that all network traffic should use Https, SSL, TLS to encrypt data
+
+15
+00:01:03,710 --> 00:01:08,960
+in transit, preventing man in the middle attacks and data leaks.
+
+16
+00:01:08,960 --> 00:01:18,740
+The default behavior of Android is to disallow clear text unencrypted network traffic for security reasons.
+
+17
+00:01:18,740 --> 00:01:27,050
+However, in some cases your app might need to connect to non Https servers, and in such scenarios
+
+18
+00:01:27,050 --> 00:01:31,430
+you can explicitly allow clear text traffic using this file.
+
+19
+00:01:31,430 --> 00:01:35,810
+This is done by setting clear text traffic permitted to true.
+
+20
+00:01:35,810 --> 00:01:40,130
+So I'll start by using base config.
+
+21
+00:01:40,130 --> 00:01:43,880
+And by the way, I'll show you another way to do this.
+
+22
+00:01:43,880 --> 00:01:49,400
+Clear text traffic permitted equals to true.
+
+23
+00:01:49,400 --> 00:01:56,840
+And inside this base traffic base config I'll use trust anchors and certificates.
+
+24
+00:01:59,310 --> 00:02:06,060
+You can specify the trust anchors or certificates that your app trusts.
+
+25
+00:02:06,090 --> 00:02:14,610
+This helps in ensuring that your app communicates only with trusted servers and validates the authenticity
+
+26
+00:02:14,610 --> 00:02:16,770
+of the server's certificate.
+
+27
+00:02:16,800 --> 00:02:21,570
+This is crucial for protecting against man in the middle attacks.
+
+28
+00:02:21,570 --> 00:02:32,130
+Then here in the application I need to specify network security config and I'll use this example and
+
+29
+00:02:32,130 --> 00:02:36,270
+network security configuration file that we created now.
+
+30
+00:02:36,270 --> 00:02:39,300
+So here I'm referencing this file.
+
+31
+00:02:39,300 --> 00:02:45,870
+And I'm telling Android that the network security config is specified in this file.
+
+32
+00:02:45,870 --> 00:02:55,680
+Or if you don't need to create this file you can specify users clear traffic or text traffic to.
+
+33
+00:02:55,680 --> 00:02:56,280
+True.
+
+34
+00:02:56,310 --> 00:02:57,630
+It's very simple.
+
+35
+00:02:57,660 --> 00:02:58,500
+Okay guys.
+
+36
+00:02:58,500 --> 00:03:04,890
+So you can use either this method or this method network security config.
+
+37
+00:03:04,890 --> 00:03:06,660
+Let's run our application.
+
+38
+00:03:06,660 --> 00:03:10,230
+And again we don't have any response.
+
+39
+00:03:10,230 --> 00:03:13,830
+And to solve this error we didn't get anything.
+
+40
+00:03:13,830 --> 00:03:18,660
+Now we are going to change the address the base URL.
+
+41
+00:03:18,690 --> 00:03:28,920
+If we go back to the localhost and the API we can see that 127.00.0.1 is used here.
+
+42
+00:03:28,920 --> 00:03:41,850
+I can't use 127.0.0.1 because it refers to the host, but in emulators I need to use this IP address
+
+43
+00:03:41,850 --> 00:03:44,550
+10.00 .2.2.
+
+44
+00:03:44,550 --> 00:03:53,010
+This is a special IP address that is used as a loopback address to access the host machine's localhost
+
+45
+00:03:53,010 --> 00:03:55,830
+from within an Android emulator.
+
+46
+00:03:55,830 --> 00:04:03,180
+It's a convenient way to access web services or resources running on the host machine while testing
+
+47
+00:04:03,180 --> 00:04:06,150
+your Android application on an emulator.
+
+48
+00:04:06,150 --> 00:04:14,670
+When you use 10.0 .2.2 in your Android applications, code as the host for network requests, or when
+
+49
+00:04:14,670 --> 00:04:16,860
+configuring your app to connect to a server.
+
+50
+00:04:16,860 --> 00:04:23,700
+As this, the emulator redirects the traffic to the host machine's loopback interface.
+
+51
+00:04:23,700 --> 00:04:29,400
+This allows the emulator to communicate with services running on the host.
+
+52
+00:04:29,430 --> 00:04:33,570
+Now let's run our application and here we go.
+
+53
+00:04:33,570 --> 00:04:35,220
+This is question number one.
+
+54
+00:04:35,220 --> 00:04:40,910
+What is the result of five times six, 30, 35, 25 and 40?
+
+55
+00:04:40,920 --> 00:04:42,780
+Back to the response we can see.
+
+56
+00:04:42,780 --> 00:04:45,240
+The first question is this.
+
+57
+00:04:45,240 --> 00:04:47,130
+And congratulations guys.
+
+58
+00:04:47,130 --> 00:04:50,880
+We succeeded in getting the first question.
+
+59
+00:04:50,880 --> 00:04:53,910
+Now let's move to get all the questions.
+

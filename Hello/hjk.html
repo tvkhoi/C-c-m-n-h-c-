@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #game-board {
+            position: relative;
+            height: 300px;
+            width: 300px;
+        }
+        .pikachu {
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-board"></div>
+
+    <script>
+        var gameBoard = document.getElementById('game-board');
+
+        function createPikachu() {
+            var pikachu = document.createElement('div');
+            pikachu.classList.add('pikachu');
+            pikachu.style.top = Math.random() * (gameBoard.offsetHeight - 50) + 'px';
+            pikachu.style.left = Math.random() * (gameBoard.offsetWidth - 50) + 'px';
+            gameBoard.appendChild(pikachu);
+        }
+
+        gameBoard.addEventListener('click', function(event) {
+            if (event.target.classList.contains('pikachu')) {
+                gameBoard.removeChild(event.target);
+            }
+        });
+
+        setInterval(createPikachu, 1000);
+    </script>
+</body>
+</html>

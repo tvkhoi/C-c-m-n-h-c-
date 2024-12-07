@@ -1,0 +1,292 @@
+1
+00:00:00,200 --> 00:00:07,939
+Room database operations such as insertions, updates and queries should not be executed on the main
+
+2
+00:00:07,939 --> 00:00:15,410
+UI thread because they can potentially block the UI causing the app to become unresponsive.
+
+3
+00:00:15,440 --> 00:00:21,360
+We need to offload these database operations to background threads.
+
+4
+00:00:21,380 --> 00:00:29,270
+By doing this, you keep the UI thread free to handle user interactions and ensure that your app remains
+
+5
+00:00:29,270 --> 00:00:30,230
+responsive.
+
+6
+00:00:30,230 --> 00:00:36,830
+When we move to the Kotlin sections, we will use the coroutines that will do these operations in the
+
+7
+00:00:36,830 --> 00:00:37,700
+background.
+
+8
+00:00:37,700 --> 00:00:46,310
+But in Java we need to use handler and executer service in order to execute the methods in the background.
+
+9
+00:00:46,310 --> 00:00:48,950
+So I can't write like this.
+
+10
+00:00:48,980 --> 00:00:55,790
+Add contact and call the contact Dao insert method directly because this will be executed in the main
+
+11
+00:00:55,790 --> 00:01:04,260
+UI thread making problems for our application and cause A and R application not responding or maybe
+
+12
+00:01:04,260 --> 00:01:04,830
+crashes.
+
+13
+00:01:04,830 --> 00:01:12,900
+So to prevent any possible error we need to use handlers and the executer services in order to do this
+
+14
+00:01:12,900 --> 00:01:14,970
+job or this operation.
+
+15
+00:01:14,970 --> 00:01:23,700
+In the background I'll use executer service, I'll name it as executor and alt+ enter to import this
+
+16
+00:01:23,700 --> 00:01:32,340
+class equals to executer dot new single thread executer and executer service.
+
+17
+00:01:32,340 --> 00:01:39,690
+Usually a thread pool executor is used to offload these database operations to background threads.
+
+18
+00:01:39,690 --> 00:01:46,680
+By doing this, you keep the UI thread free to handle user interactions and ensure that your app remains
+
+19
+00:01:46,680 --> 00:01:54,450
+responsive as single threaded executer is created, meaning that database operation will be executed
+
+20
+00:01:54,450 --> 00:01:57,540
+sequentially in a background thread.
+
+21
+00:01:57,540 --> 00:02:03,060
+This can help avoid concurrency issues when dealing with database access.
+
+22
+00:02:03,060 --> 00:02:11,400
+Then the second step is to use the handler Alt+ enter to import the handler and make sure that you use
+
+23
+00:02:11,400 --> 00:02:16,050
+the handler from the OS package equal to new handler.
+
+24
+00:02:16,050 --> 00:02:21,810
+And here I need to use the looper dot, get main looper.
+
+25
+00:02:21,810 --> 00:02:29,250
+Why we use handlers while database operations occur in the background, you often need to update the
+
+26
+00:02:29,280 --> 00:02:32,010
+UI with the results of these operations.
+
+27
+00:02:32,010 --> 00:02:39,360
+However, UI updates must be performed on the main UI thread to avoid view related issues.
+
+28
+00:02:39,360 --> 00:02:49,080
+The handler with Looper dot get main Looper method is used to post tasks to the main UI threads messages
+
+29
+00:02:49,110 --> 00:02:49,410
+queue.
+
+30
+00:02:49,410 --> 00:02:59,130
+This ensures that any UI related code such as updating text views or recycler views is executed on the
+
+31
+00:02:59,130 --> 00:03:00,120
+main thread.
+
+32
+00:03:00,120 --> 00:03:03,870
+So we need to execute the add context in the background.
+
+33
+00:03:03,870 --> 00:03:06,360
+So I use the executor service.
+
+34
+00:03:06,360 --> 00:03:11,640
+I need to update the UI, the text views or the recycler view.
+
+35
+00:03:11,640 --> 00:03:19,890
+So for that I use the handler with Looper by combining an executor service with the handler.
+
+36
+00:03:19,890 --> 00:03:25,140
+This is for background database operations and handler for UI updates.
+
+37
+00:03:25,140 --> 00:03:33,870
+You achieve many benefits such as thread separation synchronization and responsive UI thread separation
+
+38
+00:03:33,870 --> 00:03:40,980
+background Database operations are separated from UI updates, preventing UI blocking and an application
+
+39
+00:03:40,980 --> 00:03:42,420
+not responding errors.
+
+40
+00:03:42,420 --> 00:03:43,560
+Synchronization.
+
+41
+00:03:43,560 --> 00:03:50,760
+Concurrent access to the database is managed by executer service, ensuring that database operations
+
+42
+00:03:50,760 --> 00:03:55,260
+occur sequentially and avoiding race condition.
+
+43
+00:03:55,260 --> 00:04:02,820
+Responsive UI updates are performed on the main thread using the handler, ensuring a responsive user
+
+44
+00:04:02,820 --> 00:04:03,630
+interface.
+
+45
+00:04:03,630 --> 00:04:10,650
+I need to use the executor to execute this method in the background and I'll use the handler to update
+
+46
+00:04:10,650 --> 00:04:11,100
+the UI.
+
+47
+00:04:11,130 --> 00:04:16,230
+So for that I need to use the executor dot execute method.
+
+48
+00:04:16,230 --> 00:04:21,690
+And here I need to use a new runnable and you can see I override it.
+
+49
+00:04:21,690 --> 00:04:23,280
+The run method.
+
+50
+00:04:23,280 --> 00:04:27,090
+I need to move this method here into the run.
+
+51
+00:04:27,090 --> 00:04:33,390
+Method Runnable is an interface that defines a task to be executed.
+
+52
+00:04:33,420 --> 00:04:35,400
+Typically on a separate thread.
+
+53
+00:04:35,400 --> 00:04:40,500
+It represents a unit of work that can be executed as synchronously.
+
+54
+00:04:40,500 --> 00:04:48,810
+Runnable objects are commonly used with thread related APIs, including executer service to perform
+
+55
+00:04:48,810 --> 00:04:58,170
+background tasks, and the runnable interface defines a single method void run that is executed when
+
+56
+00:04:58,170 --> 00:04:59,580
+the runnable task is.
+
+57
+00:04:59,770 --> 00:05:00,670
+Executed.
+
+58
+00:05:00,670 --> 00:05:08,280
+Runnable objects are used to encapsulate code that you want to run asynchronously on a separate thread
+
+59
+00:05:08,290 --> 00:05:16,750
+By submitting a runnable to an executor service, you delegate the execution of that task to the thread
+
+60
+00:05:16,750 --> 00:05:18,550
+managed by the executor.
+
+61
+00:05:18,550 --> 00:05:26,470
+So in order to execute this code in the background, we need to create an executor which is used for
+
+62
+00:05:26,470 --> 00:05:29,800
+background database operations, executor service.
+
+63
+00:05:29,800 --> 00:05:38,140
+Then we need to use the handler for used for the updating the UI and linking this executor with runnable
+
+64
+00:05:38,140 --> 00:05:46,120
+is used to provide the run method that will execute this code asynchronously on separate thread.
+
+65
+00:05:46,120 --> 00:05:51,550
+So this is how in Java we perform background tasks.
+
+66
+00:05:51,550 --> 00:05:55,780
+I'll do with the same with the other methods.
+
+67
+00:05:55,780 --> 00:06:05,720
+Delete and get contacts and I'll move this code and here I need to initialize it in the repository constructor
+
+68
+00:06:05,720 --> 00:06:12,860
+and I'll make it as public in order to use it in the other methods and prevent the duplication of codes.
+
+69
+00:06:12,860 --> 00:06:18,950
+So here executor and I need to cut this handler and handler.
+
+70
+00:06:18,980 --> 00:06:27,350
+Okay, this is from the repository constructor and I'll use the executor in the other methods such as
+
+71
+00:06:27,350 --> 00:06:28,520
+delete contact.
+
+72
+00:06:28,520 --> 00:06:36,830
+So here, executor, I need to provide new runnable and inside the run I need to move this method and
+
+73
+00:06:36,830 --> 00:06:38,630
+execute it in the background.
+

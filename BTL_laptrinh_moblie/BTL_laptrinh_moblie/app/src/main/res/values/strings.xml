@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BTL_laptrinh_moblie</string>
+    <string name="tab_chi_phi">Chi phí</string>
+    <string name="tab_thu_nhap">Thu nhập</string>
+</resources>

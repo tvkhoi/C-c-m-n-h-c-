@@ -1,0 +1,167 @@
+1
+00:00:00,050 --> 00:00:02,050
+Xin chào các bạn của tôi và chào mừng sự trở lại.
+
+2
+00:00:02,060 --> 00:00:06,020
+Trong video này, chúng ta sẽ bắt đầu tìm hiểu về cơ sở dữ liệu phòng trong Android.
+
+3
+00:00:06,020 --> 00:00:12,380
+Tôi muốn bạn tập trung cùng tôi vì đây là chủ đề rất quan trọng và có nhiều người mắc lỗi trong phòng
+
+4
+00:00:12,380 --> 00:00:19,010
+cơ sở dữ liệu Cơ sở dữ liệu SQLite là cơ sở dữ liệu nguồn mở được cung cấp trong Android, được sử dụng để lưu trữ dữ liệu
+
+5
+00:00:19,010 --> 00:00:22,280
+bên trong thiết bị của người dùng dưới dạng tệp văn bản.
+
+6
+00:00:22,280 --> 00:00:28,700
+Chúng ta có thể thực hiện rất nhiều thao tác trên dữ liệu này, chẳng hạn như thêm dữ liệu mới, cập nhật, đọc và xóa
+
+7
+00:00:28,700 --> 00:00:29,270
+dữ liệu này.
+
+số 8
+00:00:29,360 --> 00:00:35,630
+SQLite là cơ sở dữ liệu ngoại tuyến được lưu trữ cục bộ trong thiết bị của người dùng và chúng tôi không phải tạo
+
+9
+00:00:35,630 --> 00:00:38,750
+bất kỳ kết nối nào để kết nối với phòng cơ sở dữ liệu này.
+
+10
+00:00:38,750 --> 00:00:43,640
+Phòng cơ sở dữ liệu là thư viện ánh xạ quan hệ đối tượng ORM.
+
+11
+00:00:43,640 --> 00:00:51,200
+Nói cách khác, room sẽ ánh xạ các đối tượng cơ sở dữ liệu của chúng ta tới các đối tượng Java. Room cung cấp một lớp trừu tượng
+
+12
+00:00:51,200 --> 00:00:57,470
+qua SQLite để cho phép truy cập cơ sở dữ liệu trôi chảy trong khi khai thác toàn bộ sức mạnh của SQLite.
+
+13
+00:00:57,470 --> 00:01:04,310
+Vì vậy, cơ sở dữ liệu phòng là một thư viện mạnh mẽ và linh hoạt cung cấp lớp trừu tượng trên SQLite,
+
+14
+00:01:04,340 --> 00:01:11,450
+Phòng hệ thống quản lý cơ sở dữ liệu quan hệ nhẹ giúp đơn giản hóa các hoạt động cơ sở dữ liệu và làm cho nó
+
+15
+00:01:11,450 --> 00:01:16,370
+dễ dàng hơn cho các nhà phát triển làm việc với cơ sở dữ liệu trong ứng dụng Android của họ.
+
+16
+00:01:16,370 --> 00:01:22,220
+Nó là một phần của các thành phần kiến ​​trúc Android và nhắc nhở việc sử dụng mô hình Mvvm.
+
+17
+00:01:22,220 --> 00:01:24,620
+Xem mẫu kiến ​​trúc ViewModel.
+
+18
+00:01:24,620 --> 00:01:29,420
+Trong các video tiếp theo, chúng ta sẽ nói về mẫu SQLite và cơ sở dữ liệu phòng này.
+
+19
+00:01:29,420 --> 00:01:36,770
+Trong trường hợp SQLite, không có xác minh thời gian biên dịch của các truy vấn SQL hàng, nhưng trong phòng có
+
+20
+00:01:36,770 --> 00:01:42,740
+là một số xác nhận tại thời điểm biên dịch và đây là điểm rất quan trọng và tốt Đối với cơ sở dữ liệu phòng,
+
+21
+00:01:42,740 --> 00:01:49,190
+bạn cần sử dụng nhiều mã soạn sẵn để chuyển đổi giữa các truy vấn SQL và đối tượng cơ sở dữ liệu Java.
+
+22
+00:01:49,190 --> 00:01:55,130
+Tuy nhiên, room ánh xạ các đối tượng cơ sở dữ liệu của chúng ta tới các đối tượng Java mà không cần mã soạn sẵn.
+
+23
+00:01:55,130 --> 00:02:00,660
+Khi lược đồ của bạn thay đổi, bạn cần cập nhật các truy vấn SQL bị ảnh hưởng theo cách thủ công.
+
+24
+00:02:00,660 --> 00:02:08,400
+Room giải quyết vấn đề này Room được xây dựng để hoạt động với dữ liệu trực tiếp và rxjava để quan sát dữ liệu trong khi
+
+25
+00:02:08,460 --> 00:02:10,169
+SQL Light thì không.
+
+26
+00:02:10,199 --> 00:02:17,790
+Phòng có ba thành phần chính là cơ sở dữ liệu phòng, thực thể, Dao và cơ sở dữ liệu.
+
+27
+00:02:17,790 --> 00:02:20,910
+Hãy nói chi tiết về các thành phần này.
+
+28
+00:02:20,910 --> 00:02:23,310
+Thành phần đầu tiên là thực thể.
+
+29
+00:02:23,310 --> 00:02:31,560
+Thực thể đại diện cho một bảng trong cơ sở dữ liệu và phải được chú thích tại chú thích thực thể.
+
+30
+00:02:31,560 --> 00:02:38,550
+Mỗi thực thể bao gồm tối thiểu một trường phải xác định khóa chính.
+
+31
+00:02:38,580 --> 00:02:43,530
+Thành phần thứ hai là đối tượng truy cập cơ sở dữ liệu Dao.
+
+32
+00:02:43,530 --> 00:02:49,440
+Trong phòng, bạn sử dụng các đối tượng truy cập dữ liệu để truy cập và quản lý dữ liệu của mình.
+
+33
+00:02:49,470 --> 00:02:59,070
+Dao là thành phần chính của phòng và bao gồm các phương thức cung cấp quyền truy cập vào cơ sở dữ liệu ứng dụng của bạn.
+
+34
+00:02:59,070 --> 00:03:08,340
+Nó phải được chú thích bằng chú thích Dao, nó được sử dụng thay cho trình tạo truy vấn và cho phép bạn tách biệt
+
+35
+00:03:08,340 --> 00:03:10,740
+các thành phần khác nhau của cơ sở dữ liệu của bạn.
+
+36
+00:03:10,740 --> 00:03:17,610
+Ví dụ: dữ liệu và số liệu thống kê hiện tại cho phép bạn dễ dàng kiểm tra cơ sở dữ liệu của mình.
+
+37
+00:03:17,610 --> 00:03:26,550
+Thành phần thứ ba là cơ sở dữ liệu cơ sở dữ liệu đóng vai trò là nơi chứa cơ sở dữ liệu và là điểm truy cập chính
+
+38
+00:03:26,550 --> 00:03:28,200
+tới dữ liệu quan hệ của bạn.
+
+39
+00:03:28,200 --> 00:03:34,800
+Nó phải được chú thích bằng chú thích cơ sở dữ liệu và mở rộng cơ sở dữ liệu phòng.
+
+40
+00:03:34,830 --> 00:03:40,620
+Nó cũng chứa và trả về đối tượng truy cập dữ liệu Dao.
+
+41
+00:03:40,620 --> 00:03:48,360
+Nếu bạn nhận thấy rằng chúng ta sẽ sử dụng các chú thích tại thực thể tại IO và thêm cơ sở dữ liệu để thông báo
+
+42
+00:03:48,360 --> 00:03:51,930
+Studio Android về vai trò của từng lớp.

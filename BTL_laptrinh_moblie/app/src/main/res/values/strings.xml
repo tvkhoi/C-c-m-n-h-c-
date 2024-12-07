@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BTL_laptrinh_moblie</string>
+    <string name="tab_chi_phi" translatable="false">Chi phí</string>
+    <string name="tab_thu_nhap" translatable="false">Thu nhập</string>
+    <string name="tab_thongtin" translatable="false">Thông tin</string>
+    <string name="password">Password</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="dangky1">Đăng Ký</string>
+    <string name="dangky">Đăng ký</string>
+    <string name="quenmatkhau">Quên mật khẩu</string>
+    <string name="notyetregistered">Not yet registered?</string>
+    <string name="username">Username</string>
+</resources>

@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(132, 188, 11);
+    font-family: Arial, 'Times New Roman', sans-serif;
+    font-size: 13px;
+}
+.can {
+    /* margin: 0 200px 0 200px;
+     background-color: aliceblue;
+     height: 1000px; */
+     margin: 0 auto;
+     background-color: aliceblue;
+     border: 1px solid black;
+     width: 960px;
+    height: 1000px;
+   
+}
+.a {
+   text-align: center;
+    
+ } 
+ .f {   
+    float:left;
+    width: 40%;
+ }
+ul,ol {
+   list-style: none;
+}
+#menu {
+    background-color: bisque;
+    height: 35px;
+}
+#menu li {
+    background-color: bisque;
+    float: left;
+    width: 120px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.b {
+    float:right;
+    width: 60%;
+ 
+    
+}
+.c {
+    text-align: left;
+    margin-top: 400px;
+    float: left;
+}

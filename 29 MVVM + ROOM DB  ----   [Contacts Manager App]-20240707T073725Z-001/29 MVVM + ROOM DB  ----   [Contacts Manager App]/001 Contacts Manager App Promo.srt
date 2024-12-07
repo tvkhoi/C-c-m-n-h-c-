@@ -1,0 +1,87 @@
+1
+00:00:00,050 --> 00:00:02,290
+Xin chào các nhà phát triển và chào mừng trở lại.
+
+2
+00:00:02,300 --> 00:00:10,970
+Trong phần này, chúng ta sẽ xây dựng ứng dụng tuyệt vời này sử dụng Mvvm với cơ sở dữ liệu phòng và liên kết dữ liệu.
+
+3
+00:00:10,970 --> 00:00:19,480
+Đây là một ứng dụng tuyệt vời cho cơ sở dữ liệu phòng chính kiến ​​trúc Mvvm và sử dụng liên kết dữ liệu với
+
+4
+00:00:19,480 --> 00:00:20,560
+quan điểm tái chế.
+
+5
+00:00:20,570 --> 00:00:23,510
+Có rất nhiều khái niệm mới.
+
+6
+00:00:23,510 --> 00:00:30,770
+Bạn sẽ thành thạo chúng, vì vậy đây sẽ là một ứng dụng tuyệt vời cần được bạn quan tâm đầy đủ.
+
+7
+00:00:30,770 --> 00:00:38,300
+Ứng dụng này sẽ hiển thị danh bạ trong cơ sở dữ liệu của chúng tôi, trong cơ sở dữ liệu phòng của chúng tôi và ứng dụng này
+
+số 8
+00:00:38,300 --> 00:00:44,570
+cho phép chúng tôi, nếu chúng tôi nhấp vào nút này để chèn một liên hệ mới vào cơ sở dữ liệu của chúng tôi.
+
+9
+00:00:44,570 --> 00:00:52,430
+Vì vậy, ví dụ như Richard, và đây là email, nếu tôi nhấp vào thêm liên hệ vào cơ sở dữ liệu phòng, nó sẽ
+
+10
+00:00:52,430 --> 00:00:54,350
+hướng chúng ta đến hoạt động chính.
+
+11
+00:00:54,350 --> 00:00:57,860
+Và bạn có thể thấy Richard đã được thêm vào cơ sở dữ liệu của chúng tôi.
+
+12
+00:00:57,860 --> 00:01:00,210
+Đây là một ứng dụng mới.
+
+13
+00:01:00,210 --> 00:01:07,730
+Đây là một ứng dụng rất quan trọng mà chúng tôi sẽ cùng nhau xây dựng để làm chủ kiến ​​trúc Mvvm với
+
+14
+00:01:07,740 --> 00:01:10,860
+cơ sở dữ liệu phòng, là nguồn dữ liệu ngoại tuyến.
+
+15
+00:01:10,860 --> 00:01:11,850
+Và đừng bỏ lỡ.
+
+16
+00:01:11,850 --> 00:01:18,600
+Chúng ta sẽ sử dụng tính năng liên kết dữ liệu với Recycler View, đây là một khái niệm mới mà tôi chưa giới thiệu
+
+17
+00:01:18,600 --> 00:01:20,880
+trong phần ràng buộc dữ liệu.
+
+18
+00:01:20,880 --> 00:01:29,910
+Đừng lo lắng, tôi sẽ hướng dẫn bạn từng bước với lời giải thích chi tiết về cách sử dụng cơ sở dữ liệu phòng
+
+19
+00:01:29,910 --> 00:01:33,840
+để triển khai nó trong ứng dụng của bạn và lưu trữ dữ liệu.
+
+20
+00:01:33,840 --> 00:01:39,720
+Ngoài ra, tôi sẽ cho bạn thấy tầm quan trọng của việc sử dụng kiến ​​trúc Mvvm.
+
+21
+00:01:39,720 --> 00:01:41,370
+Tại sao chúng ta đang lãng phí thời gian.
+
+22
+00:01:41,370 --> 00:01:45,450
+Hãy bắt đầu xây dựng ứng dụng Trình quản lý danh bạ của chúng ta.

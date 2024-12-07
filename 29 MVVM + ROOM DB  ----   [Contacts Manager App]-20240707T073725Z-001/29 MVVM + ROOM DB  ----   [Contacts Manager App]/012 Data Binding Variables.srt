@@ -1,0 +1,172 @@
+1
+00:00:00,080 --> 00:00:02,950
+Let's continue with the view of the mvvm.
+
+2
+00:00:02,960 --> 00:00:07,790
+And in this video I'll add the data binding variables of the layouts.
+
+3
+00:00:07,790 --> 00:00:17,150
+So inside the contact list item, I'll add a new variable here of type contacts that we created.
+
+4
+00:00:17,150 --> 00:00:21,500
+And this is the modal class or the entity class of our database.
+
+5
+00:00:21,500 --> 00:00:29,390
+So I'll start with the data and remember you need to place it under the layout element and before any
+
+6
+00:00:29,390 --> 00:00:38,240
+other layout the data here I start with a variable and the name would be contact and the type come master
+
+7
+00:00:38,240 --> 00:00:39,020
+coding.
+
+8
+00:00:39,020 --> 00:00:42,410
+This is the package and select the contacts class.
+
+9
+00:00:42,410 --> 00:00:50,180
+Now I need to refer the contact and get the contact name and email from this variable.
+
+10
+00:00:50,180 --> 00:00:57,080
+So for that I'll scroll down to here and instead of using name I'll add syntax of data binding.
+
+11
+00:00:57,080 --> 00:01:01,740
+And here I'll set the contact dot name the same way.
+
+12
+00:01:01,770 --> 00:01:06,120
+I'll scroll down at contact dot email.
+
+13
+00:01:06,120 --> 00:01:11,520
+It's very simple guys, and we talked about it in details in the data binding section.
+
+14
+00:01:11,520 --> 00:01:13,590
+We finished this layout.
+
+15
+00:01:13,590 --> 00:01:21,330
+Let's move to the main activity layout and I'll add a click event and handle the click events on this
+
+16
+00:01:21,340 --> 00:01:23,220
+fab, this floating action button.
+
+17
+00:01:23,220 --> 00:01:29,580
+For that, I'll create here data and I'll start with the variable.
+
+18
+00:01:29,580 --> 00:01:37,290
+The name would be click handler and the type would be a new class that I will create here, create a
+
+19
+00:01:37,290 --> 00:01:38,550
+new Java class.
+
+20
+00:01:38,550 --> 00:01:42,840
+I'll name it as main activity Click handlers.
+
+21
+00:01:42,840 --> 00:01:49,680
+When using data bindings and you have many classes you can name main activity.
+
+22
+00:01:49,680 --> 00:01:53,490
+This is referring for the main activity and the click handlers.
+
+23
+00:01:53,490 --> 00:02:00,630
+This class will act as a click handler for the main activity, so all the clicks on the main activity
+
+24
+00:02:00,660 --> 00:02:04,980
+user interface will be captured and handled here.
+
+25
+00:02:04,980 --> 00:02:07,500
+I'll start with a context context.
+
+26
+00:02:07,500 --> 00:02:14,520
+I need to pass the context from the main activity and I'll create a constructor having the context and
+
+27
+00:02:14,520 --> 00:02:18,720
+I'll create a new method called on Fab.
+
+28
+00:02:18,720 --> 00:02:20,430
+I need to pass a view.
+
+29
+00:02:20,460 --> 00:02:26,760
+Don't miss to pass the view object in the data binding in order to handle all the click events on the
+
+30
+00:02:26,760 --> 00:02:27,090
+View.
+
+31
+00:02:27,090 --> 00:02:38,400
+And here I'll start with the intent I equal to new intent and I'll set main activity dot this or get
+
+32
+00:02:38,400 --> 00:02:48,090
+application context and add new contact activity dot class and context dot start activity.
+
+33
+00:02:48,090 --> 00:02:49,710
+I'll pass the intent.
+
+34
+00:02:49,950 --> 00:02:52,920
+Let's create this activity project.
+
+35
+00:02:52,950 --> 00:03:02,970
+New activity, empty views activity and I'll name it as add new contact activity finish and this is
+
+36
+00:03:02,970 --> 00:03:04,590
+our new activity.
+
+37
+00:03:04,590 --> 00:03:06,600
+Then move back to the activity.
+
+38
+00:03:06,600 --> 00:03:14,760
+Underscore main dot XML and here I need to specify the type com dot master coding and here I'll specify
+
+39
+00:03:14,760 --> 00:03:15,660
+main activity.
+
+40
+00:03:15,660 --> 00:03:19,140
+Click handlers scroll down to the fab.
+
+41
+00:03:20,080 --> 00:03:20,680
+On.
+
+42
+00:03:20,680 --> 00:03:28,840
+Click and select this method and click handlers at Click Handler, dot on Fab Click.
+
+43
+00:03:28,840 --> 00:03:33,790
+And we talked about this operator that refers to the methods in the data binding.
+

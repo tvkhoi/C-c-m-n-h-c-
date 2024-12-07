@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="themes/bai9.js"></script>
+    <style>
+        .bang {
+            border: 0.5px solid black;
+            border-collapse: collapse;
+            font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+            .bang td {
+                border: 0.5px solid black;
+            }
+
+        .bodybang {
+            height: 200px;
+        }
+
+        body {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .form {
+            margin-top: 30px;
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        .khoi1 {
+            float: left;
+        }
+
+        .khoi2 {
+            float: left;
+            margin-top: 10px;
+        }
+
+            .khoi2 input {
+                margin-left: 25px;
+            }
+
+        .khoi3 {
+            float: left;
+            margin-top: 10px;
+        }
+
+        .khoi4 {
+            float: left;
+            margin-top: 10px;
+        }
+
+            .khoi4 input {
+                margin-left: 35px;
+            }
+
+        .khoi5 {
+            clear: both;
+            padding-top: 10px;
+            text-align: right;
+        }
+
+            .khoi5 button {
+                margin-left: 25px;
+            }
+
+        .loi1 {
+            font-size: 11px;
+            color: brown;
+            text-align: left;
+        }
+    </style>
+
+</head>
+<body>
+    <center>
+        <!--  <table class="bang" id="bang" onplay="dulieu()">
+      <tr>
+          <td>STT</td>
+          <td>Tên VXL</td>
+          <td>Hãng sx</td>
+          <td>Ngày ra mắt</td>
+          <td>Giá (vnđ)</td>
+      </tr>
+       <tr class="bodybang"></tr>
+
+    </table>-->
+        <form method="post" action="xuly.aspx" id="form_nhap" name="form_nhap">
+            <fieldset class="formff">
+                <div class="khoi1">
+                    <label for="html">Tên VXL</label>
+                    <input id="tenhj" name="tenhj" type="text">
+
+                </div>
+                <br><br>
+                <div class="loi1">
+                    <span id="khoi1_loi1" style="display: none;">Tên VXL không được rỗng</span><br>
+                    <span id="khoi1_loi2" style="display: none;">Tên VXL không được trùng nhau</span>
+                </div>
+                <div class="khoi2">
+                    <label for="html">Hãng</label>
+                    <input id="hang" name="hang" type="text">
+                </div><br><br>
+                <div class="loi1">
+                    <span id="khoi2_loi1" style="display: none;">Tên Hãng không được rỗng</span><br>
+                    <span id="khoi2_loi2" style="display: none;">Tên Hãng không được trùng nhau</span>
+                </div>
+                <div class="khoi3">
+                    <label for="html">Ngày ra mắt</label>
+                    <input id="chuoingaythangnam" name="chuoingaythangnam" type="date">
+                </div><br><br>
+                <div class="loi1">
+                    <span id="khoi3_loi1" style="display: none;">Ngày ra mặt không được rỗng</span><br>
+                    <span id="khoi3_loi2" style="display: none;">Ngày ra mắt phải lớn hơn hoặc bằng ngày hiện tại</span>
+                </div>
+                <div class="khoi4">
+                    <label for="html">Giá</label>
+                    <input id="gia" name="gia" type="number">
+                </div><br><br>
+                <div class="loi1">
+                    <span id="khoi4_loi1" style="display: none;">Giá không được để trống</span>
+                    <span id="khoi4_loi2" style="display: none;">Giá phải lớn hơn hoặc bằng 0</span>
+                </div>
+                <div class="khoi5">
+                    <button  id="them">Post</button>
+                    <button onclick="huy()">Hủy</button>
+                </div>
+            </fieldset>
+        </form>
+       
+    </center>
+</body>
+</html>

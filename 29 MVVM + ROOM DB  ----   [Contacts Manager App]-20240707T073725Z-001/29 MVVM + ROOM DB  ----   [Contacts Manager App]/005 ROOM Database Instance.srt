@@ -1,0 +1,104 @@
+1
+00:00:00,300 --> 00:00:06,550
+The third step in creating our room database is to create the database class.
+
+2
+00:00:06,570 --> 00:00:11,990
+The database class is an abstract class that serves as the database holder.
+
+3
+00:00:12,000 --> 00:00:18,240
+It includes methods to access the daos and create a database instance.
+
+4
+00:00:18,240 --> 00:00:24,980
+Let's create this database class and I'll name it as contact database.
+
+5
+00:00:24,990 --> 00:00:34,920
+You annotate the database class with the Add database annotation and specify the list of entities it
+
+6
+00:00:34,920 --> 00:00:37,650
+includes and the database version.
+
+7
+00:00:37,650 --> 00:00:46,170
+Since our application has only one entity class one table called context table, I need to specify it
+
+8
+00:00:46,170 --> 00:00:46,560
+here.
+
+9
+00:00:46,560 --> 00:00:52,350
+So entities equal to and here I need to specify it inside a list.
+
+10
+00:00:52,350 --> 00:01:00,970
+But since our application has only one entity table, I need to specify it here as only entity contacts
+
+11
+00:01:00,970 --> 00:01:06,280
+dot class and I'll specify the version equal to one later on.
+
+12
+00:01:06,280 --> 00:01:10,210
+When you update your database, you need to increase this number.
+
+13
+00:01:10,210 --> 00:01:17,350
+I'll create it as an abstract, as mentioned before, to prevent any possible creation of this class
+
+14
+00:01:17,350 --> 00:01:20,860
+so you prevent possible creation of objects extends.
+
+15
+00:01:20,860 --> 00:01:29,470
+And here I need to tell Android studio that I need to extend from the room database so this class will
+
+16
+00:01:29,470 --> 00:01:39,910
+act as a database instance using the annotation, add database and extending room database from Android
+
+17
+00:01:39,940 --> 00:01:41,560
+X room package.
+
+18
+00:01:41,560 --> 00:01:49,330
+So in order to understand it better, you need to create a class extending from room database.
+
+19
+00:01:49,330 --> 00:01:55,480
+And it's an abstract class and annotated with database and you specify the entity.
+
+20
+00:01:55,480 --> 00:02:00,040
+So you are linking this database with the entity.
+
+21
+00:02:00,070 --> 00:02:03,460
+Now we need to link this database with the Dao.
+
+22
+00:02:03,460 --> 00:02:13,180
+So for that I'll create a method that returns a contact Dao Public Abstract Contact Dao object.
+
+23
+00:02:13,180 --> 00:02:17,500
+It's returning type and get contact Dao.
+
+24
+00:02:17,530 --> 00:02:20,350
+This is a method named as get contact Dao.
+
+25
+00:02:20,380 --> 00:02:25,300
+Then it's returning type is as contact Dao class.
+
+26
+00:02:25,300 --> 00:02:31,300
+Here I am linking this database with Dao by using this method.
+

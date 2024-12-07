@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "NvAu8fK4DmPYmE2YAWaN75uHj2LL8HvXW99ukFM0P2OxQ7njmGmgbZRU5N67iuJz4IUETSr1yYVHU51ESMqTyA==",
+  "success": true,
+  "projectFilePath": "D:\\Lập trình hướng sk\\lập trình hướng sự kiện 2\\lập trình hướng sự kiện 2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

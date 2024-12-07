@@ -1,0 +1,7 @@
+D:\Lập trình hướng sk\console\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+D:\Lập trình hướng sk\console\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+D:\Lập trình hướng sk\console\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+D:\Lập trình hướng sk\console\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.AssemblyReference.cache
+D:\Lập trình hướng sk\console\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+D:\Lập trình hướng sk\console\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+D:\Lập trình hướng sk\console\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

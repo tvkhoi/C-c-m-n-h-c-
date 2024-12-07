@@ -1,0 +1,184 @@
+1
+00:00:01,160 --> 00:00:02,090
+Welcome back.
+
+2
+00:00:02,090 --> 00:00:06,260
+In this video we're going to set up our local development environment.
+
+3
+00:00:06,290 --> 00:00:12,350
+We'll start by downloading Examp install it then creating our MySQL database.
+
+4
+00:00:12,380 --> 00:00:17,480
+Go to Apache friends.org website and select download.
+
+5
+00:00:17,510 --> 00:00:22,660
+Then select the installer according to your operating system.
+
+6
+00:00:22,670 --> 00:00:25,370
+I'll select this exam for windows.
+
+7
+00:00:25,400 --> 00:00:27,200
+Then run the installer.
+
+8
+00:00:27,230 --> 00:00:35,810
+Then open the Examp and Examp is a popular free and open source software stack that facilitates the
+
+9
+00:00:35,810 --> 00:00:41,260
+setup and management of a local development environment for web applications.
+
+10
+00:00:41,270 --> 00:00:48,920
+You can install similar softwares like Wamp and other softwares, but I like dealing with Examp.
+
+11
+00:00:48,920 --> 00:00:55,850
+Examp is mainly used for developing and testing web applications in your local computer before deploying
+
+12
+00:00:55,850 --> 00:01:02,170
+them to a live web server, and what we are interested in is Apache and MySQL.
+
+13
+00:01:02,180 --> 00:01:09,260
+Click start and then go to Chrome and type 127.0.0.1.
+
+14
+00:01:09,260 --> 00:01:12,770
+Or you can type localhost and click enter.
+
+15
+00:01:12,770 --> 00:01:16,010
+And here is the Examp dashboard.
+
+16
+00:01:16,010 --> 00:01:19,970
+And from this dashboard I will select phpMyAdmin.
+
+17
+00:01:20,360 --> 00:01:29,300
+phpMyAdmin is a popular open source, web based graphical user interface tool used for managing and
+
+18
+00:01:29,300 --> 00:01:33,590
+administering MySQL and MariaDB databases.
+
+19
+00:01:33,590 --> 00:01:41,330
+It allows users to interact with their databases through a web browser, making it easier to perform
+
+20
+00:01:41,330 --> 00:01:48,170
+various database related tasks without having to use the command line interface.
+
+21
+00:01:48,440 --> 00:01:56,150
+phpMyAdmin provides a user friendly interface for creating, modifying, and deleting databases, tables,
+
+22
+00:01:56,150 --> 00:02:01,490
+and fields within those tables, and for that I use this phpMyAdmin.
+
+23
+00:02:01,490 --> 00:02:10,940
+I'll create a new database and the new database will be named as my quiz DB.
+
+24
+00:02:12,910 --> 00:02:16,780
+Click on create and here is our database.
+
+25
+00:02:16,780 --> 00:02:18,370
+How many tables?
+
+26
+00:02:18,370 --> 00:02:25,540
+I'll start with the first table math underscore table number of columns seven.
+
+27
+00:02:25,540 --> 00:02:31,300
+And here we need to specify the columns of the table and their types.
+
+28
+00:02:31,300 --> 00:02:35,950
+The first column is id its type is integer.
+
+29
+00:02:35,950 --> 00:02:42,430
+And here I'll select I which is autoincrement and it's of type primary.
+
+30
+00:02:42,430 --> 00:02:46,090
+Because this will act as a primary key for our table.
+
+31
+00:02:46,090 --> 00:02:50,290
+Then the second one is the question.
+
+32
+00:02:50,290 --> 00:02:53,770
+It's of type string which is a varchar.
+
+33
+00:02:53,770 --> 00:02:56,810
+And I don't need to specify here anything.
+
+34
+00:02:56,830 --> 00:03:00,460
+Option one which is of type varchar.
+
+35
+00:03:00,490 --> 00:03:05,230
+The fourth column is option two which is of type varchar.
+
+36
+00:03:05,260 --> 00:03:14,560
+The fifth one is option three which is of type varchar option for Varchar, and the last one is the
+
+37
+00:03:14,560 --> 00:03:18,190
+correct underscore option varchar.
+
+38
+00:03:18,220 --> 00:03:20,410
+Then select save.
+
+39
+00:03:20,410 --> 00:03:29,710
+I need to specify a valid length, and here I need to specify 50 for the ID 200 for the question, 200
+
+40
+00:03:29,710 --> 00:03:34,540
+for the option one and the other options and the correct option click save.
+
+41
+00:03:34,540 --> 00:03:35,740
+And here we go.
+
+42
+00:03:35,740 --> 00:03:37,840
+This is our database.
+
+43
+00:03:37,840 --> 00:03:39,160
+Congratulations guys.
+
+44
+00:03:39,160 --> 00:03:40,780
+We installed Examp.
+
+45
+00:03:40,780 --> 00:03:44,560
+We created the database in phpMyAdmin.
+
+46
+00:03:44,560 --> 00:03:50,590
+And we're ready to fetch the data from this database into our Android application.
+

@@ -1,0 +1,216 @@
+1
+00:00:00,140 --> 00:00:07,490
+When the user finishes the quiz, we need to direct him when he clicks on the finish button to the results
+
+2
+00:00:07,490 --> 00:00:08,060
+activity.
+
+3
+00:00:08,060 --> 00:00:11,000
+In this video, we'll create this results activity.
+
+4
+00:00:11,000 --> 00:00:14,450
+Open comm Cadinot the quiz app.
+
+5
+00:00:14,450 --> 00:00:22,820
+And here I'll create a new activity empty views activity and I'll name it as results Activity.
+
+6
+00:00:22,820 --> 00:00:23,720
+Click finish.
+
+7
+00:00:23,720 --> 00:00:25,910
+Let's go to the layout file.
+
+8
+00:00:25,910 --> 00:00:32,659
+Go to split mode and in this activity I'll include two text views and one.
+
+9
+00:00:32,659 --> 00:00:35,720
+But of course I'll create a drawable.
+
+10
+00:00:35,720 --> 00:00:40,220
+So I'll copy this gradient back and name it as back to.
+
+11
+00:00:40,220 --> 00:00:43,850
+And I'll change these colors to these colors.
+
+12
+00:00:43,880 --> 00:00:51,380
+Go back to the activity results and I'll use the background and drawable gradient to okay.
+
+13
+00:00:51,380 --> 00:00:56,750
+As I told you, this activity will contain two text views and one button.
+
+14
+00:00:56,750 --> 00:01:01,970
+And by the way this will use the layout tag because I'm using data binding.
+
+15
+00:01:01,970 --> 00:01:02,690
+So.
+
+16
+00:01:06,030 --> 00:01:11,190
+Inside this constraint layout, I'll start creating the text views and the button.
+
+17
+00:01:48,100 --> 00:01:51,990
+And congratulations, we created our layout.
+
+18
+00:01:52,000 --> 00:01:53,020
+It's very simple.
+
+19
+00:01:53,050 --> 00:01:55,240
+Two text views and one button.
+
+20
+00:01:55,240 --> 00:01:57,370
+Now let's move to the results activity.
+
+21
+00:01:57,370 --> 00:02:03,580
+Inside it I'll create the binding activity result binding binding.
+
+22
+00:02:03,580 --> 00:02:10,840
+And here I'll use binding equals to data binding util dot Setcontentview.
+
+23
+00:02:10,870 --> 00:02:21,370
+This dot layout dot activity results I'm using this data binding and binding dot text answer dot set
+
+24
+00:02:21,400 --> 00:02:22,090
+text.
+
+25
+00:02:22,120 --> 00:02:25,150
+Your score is.
+
+26
+00:02:25,150 --> 00:02:33,340
+I'm going to get the score from the main activity dot result variable which is the static the total
+
+27
+00:02:33,340 --> 00:02:34,840
+number of questions.
+
+28
+00:02:34,840 --> 00:02:38,980
+So the result is five answers over ten questions.
+
+29
+00:02:38,980 --> 00:02:40,240
+So five over ten.
+
+30
+00:02:40,270 --> 00:02:41,590
+This is the algorithm.
+
+31
+00:02:41,620 --> 00:02:45,310
+We have two variables the result and the total question.
+
+32
+00:02:47,530 --> 00:02:54,640
+Then I'll use the binding dot button back dot set on click listener new view on click listener.
+
+33
+00:02:54,640 --> 00:03:00,730
+And here I need to direct the user from this activity to the main activity.
+
+34
+00:03:06,260 --> 00:03:06,690
+Okay.
+
+35
+00:03:06,710 --> 00:03:08,030
+Save the project.
+
+36
+00:03:08,030 --> 00:03:11,360
+And I want to make one last thing.
+
+37
+00:03:11,360 --> 00:03:18,350
+Here in the main activity, when the user finishes the quiz, I need to direct the user to the results
+
+38
+00:03:18,350 --> 00:03:19,020
+activity.
+
+39
+00:03:19,040 --> 00:03:25,570
+So I'll check the title or the name of the button if it is equal to the finish.
+
+40
+00:03:25,580 --> 00:03:29,630
+If binding dot button next dot get text.
+
+41
+00:03:29,630 --> 00:03:36,440
+If it is equal to finish then I need to direct the user to the results activity.
+
+42
+00:03:41,950 --> 00:03:43,120
+It's very simple.
+
+43
+00:03:43,120 --> 00:03:44,560
+Let's run our application.
+
+44
+00:03:44,560 --> 00:03:46,210
+This is question number one.
+
+45
+00:03:46,210 --> 00:03:50,500
+Next what is the result of nine times nine I select 83.
+
+46
+00:03:50,530 --> 00:03:55,150
+Click finish and you are directed to the results activity.
+
+47
+00:03:55,180 --> 00:03:57,550
+Your score is one over two.
+
+48
+00:03:57,580 --> 00:03:59,560
+This is the correct answer.
+
+49
+00:03:59,560 --> 00:04:02,290
+And this is the total questions variable.
+
+50
+00:04:02,290 --> 00:04:06,230
+Back to quiz and you are directed again to the quiz.
+
+51
+00:04:06,250 --> 00:04:07,660
+Congratulations guys.
+
+52
+00:04:07,660 --> 00:04:10,210
+We finished this amazing application.
+
+53
+00:04:10,210 --> 00:04:17,829
+We reviewed the retrofit mVVM architecture and we introduced a new concept which is the MySQL databases
+
+54
+00:04:17,829 --> 00:04:19,720
+and phpMyAdmin.
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon_app"
+        android:label="Sổ thu chi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.Quanli_chitieu_thunhap"
+        tools:targetApi="31">
+        <activity
+            android:name=".Dangki_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_tinh_lai"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_chon_tien"
+            android:exported="false"
+            android:theme="@style/Dialog_chon_tien" />
+        <activity
+            android:name=".Activity_bieudo"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_add"
+            android:exported="false" />
+        <activity
+            android:name=".tablelayout_dialog"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/DialogWithoutTitleTheme" />
+        <activity
+
+            android:name=".Dangnhap_activity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

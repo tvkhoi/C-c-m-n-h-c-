@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bang {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 300px;
+        }
+        .bang td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .bang tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .khoi1 {
+            margin-top: 10px;
+        }
+        .khoi2 {
+            margin-top: 10px;
+        }
+        .khoi3 {
+            margin-top: 10px;
+        }
+        .khoi4 {
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        var stt=1;
+        document.addEventListener("DOMContentLoaded",function(){
+            var themf = document.getElementById("them");
+            themf.addEventListener("click",them);
+        });
+        function them() {
+            var hoten = document.getElementById("hoten");
+            var ngaysinh = document.getElementById("ngaysinh");
+            var gioitinh = document.getElementById("gioitinh");
+            
+            var dong = document.createElement("tr");
+            
+            var mang= [];
+            mang = mang.concat(stt, hoten.value, ngaysinh.value, gioitinh.value);
+            
+
+            for (let index = 0; index < mang.length; index++) {
+                var cell = document.createElement("td");
+                cell.innerText = mang[index];
+                dong.appendChild(cell);
+            }
+           
+            
+            var bang = document.getElementById("bang");
+            bang.append(dong);
+            stt++;
+
+        }
+    </script>
+</head>
+<body>
+    <center>
+        <table class="bang" id="bang">
+            <tr>
+                <td>STT</td>
+                <td>Họ Tên</td>
+                <td> Ngày sinh</td>
+                <td>Giới tính</td>
+            </tr>
+        </table>
+        <div class="khoi1">
+            <input type="text" id="hoten">
+            <label for="html">Họ và tên</label>
+        </div>
+        <div class="khoi2">
+            <input type="date" id="ngaysinh">
+            <label for="html">Ngày sinh</label>
+        </div>
+        <div class="khoi3">
+            <input type="text" id="gioitinh">
+            <label for="html">Giới tính</label>
+        </div>
+        <div class="khoi4">
+            <button id="them" >Thêm</button>
+            <button id="huy">Hủy</button>
+        </div>
+    </center>
+</body>
+</html>

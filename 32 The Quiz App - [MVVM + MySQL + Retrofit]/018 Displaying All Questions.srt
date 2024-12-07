@@ -1,0 +1,368 @@
+1
+00:00:00,080 --> 00:00:00,860
+Welcome back.
+
+2
+00:00:00,860 --> 00:00:03,830
+We succeeded in getting and displaying the first question.
+
+3
+00:00:03,830 --> 00:00:09,880
+Now we need to display the other questions and the next questions when the user clicks on the next button.
+
+4
+00:00:09,890 --> 00:00:11,980
+By the way, where is the next button?
+
+5
+00:00:11,990 --> 00:00:13,730
+This is a layout issue.
+
+6
+00:00:13,760 --> 00:00:19,580
+I need to configure this text view and make the layout margin to 100.
+
+7
+00:00:19,610 --> 00:00:23,390
+Run it again and you can see the next button appears.
+
+8
+00:00:23,390 --> 00:00:26,730
+I need to add some margins here to that.
+
+9
+00:00:26,750 --> 00:00:28,670
+The to this text view.
+
+10
+00:00:28,670 --> 00:00:36,350
+And I'll add eight margin left and margin right eight run.
+
+11
+00:00:36,350 --> 00:00:37,340
+And here we go.
+
+12
+00:00:37,340 --> 00:00:43,340
+Now let's move to the main activity and create a new method called display.
+
+13
+00:00:43,340 --> 00:00:51,200
+All or next questions here I need to trigger this function when the user clicks on the next button.
+
+14
+00:00:51,200 --> 00:01:00,020
+So binding dot next button next dot set on click listener new view on click listener use display next
+
+15
+00:01:00,020 --> 00:01:01,940
+question inside this display.
+
+16
+00:01:01,940 --> 00:01:09,200
+Next question here I'll direct check the user if he finishes the questions and the quiz.
+
+17
+00:01:09,200 --> 00:01:14,570
+So I'm going to direct him to the results activity I'll configure this later on.
+
+18
+00:01:14,570 --> 00:01:19,160
+Now let's focus on displaying the question and getting the correct option.
+
+19
+00:01:19,160 --> 00:01:25,280
+I need to use a selected option integer value to check the selected option.
+
+20
+00:01:25,280 --> 00:01:28,610
+If it is not equal to minus one and it's not null.
+
+21
+00:01:28,640 --> 00:01:29,030
+Okay.
+
+22
+00:01:29,060 --> 00:01:38,990
+Binding dot radio group dot get checked radio button ID here I'm getting from the four radio buttons
+
+23
+00:01:38,990 --> 00:01:41,480
+the ID of the selected option.
+
+24
+00:01:41,480 --> 00:01:50,060
+I'm checking if this selected option doesn't equal minus one, so the user makes a selection radio button.
+
+25
+00:01:50,060 --> 00:01:57,560
+Radio button equals to find the view by ID, because I'm going to use this to detect the selected option
+
+26
+00:01:57,560 --> 00:02:00,080
+I'm casting it to this selected option.
+
+27
+00:02:00,080 --> 00:02:06,320
+Now if there is a next question then we need to do an if condition.
+
+28
+00:02:06,320 --> 00:02:16,220
+So if question list dot size minus I which is the the current question greater than zero.
+
+29
+00:02:16,250 --> 00:02:17,540
+What we need to do.
+
+30
+00:02:17,570 --> 00:02:24,380
+We need to get the total number of questions and check if the chosen option is correct.
+
+31
+00:02:24,380 --> 00:02:27,740
+Here I need to start with the getting number of questions.
+
+32
+00:02:27,740 --> 00:02:32,030
+So total questions equal to questions list dot size method.
+
+33
+00:02:32,030 --> 00:02:33,230
+This is very simple.
+
+34
+00:02:33,230 --> 00:02:37,550
+I use an array list question list and getting the size of it.
+
+35
+00:02:37,550 --> 00:02:41,750
+Then I'm getting to check if the chosen option is correct.
+
+36
+00:02:41,750 --> 00:02:47,960
+If radio button dot get text dot to string equals to.
+
+37
+00:02:47,990 --> 00:02:56,630
+Here I'm checking questions list dot get at index I dot get correct option if it is correct.
+
+38
+00:02:56,630 --> 00:03:06,500
+If the user chooses the correct option, I need to increase the result variable by one and set the text
+
+39
+00:03:06,500 --> 00:03:16,520
+this text to correct to correct answer binding dot text question or text result dot set text to correct
+
+40
+00:03:16,520 --> 00:03:25,190
+answer and the correct answers okay, this is if the chosen option is correct, so the user selects
+
+41
+00:03:25,190 --> 00:03:26,690
+the correct answer.
+
+42
+00:03:26,690 --> 00:03:32,090
+If I equals to zero, then I plus plus.
+
+43
+00:03:32,120 --> 00:03:35,480
+If it is the first question, increase I by one.
+
+44
+00:03:35,480 --> 00:03:39,290
+Now I need to display the next question.
+
+45
+00:03:39,290 --> 00:03:50,720
+So binding dot text question dot set text to question number I get the number by I plus one.
+
+46
+00:03:50,720 --> 00:03:57,920
+And here I need to use the question list dot get I not zero.
+
+47
+00:03:57,920 --> 00:04:05,150
+If we go back to the display first question we did it by getting the first index which is zero.
+
+48
+00:04:05,150 --> 00:04:07,130
+Here I'm getting the index I.
+
+49
+00:04:07,160 --> 00:04:12,350
+So I refers to the question index dot get question.
+
+50
+00:04:12,350 --> 00:04:18,350
+Then I need to update the radio buttons, the four radio buttons and display the four options.
+
+51
+00:04:18,350 --> 00:04:30,200
+So radio one dot set text to questions list dot get I dot get option one and also similar to the next
+
+52
+00:04:30,200 --> 00:04:31,050
+options.
+
+53
+00:04:34,990 --> 00:04:38,370
+And I want from you to focus with me and think like me.
+
+54
+00:04:38,380 --> 00:04:46,990
+We need to check if it is the last question, so we need to change that button from next to finish.
+
+55
+00:04:46,990 --> 00:04:55,090
+So if I which refers to the question index question list dot size and comparing it with the size of
+
+56
+00:04:55,090 --> 00:04:57,670
+the array list that contains the questions.
+
+57
+00:04:57,670 --> 00:05:05,740
+So if the index of the question equals to the question list dot size minus one, this is the last question
+
+58
+00:05:05,740 --> 00:05:06,730
+in the array list.
+
+59
+00:05:06,730 --> 00:05:09,700
+I'm going to use binding dot button.
+
+60
+00:05:09,700 --> 00:05:11,290
+Next dot set text.
+
+61
+00:05:11,320 --> 00:05:12,550
+To finish.
+
+62
+00:05:12,550 --> 00:05:17,260
+Here I'm changing the button title from next to finish.
+
+63
+00:05:17,260 --> 00:05:23,170
+Then I'm going to use binding dot radio group dot clear check.
+
+64
+00:05:23,170 --> 00:05:26,380
+Because I'm going to move to another question.
+
+65
+00:05:26,380 --> 00:05:33,250
+I need to clear the selection of the previous one and increase the I index, which is the question index
+
+66
+00:05:33,250 --> 00:05:34,060
+by one.
+
+67
+00:05:34,060 --> 00:05:36,850
+This is in the if close.
+
+68
+00:05:36,850 --> 00:05:40,060
+This is the if selected option is not null.
+
+69
+00:05:40,060 --> 00:05:46,630
+Else we need to check or display a toast message telling the user to make a selection.
+
+70
+00:05:46,630 --> 00:05:53,560
+So if the user didn't select any option and it clicks on the next button, I need to display a toast
+
+71
+00:05:53,560 --> 00:05:57,700
+message telling him that you need to make a selection.
+
+72
+00:05:57,700 --> 00:05:58,360
+Here.
+
+73
+00:05:58,360 --> 00:06:02,590
+I need to check also and use else condition.
+
+74
+00:06:02,590 --> 00:06:05,830
+And here this else is for this.
+
+75
+00:06:05,830 --> 00:06:07,720
+More questions to display.
+
+76
+00:06:07,720 --> 00:06:11,380
+I scroll down and remove this else and paste it here.
+
+77
+00:06:11,380 --> 00:06:24,070
+Then if radio button dot get text dot to string equals to question list dot get I minus one dot get
+
+78
+00:06:24,070 --> 00:06:25,720
+correct option.
+
+79
+00:06:25,720 --> 00:06:35,230
+Then we need to display the text text result dot set text to correct answer and we display the result
+
+80
+00:06:35,230 --> 00:06:35,860
+variable.
+
+81
+00:06:35,860 --> 00:06:39,160
+Also, I need to increase result by one.
+
+82
+00:06:39,160 --> 00:06:42,310
+Let's run and test our next button.
+
+83
+00:06:42,310 --> 00:06:43,990
+This is question number one.
+
+84
+00:06:43,990 --> 00:06:45,790
+Select 30 next.
+
+85
+00:06:45,790 --> 00:06:48,100
+So the correct answer is one.
+
+86
+00:06:48,100 --> 00:06:51,250
+Question number two what is the result of nine times nine.
+
+87
+00:06:51,250 --> 00:06:52,780
+And congratulation.
+
+88
+00:06:52,780 --> 00:06:54,910
+This is the second question.
+
+89
+00:06:54,910 --> 00:06:59,230
+So we are fetching all the questions here.
+
+90
+00:06:59,230 --> 00:07:03,700
+What is the result of nine times nine for example 80 to finish.
+
+91
+00:07:03,700 --> 00:07:08,020
+You can see finish is displayed and not next.
+
+92
+00:07:08,020 --> 00:07:13,780
+In the next videos we're going to direct the user to the results activity.
+

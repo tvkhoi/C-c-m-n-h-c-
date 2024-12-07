@@ -1,0 +1,372 @@
+1
+00:00:00,230 --> 00:00:01,160
+Welcome back.
+
+2
+00:00:01,160 --> 00:00:03,620
+Now let's move to the main activity.
+
+3
+00:00:03,620 --> 00:00:13,040
+And here I'll create activity main binding object called binding and a quiz ViewModel object and a list
+
+4
+00:00:13,040 --> 00:00:14,300
+of question.
+
+5
+00:00:14,300 --> 00:00:16,670
+I name it as question list.
+
+6
+00:00:16,670 --> 00:00:25,100
+Then I'll create a static variables result and total questions in order to store the result in these
+
+7
+00:00:25,100 --> 00:00:35,780
+variables, static and result equals to zero and static in total questions equals to zero and I equals
+
+8
+00:00:35,780 --> 00:00:36,290
+to zero.
+
+9
+00:00:36,320 --> 00:00:38,990
+Let's move to the Oncreate method.
+
+10
+00:00:38,990 --> 00:00:41,060
+Initialize these variables.
+
+11
+00:00:41,060 --> 00:00:44,000
+Here I'm using data binding util.
+
+12
+00:00:48,160 --> 00:00:50,590
+This is the data binding setting.
+
+13
+00:00:50,590 --> 00:00:53,930
+The result equals to zero.
+
+14
+00:00:53,950 --> 00:00:59,290
+Here I am resetting the scores and the total questions equals to zero.
+
+15
+00:00:59,320 --> 00:01:04,209
+Now we need to create an instance of quiz view model.
+
+16
+00:01:04,239 --> 00:01:06,190
+I'll start with the quiz view model.
+
+17
+00:01:06,190 --> 00:01:11,290
+Object equals to new view model provider.
+
+18
+00:01:11,290 --> 00:01:14,710
+And passing this dot get.
+
+19
+00:01:14,740 --> 00:01:16,840
+What is the view model.
+
+20
+00:01:16,840 --> 00:01:18,670
+It's quiz view model.
+
+21
+00:01:18,670 --> 00:01:23,220
+So here I need to specify view model dot class.
+
+22
+00:01:23,230 --> 00:01:29,290
+This is a common way to obtain a view model instance in an activity or fragment.
+
+23
+00:01:29,290 --> 00:01:32,800
+Let's break it down to understand quiz view model.
+
+24
+00:01:32,800 --> 00:01:39,610
+This is the variable that holds the instance of the quiz view model, new view model provider and passing
+
+25
+00:01:39,610 --> 00:01:45,970
+this which is the owner is a class provided by Android View model architecture components.
+
+26
+00:01:45,970 --> 00:01:49,600
+It's used to create and manage view model instances.
+
+27
+00:01:49,600 --> 00:01:56,470
+When you create a view model provider instance, you typically pass activity or fragment as a parameter
+
+28
+00:01:56,470 --> 00:02:01,330
+and this refers to the current activity or fragment.
+
+29
+00:02:01,330 --> 00:02:06,510
+And since we are working with the main activity, so this refers to the main activity.
+
+30
+00:02:06,520 --> 00:02:11,920
+Get retrieves an instance of quiz view model class.
+
+31
+00:02:11,920 --> 00:02:19,630
+The view model provider is responsible for ensuring that you get the same view model instance associated
+
+32
+00:02:19,630 --> 00:02:24,100
+with the same activity or fragment across configuration changes.
+
+33
+00:02:24,100 --> 00:02:24,700
+Example.
+
+34
+00:02:24,700 --> 00:02:25,780
+The screen rotation.
+
+35
+00:02:25,780 --> 00:02:33,250
+The purpose of this code is to create or retrieve a quiz view model instance, which allows you to work
+
+36
+00:02:33,250 --> 00:02:38,770
+with data related to your quiz feature in a lifecycle aware manner.
+
+37
+00:02:38,770 --> 00:02:40,630
+I want from you to focus now.
+
+38
+00:02:40,630 --> 00:02:48,220
+When the app launches, we need to display the first question and then load the other questions.
+
+39
+00:02:48,220 --> 00:02:50,860
+When the user clicks on the next button.
+
+40
+00:02:50,860 --> 00:02:56,800
+So for that, we need to display two things the first question and the next question.
+
+41
+00:02:56,800 --> 00:03:01,720
+So for that I'll create a method here to display the first question.
+
+42
+00:03:01,720 --> 00:03:03,340
+It's called display.
+
+43
+00:03:03,370 --> 00:03:13,000
+First question I'll start by quiz view model dot get question list live data I'm calling this view model
+
+44
+00:03:13,000 --> 00:03:17,170
+and calling this get question list live data method.
+
+45
+00:03:17,170 --> 00:03:20,680
+Because I'm going to observe the first question.
+
+46
+00:03:20,680 --> 00:03:24,850
+In this case I'm observing live data from a view model.
+
+47
+00:03:24,850 --> 00:03:28,780
+And here I'll use dot observe method.
+
+48
+00:03:28,780 --> 00:03:35,530
+I'll pass this as a first parameter, which is the owner and the owner of this activity.
+
+49
+00:03:35,530 --> 00:03:40,240
+And the new observer and I am overriding on changed method.
+
+50
+00:03:40,270 --> 00:03:45,490
+Dot observe method is used to observe a changes in the live data.
+
+51
+00:03:45,520 --> 00:03:46,990
+The first argument.
+
+52
+00:03:46,990 --> 00:03:54,280
+This represents the life cycle owner, typically an activity or fragment, and in this case it's a main
+
+53
+00:03:54,280 --> 00:03:54,970
+activity.
+
+54
+00:03:54,970 --> 00:04:03,730
+The second argument is a new observer that defines what to do when the data inside the live data changes
+
+55
+00:04:03,760 --> 00:04:04,720
+unchanged.
+
+56
+00:04:04,720 --> 00:04:05,530
+Method.
+
+57
+00:04:05,530 --> 00:04:09,040
+This method is part of the observer interface.
+
+58
+00:04:09,040 --> 00:04:15,940
+It's called when the data inside the live data changes in this specific code, it receives a questions
+
+59
+00:04:15,940 --> 00:04:18,190
+list object as an argument.
+
+60
+00:04:18,190 --> 00:04:25,030
+When the data changes, we need to get the new data from this question list variable.
+
+61
+00:04:25,030 --> 00:04:32,950
+So the first thing I need to do is to assign the question list that I created here equals to the questions
+
+62
+00:04:32,950 --> 00:04:35,230
+that it is passed for the updated data.
+
+63
+00:04:35,230 --> 00:04:38,200
+So this is the new updated data.
+
+64
+00:04:38,200 --> 00:04:42,610
+So I need to update the list question list with these new data.
+
+65
+00:04:42,610 --> 00:04:48,160
+Then I'll use data binding to update the relative text view.
+
+66
+00:04:48,160 --> 00:04:50,650
+And the other for radio buttons.
+
+67
+00:04:50,650 --> 00:04:55,390
+So for that I'll use binding dot text question.
+
+68
+00:04:55,390 --> 00:04:59,470
+This is how we access the views inside the binding.
+
+69
+00:04:59,500 --> 00:05:03,580
+The text question refers to this text view.
+
+70
+00:05:03,610 --> 00:05:07,600
+You can see this is the ID dot set text.
+
+71
+00:05:07,600 --> 00:05:14,920
+And here I need to get the question number one which is at index zero.
+
+72
+00:05:14,920 --> 00:05:21,730
+So this is how we get a question from a question list from an array list get question okay.
+
+73
+00:05:21,730 --> 00:05:23,350
+This is the first question.
+
+74
+00:05:23,350 --> 00:05:26,830
+Now we need to set the four options.
+
+75
+00:05:26,830 --> 00:05:38,140
+So in the same way binding dot radio one dot set text to question dot get at index zero dot get option
+
+76
+00:05:38,140 --> 00:05:38,470
+one.
+
+77
+00:05:38,470 --> 00:05:43,150
+And the same way I'll do for the other three radio buttons.
+
+78
+00:05:49,490 --> 00:05:56,510
+Save the project and I'll call this display first question here and run the application.
+
+79
+00:05:56,510 --> 00:05:58,160
+And I have this error.
+
+80
+00:05:58,190 --> 00:06:01,820
+The maximum recommended compile SDK is 33.
+
+81
+00:06:01,820 --> 00:06:06,140
+So I'd go to the manifest here the target API.
+
+82
+00:06:06,170 --> 00:06:14,690
+I change it to 34, go to Build.gradle, change it to 34 and the compile SDK 34.
+
+83
+00:06:14,690 --> 00:06:15,050
+Sync.
+
+84
+00:06:15,050 --> 00:06:18,200
+Now run again and this is our application.
+
+85
+00:06:18,200 --> 00:06:20,750
+It's not fetching the first question.
+
+86
+00:06:20,750 --> 00:06:25,310
+So I need to run exam ensure that it is functioning good.
+
+87
+00:06:25,310 --> 00:06:28,430
+So I need to start Apache MySQL.
+
+88
+00:06:28,430 --> 00:06:32,480
+And then I need to add the internet permission.
+
+89
+00:06:35,380 --> 00:06:40,240
+And I think that we provide the wrong IP address.
+
+90
+00:06:40,240 --> 00:06:44,680
+So let's go back to the questions API or the retrofit instance.
+
+91
+00:06:44,680 --> 00:06:48,070
+Here I need to specify the correct IP address.
+
+92
+00:06:48,100 --> 00:06:55,210
+In the next video we'll learn about the network security rules because we're working with the local
+
+93
+00:06:55,210 --> 00:06:55,900
+host.
+

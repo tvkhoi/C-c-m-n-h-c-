@@ -1,0 +1,240 @@
+1
+00:00:00,080 --> 00:00:04,040
+We added the dependency of Json converter library.
+
+2
+00:00:04,040 --> 00:00:06,120
+But why we need this converter?
+
+3
+00:00:06,140 --> 00:00:09,740
+The Json converter is a component of retrofit.
+
+4
+00:00:09,770 --> 00:00:17,390
+It's responsible for converting Json data from the network response into Kotlin or Java objects, and
+
+5
+00:00:17,390 --> 00:00:19,110
+vice versa in retrofit.
+
+6
+00:00:19,130 --> 00:00:24,740
+You typically configure the Json converter as part of your retrofit instance.
+
+7
+00:00:24,740 --> 00:00:31,370
+So Json converter used to convert Java objects into their Json representation.
+
+8
+00:00:31,370 --> 00:00:38,060
+It can also be used to convert a Json string to an equivalent Java object.
+
+9
+00:00:38,090 --> 00:00:46,010
+Think about Json converters used for serialization and deserialization of Json response.
+
+10
+00:00:46,040 --> 00:00:54,770
+Json provides several built in Serializers and Deserializers as serializer allows to convert a Json
+
+11
+00:00:54,770 --> 00:01:04,129
+string to corresponding Java type, a Deserializer allows to convert from Java to Json representation.
+
+12
+00:01:04,129 --> 00:01:12,230
+We're going to serialize at first, because we need to get the response from the Json into Kotlin or
+
+13
+00:01:12,230 --> 00:01:13,550
+Java objects.
+
+14
+00:01:13,550 --> 00:01:16,220
+Back to our question model class.
+
+15
+00:01:16,220 --> 00:01:21,620
+We use this annotation serialized name and this annotation expose.
+
+16
+00:01:21,620 --> 00:01:26,720
+At first, let me discuss the serialized name and serialized name.
+
+17
+00:01:26,720 --> 00:01:31,430
+Annotation is an annotation provided by the Json library.
+
+18
+00:01:31,430 --> 00:01:38,000
+It's used to map Java or Kotlin objects fields to the key or field names in Json data.
+
+19
+00:01:38,000 --> 00:01:47,420
+When you receive Json data from an API like this response, the keys in the Json may not always match
+
+20
+00:01:47,420 --> 00:01:51,830
+the variable names you want to use in your Java class.
+
+21
+00:01:51,830 --> 00:01:55,730
+So for example, here we have the string question.
+
+22
+00:01:55,730 --> 00:01:59,210
+If I name it as question body.
+
+23
+00:01:59,240 --> 00:02:02,120
+For example, this is the variable question body.
+
+24
+00:02:02,120 --> 00:02:07,220
+This question body is not matching the key question.
+
+25
+00:02:07,220 --> 00:02:16,490
+So at serialized name annotation allows you to specify the mapping between the Json key and the objects
+
+26
+00:02:16,490 --> 00:02:17,030
+field.
+
+27
+00:02:17,030 --> 00:02:25,190
+Here I'm telling this question body is similar to the question key in the API response.
+
+28
+00:02:25,190 --> 00:02:35,510
+My advice to you is to create the same variable name as the keys and as the columns in the database.
+
+29
+00:02:35,510 --> 00:02:41,690
+So here we have the key question option one, option two, option three, option four, and correct
+
+30
+00:02:41,690 --> 00:02:43,670
+underscore option for that.
+
+31
+00:02:43,670 --> 00:02:52,070
+In order to prevent any possible error, just use the same variable names as the key names.
+
+32
+00:02:52,070 --> 00:02:58,010
+Question is similar to question option one is similar to option one and so on.
+
+33
+00:02:58,010 --> 00:03:04,910
+Here I want from you to focus correct underscore option is different from correct option.
+
+34
+00:03:04,910 --> 00:03:09,710
+So add serialized name should be annotation should be added.
+
+35
+00:03:09,710 --> 00:03:14,600
+For example if we look at option four it's similar to option for key here.
+
+36
+00:03:14,600 --> 00:03:19,640
+So option four I can get rid of serialized name annotation.
+
+37
+00:03:19,640 --> 00:03:26,060
+So I can remove serialized name because option four is matching option for key in the Json response,
+
+38
+00:03:26,060 --> 00:03:31,610
+but the correct option is not matching correct option here in the key.
+
+39
+00:03:31,610 --> 00:03:41,000
+So I need to add at serialized name annotation, and I'll specify the correct option inside the serialized
+
+40
+00:03:41,000 --> 00:03:41,840
+name annotation.
+
+41
+00:03:41,840 --> 00:03:43,550
+Here I'm referencing.
+
+42
+00:03:43,550 --> 00:03:50,540
+This correct option is linked and mapping this correct option variable to this key.
+
+43
+00:03:50,540 --> 00:03:52,760
+Correct underscore option key.
+
+44
+00:03:52,790 --> 00:04:00,140
+Again guys, whenever you have similar variables, there is no need to use at serialized name.
+
+45
+00:04:03,190 --> 00:04:11,140
+But for better implementation and to provide any possible error, please keep the serialized name and
+
+46
+00:04:11,140 --> 00:04:11,770
+notation.
+
+47
+00:04:11,770 --> 00:04:15,040
+Now let's move to add, expose and notation.
+
+48
+00:04:15,040 --> 00:04:22,870
+Add, expose and notation is also a Json annotation, but it's used for controlling field serialization
+
+49
+00:04:22,870 --> 00:04:25,990
+and deserialization behavior by default.
+
+50
+00:04:25,990 --> 00:04:33,340
+Jason, Serializes and Deserializes all fields of a class, but if you want to exclude specific fields
+
+51
+00:04:33,340 --> 00:04:39,070
+from serialization or deserialization, you can use Add expose annotation.
+
+52
+00:04:39,070 --> 00:04:44,440
+To use Add expose annotation, you need to configure your Json instance to honor it, and you do it
+
+53
+00:04:44,440 --> 00:04:51,460
+by creating a Json instance with a Json builder and configuring it to exclude fields annotated with
+
+54
+00:04:51,460 --> 00:04:52,060
+expose.
+
+55
+00:04:52,060 --> 00:05:00,070
+So I can use dot exclude fields without expose annotation method in the Json builder, but I'll not
+
+56
+00:05:00,070 --> 00:05:06,580
+use it in this application just to inform you and to tell you about the add serialized name annotation
+
+57
+00:05:06,580 --> 00:05:12,940
+and add Expose annotation so you can exclude them from deserialization or serialization.
+
+58
+00:05:12,940 --> 00:05:16,450
+We learned about this Json converter.
+
+59
+00:05:16,450 --> 00:05:19,600
+We learned about expose annotation and serialized name.
+
+60
+00:05:19,600 --> 00:05:24,040
+Now let's move to create other retrofit parts.
+

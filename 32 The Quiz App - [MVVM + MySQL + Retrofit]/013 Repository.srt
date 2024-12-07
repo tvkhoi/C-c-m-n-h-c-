@@ -1,0 +1,320 @@
+1
+00:00:00,140 --> 00:00:01,010
+Welcome back.
+
+2
+00:00:01,010 --> 00:00:03,650
+We've done with the remote data source part.
+
+3
+00:00:03,680 --> 00:00:05,850
+Now let's move to the repository.
+
+4
+00:00:05,870 --> 00:00:10,490
+I'll create a new package named as repository.
+
+5
+00:00:10,490 --> 00:00:14,300
+And inside this package I'll create a new Java class.
+
+6
+00:00:14,300 --> 00:00:17,750
+I name it as Quiz Repository.
+
+7
+00:00:17,750 --> 00:00:25,850
+And the repository is responsible for interacting with API service interfaces and handling data retrieval
+
+8
+00:00:25,850 --> 00:00:27,290
+and operations.
+
+9
+00:00:27,290 --> 00:00:35,150
+Please go back to the previous sections, the mVVM plus retrofit in order to learn deeply about these
+
+10
+00:00:35,150 --> 00:00:35,930
+repositories.
+
+11
+00:00:35,930 --> 00:00:38,460
+But don't worry, I'll cover everything.
+
+12
+00:00:38,480 --> 00:00:46,550
+I'll start by creating Private Questions API and I name it as question API.
+
+13
+00:00:46,580 --> 00:00:53,030
+This is an instance that will be used to interact with the API service methods.
+
+14
+00:00:53,030 --> 00:01:02,240
+Then I create a constructor having this API and I'll remove this API because I need to define a new
+
+15
+00:01:02,240 --> 00:01:07,340
+one here equals to new retrofit instance.
+
+16
+00:01:07,340 --> 00:01:15,500
+This is the class that I created before dot get instance dot create.
+
+17
+00:01:15,500 --> 00:01:22,220
+So I'll use create method here and I'll pass questions API dot class.
+
+18
+00:01:22,220 --> 00:01:24,400
+What does this code mean.
+
+19
+00:01:24,410 --> 00:01:26,420
+New retrofit instance.
+
+20
+00:01:26,420 --> 00:01:33,470
+This creates an instance of your retrofit instance class that we created before, which is responsible
+
+21
+00:01:33,470 --> 00:01:39,470
+for providing a retrofit instance with a predefined base URL and Json converter.
+
+22
+00:01:39,470 --> 00:01:42,260
+Factory dot retrofit instance.
+
+23
+00:01:42,260 --> 00:01:50,360
+This method call gets the retrofit instance configured by your retrofit instance class and dot create
+
+24
+00:01:50,360 --> 00:01:51,200
+method.
+
+25
+00:01:51,200 --> 00:01:59,000
+This method creates an implementation of the API's interface and in this case it's a questions API.
+
+26
+00:01:59,030 --> 00:02:05,690
+The question API interface likely contains methods for making network requests to retrieve questions
+
+27
+00:02:05,690 --> 00:02:11,810
+from a web service, and this is what we've done before to get the questions from the API.
+
+28
+00:02:11,840 --> 00:02:16,490
+Another method to create is of type LiveData.
+
+29
+00:02:16,520 --> 00:02:20,030
+Did you remember our friend LiveData?
+
+30
+00:02:20,060 --> 00:02:21,380
+Our old friend?
+
+31
+00:02:21,380 --> 00:02:29,570
+So LiveData of type question list get questions from API.
+
+32
+00:02:29,570 --> 00:02:39,080
+In the repository we define the methods similar to the interfaces in retrofit and in room database.
+
+33
+00:02:39,080 --> 00:02:44,120
+And we talked about the repository in details in the previous section.
+
+34
+00:02:44,120 --> 00:02:49,070
+So please go back to the Retrofit Plus mVVM section.
+
+35
+00:02:49,070 --> 00:02:58,580
+Now I need to start with defining a mutable LiveData of type questions list, and I name it as data
+
+36
+00:02:58,580 --> 00:03:00,980
+equals to new mutable live data.
+
+37
+00:03:00,980 --> 00:03:08,120
+And the mutable live data is a class provided by the Android architecture components, and is commonly
+
+38
+00:03:08,120 --> 00:03:11,030
+used to hold and observe data changes.
+
+39
+00:03:11,030 --> 00:03:17,810
+Also, I advise you to go back to the live data lessons in order to learn more about this type of data.
+
+40
+00:03:17,810 --> 00:03:19,100
+But think about it.
+
+41
+00:03:19,100 --> 00:03:23,720
+Just a data structure used to hold and observe data changes.
+
+42
+00:03:23,720 --> 00:03:32,150
+And inside this get questions from API, I need to use call of type questions list and I'll name it
+
+43
+00:03:32,150 --> 00:03:39,200
+as response equals to questions API dot get questions.
+
+44
+00:03:39,200 --> 00:03:46,340
+And you can see I'm calling this method that returns a call of type question list Alt+.
+
+45
+00:03:46,340 --> 00:03:49,730
+Enter to import the class from the retrofit package.
+
+46
+00:03:49,730 --> 00:03:52,130
+Now I want from you to focus with me.
+
+47
+00:03:52,130 --> 00:03:57,890
+I'll use this response in order to get the list of questions.
+
+48
+00:03:57,890 --> 00:04:01,160
+Response dot enqueue or execute.
+
+49
+00:04:01,160 --> 00:04:07,100
+Which method these two methods are used to execute network requests.
+
+50
+00:04:07,130 --> 00:04:13,880
+Execute is a synchronous method used to make network requests in retrofit.
+
+51
+00:04:13,910 --> 00:04:21,980
+When you use execute, the network request is executed on the current thread, which is often the main
+
+52
+00:04:21,980 --> 00:04:23,060
+UI thread.
+
+53
+00:04:23,090 --> 00:04:29,840
+This means that the request blocks the current thread until it's completed.
+
+54
+00:04:29,870 --> 00:04:36,710
+It should be used with caution in Android, because running network requests synchronously on the main
+
+55
+00:04:36,710 --> 00:04:43,790
+thread can lead to application not responding, and are errors causing the user interface to freeze
+
+56
+00:04:43,790 --> 00:04:45,110
+during the request.
+
+57
+00:04:45,140 --> 00:04:52,820
+There is no need for a callback when using execute method, because the method returns a response object
+
+58
+00:04:52,820 --> 00:04:56,630
+directly, and you can see it here the enqueue method.
+
+59
+00:04:56,630 --> 00:04:59,840
+And this is what we're going to use and I.
+
+60
+00:04:59,970 --> 00:05:01,140
+Prefer using ink.
+
+61
+00:05:01,260 --> 00:05:08,760
+Ink is an asynchronous method used to make network requests in retrofit.
+
+62
+00:05:08,790 --> 00:05:10,080
+When you use ink.
+
+63
+00:05:10,110 --> 00:05:18,210
+Method, the network request is executed on the background thread and retrofit handles the request and
+
+64
+00:05:18,210 --> 00:05:20,070
+response asynchronously.
+
+65
+00:05:20,100 --> 00:05:28,920
+It's designed to be used in scenarios where you don't want to block the main UI thread while making
+
+66
+00:05:28,920 --> 00:05:37,860
+a network request, because blocking the main thread can lead to unresponsive and frozen user interfaces.
+
+67
+00:05:37,890 --> 00:05:45,480
+You provide a callback as an argument to an ink, so for that I'll use a new callback.
+
+68
+00:05:45,480 --> 00:05:46,890
+Questions list.
+
+69
+00:05:46,920 --> 00:05:54,840
+Also, I can use lambda, but here we are overriding two methods on response and on failure.
+
+70
+00:05:54,840 --> 00:06:04,470
+So this callback contains method like on response and on failure methods that will be invoked when the
+
+71
+00:06:04,470 --> 00:06:09,330
+request is successful or encounters an error, respectively.
+
+72
+00:06:09,360 --> 00:06:12,870
+I'll start with a questions list.
+
+73
+00:06:12,870 --> 00:06:18,450
+Question list equals to response dot body.
+
+74
+00:06:18,450 --> 00:06:25,230
+And here I need to add data dot set value to the list.
+
+75
+00:06:25,260 --> 00:06:31,890
+Here I am saving the data to the list because data is a mutable live data.
+
+76
+00:06:31,920 --> 00:06:40,380
+Okay, so I'm getting this response body, getting this list and storing inside this data this immutable
+
+77
+00:06:40,380 --> 00:06:45,420
+live data of type question list, getting all the list of questions.
+
+78
+00:06:45,420 --> 00:06:49,740
+Then the last step is to return this data.
+
+79
+00:06:49,770 --> 00:06:51,600
+This is our repository.
+
+80
+00:06:51,630 --> 00:06:56,250
+Now let's move to the ViewModel layer.
+

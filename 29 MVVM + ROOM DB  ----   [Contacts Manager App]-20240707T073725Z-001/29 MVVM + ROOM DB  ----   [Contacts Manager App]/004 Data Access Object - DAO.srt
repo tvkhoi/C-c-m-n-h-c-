@@ -1,0 +1,148 @@
+1
+00:00:00,080 --> 00:00:05,120
+The second step in creating our database is to create the Dao.
+
+2
+00:00:05,150 --> 00:00:12,680
+Dao stands for Data Access Object, and it's a critical component of the room database library in Android.
+
+3
+00:00:12,890 --> 00:00:21,440
+The IO is an interface that defines a set of methods for performing database operations on entities
+
+4
+00:00:21,440 --> 00:00:22,580
+database tables.
+
+5
+00:00:22,610 --> 00:00:26,990
+A Dao is an interface annotated with at Dao annotation.
+
+6
+00:00:26,990 --> 00:00:30,380
+So let's go to Android studio and build this Dao.
+
+7
+00:00:30,530 --> 00:00:39,500
+I'll create a new Java class select interface and I'll name it as contact Dao and I'll annotate it with
+
+8
+00:00:39,500 --> 00:00:40,220
+the a o.
+
+9
+00:00:40,240 --> 00:00:44,870
+A Dao is an interface annotated with Dao annotation.
+
+10
+00:00:44,870 --> 00:00:53,150
+It specifies a contract for interacting with the database, including methods for inserting, updating,
+
+11
+00:00:53,150 --> 00:00:54,890
+deleting or querying data.
+
+12
+00:00:54,920 --> 00:01:04,379
+I'll start by creating the first method void insert and I need to insert a contact object of type contacts.
+
+13
+00:01:04,379 --> 00:01:08,550
+So I need to pass contacts and I name it as contact.
+
+14
+00:01:08,550 --> 00:01:16,620
+This method is responsible for inserting data into a database table and I'll annotate it with insert
+
+15
+00:01:16,620 --> 00:01:20,790
+annotation and this annotation marks a method.
+
+16
+00:01:20,790 --> 00:01:25,440
+As an insert operation, I can create other annotations.
+
+17
+00:01:25,470 --> 00:01:27,290
+Update, delete and query.
+
+18
+00:01:27,300 --> 00:01:34,170
+I'll create another method called delete and I need to delete a specific contact.
+
+19
+00:01:34,170 --> 00:01:42,210
+So for that I need to specify the contact object and I'll mark it as delete with the delete annotation
+
+20
+00:01:42,210 --> 00:01:51,750
+to mark a method as a delete operation, you can define custom SQL queries within the Dao methods using
+
+21
+00:01:51,750 --> 00:01:53,970
+the Add query annotation.
+
+22
+00:01:53,970 --> 00:02:01,590
+So add query annotation and here you need to specify the SQL query.
+
+23
+00:02:01,590 --> 00:02:10,620
+This allows you to execute complex database operations while still benefiting from rooms type safety
+
+24
+00:02:10,620 --> 00:02:17,610
+and the query annotation allows you to define custom SQL queries and map the results to Java or Kotlin
+
+25
+00:02:17,640 --> 00:02:18,210
+objects.
+
+26
+00:02:18,210 --> 00:02:25,500
+So for that I need to create a method called Get all contacts.
+
+27
+00:02:25,500 --> 00:02:31,860
+And this method returning type should be a list of contact objects.
+
+28
+00:02:31,860 --> 00:02:39,930
+So list of contact objects that we have created before alt plus enter to import the class of the list
+
+29
+00:02:39,930 --> 00:02:49,650
+from Java util and here I need to specify the SQL query in this annotation I need to use select which
+
+30
+00:02:49,650 --> 00:02:57,660
+is an SQL query all from and I need to specify the name of the table.
+
+31
+00:02:57,660 --> 00:03:04,530
+If I go to the contacts here, the table name is contacts table, I'll copy it because it's a case sensitive
+
+32
+00:03:04,530 --> 00:03:05,700
+and paste it here.
+
+33
+00:03:05,700 --> 00:03:11,370
+So select all, get all contacts from the contacts table.
+
+34
+00:03:11,370 --> 00:03:20,010
+This is how we create custom queries, how to delete and and insert new contacts into our database using
+
+35
+00:03:20,010 --> 00:03:28,410
+the contact Dao By using the OS in room, you can interact with your database in a structured and efficient
+
+36
+00:03:28,410 --> 00:03:36,930
+manner while also benefiting from room's features like type, safety thread, safety and automatic query
+
+37
+00:03:36,960 --> 00:03:37,980
+generation.
+

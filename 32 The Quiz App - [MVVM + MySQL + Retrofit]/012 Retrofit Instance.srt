@@ -1,0 +1,148 @@
+1
+00:00:00,200 --> 00:00:00,680
+Till now.
+
+2
+00:00:00,680 --> 00:00:04,840
+We created the data classes and the API service interface.
+
+3
+00:00:04,850 --> 00:00:09,170
+Now let's move to the last part of retrofit, which is the retrofit instance.
+
+4
+00:00:09,170 --> 00:00:12,730
+Inside the retrofit package I'll create a new Java class.
+
+5
+00:00:12,740 --> 00:00:15,830
+I'll name it as retrofit instance.
+
+6
+00:00:18,760 --> 00:00:25,730
+And this class intended to create a retrofit instance with a specific base URL and Json converter factory.
+
+7
+00:00:25,750 --> 00:00:31,330
+It's a common practice to create a separate class like this, to encapsulate the configuration and creation
+
+8
+00:00:31,330 --> 00:00:34,240
+of retrofit instances in Android applications.
+
+9
+00:00:34,270 --> 00:00:44,950
+I'll start by creating the string your base URL equals to http, and here I need to specify the IP here
+
+10
+00:00:44,950 --> 00:00:47,290
+in our application the API.
+
+11
+00:00:47,320 --> 00:00:54,490
+If I look closer, we can see it's 127.0.00.1 slash quiz.
+
+12
+00:00:54,520 --> 00:01:00,070
+This is the base URL and this is the end .127.0.0.1.
+
+13
+00:01:00,070 --> 00:01:02,650
+It's similar to the local host.
+
+14
+00:01:02,650 --> 00:01:04,099
+This is the local host.
+
+15
+00:01:04,120 --> 00:01:11,190
+Later on I'll keep this 127.0.00.1 slash quiz.
+
+16
+00:01:11,200 --> 00:01:15,580
+Please pay attention to the link because it's case sensitive.
+
+17
+00:01:15,580 --> 00:01:23,500
+I need to create a method that it is used to create and return a configured retrofit instance.
+
+18
+00:01:23,500 --> 00:01:25,480
+I'll start with public.
+
+19
+00:01:25,510 --> 00:01:32,800
+It's returning type is a retrofit and it's named as get retrofit instance.
+
+20
+00:01:32,800 --> 00:01:41,500
+Inside this method you use retrofit dot builder method to construct a new retrofit instance.
+
+21
+00:01:41,500 --> 00:01:46,540
+So I'll return because I'm going to create and return.
+
+22
+00:01:46,540 --> 00:01:53,470
+So return new I'm creating a new retrofit dot builder.
+
+23
+00:01:53,470 --> 00:02:00,970
+I'm constructing a new retrofit instance dot base URL here.
+
+24
+00:02:01,000 --> 00:02:06,070
+This method sets the base URL for the retrofit instance.
+
+25
+00:02:06,070 --> 00:02:14,350
+All relative URLs in your API service interface will be resolved relative to this base URL, and the
+
+26
+00:02:14,350 --> 00:02:20,080
+base URL in our application is 127.0.0.1.
+
+27
+00:02:20,080 --> 00:02:23,560
+Slash quiz or localhost slash quiz.
+
+28
+00:02:23,590 --> 00:02:29,380
+This is our base URL dot add converter factory.
+
+29
+00:02:29,380 --> 00:02:33,820
+I'll use json converter factory dot create.
+
+30
+00:02:33,820 --> 00:02:38,140
+Here I am configuring the Json converter factory.
+
+31
+00:02:38,140 --> 00:02:46,680
+It tells retrofit to use the Json library to handle the serialization and deserialization of Json data.
+
+32
+00:02:46,690 --> 00:02:54,520
+Json is a popular library for working with Json in Java Android, and it's widely used with retrofit
+
+33
+00:02:54,550 --> 00:02:56,800
+to parse Json responses.
+
+34
+00:02:56,800 --> 00:03:02,620
+Then I need to finish this instance by calling the build method.
+
+35
+00:03:02,620 --> 00:03:08,140
+This method call finalizes the creation of the retrofit instance.
+
+36
+00:03:08,140 --> 00:03:12,640
+So this is how we create an instance of the retrofit.
+
+37
+00:03:12,640 --> 00:03:18,800
+And we're going to use this method to get a retrofit instance in the next videos.
+

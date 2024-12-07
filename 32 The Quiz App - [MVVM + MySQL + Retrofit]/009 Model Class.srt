@@ -1,0 +1,244 @@
+1
+00:00:00,110 --> 00:00:00,950
+Welcome back.
+
+2
+00:00:00,950 --> 00:00:03,540
+Let's start creating our modal classes.
+
+3
+00:00:03,560 --> 00:00:08,760
+Open Android Studio and create a new project named as the Quiz App.
+
+4
+00:00:08,780 --> 00:00:14,180
+Then inside this package I'll create a new package named as modal.
+
+5
+00:00:14,180 --> 00:00:19,400
+And inside this modal I'll create the modal classes for our application.
+
+6
+00:00:19,400 --> 00:00:27,560
+I'll close all of these classes and in order to create the modal classes, you should refer to the Json
+
+7
+00:00:27,560 --> 00:00:28,730
+response here.
+
+8
+00:00:28,730 --> 00:00:31,400
+If we look closer we have an array.
+
+9
+00:00:31,400 --> 00:00:39,920
+And these objects the first object separated by comma and the second object.
+
+10
+00:00:39,920 --> 00:00:45,350
+I'll copy this whole response and I'll use an online tool called Json to Pojo.
+
+11
+00:00:47,870 --> 00:00:52,650
+Then I need to choose the package name here.
+
+12
+00:00:52,670 --> 00:00:55,490
+The package is Campmaster coding.
+
+13
+00:00:55,490 --> 00:01:00,050
+Dot the quiz app and paste it here and the class name.
+
+14
+00:01:00,050 --> 00:01:03,170
+I'll name it as question, then select Json.
+
+15
+00:01:03,170 --> 00:01:07,640
+Select Json because I'm going to use this Json converter.
+
+16
+00:01:07,640 --> 00:01:10,850
+And here I'll click on preview.
+
+17
+00:01:10,850 --> 00:01:12,950
+And this is our class.
+
+18
+00:01:12,950 --> 00:01:13,940
+Copy it.
+
+19
+00:01:16,350 --> 00:01:19,500
+And I'm going to create a new Java class.
+
+20
+00:01:19,530 --> 00:01:25,060
+I'll name it as question and I'll paste the whole response.
+
+21
+00:01:25,080 --> 00:01:27,420
+I'll copy this copy to clipboard.
+
+22
+00:01:27,420 --> 00:01:29,110
+Then I'll paste this.
+
+23
+00:01:29,130 --> 00:01:29,670
+Okay.
+
+24
+00:01:29,670 --> 00:01:31,260
+Remove this.
+
+25
+00:01:31,260 --> 00:01:34,500
+And we need to add the dependency.
+
+26
+00:01:34,500 --> 00:01:37,620
+So let's go to the Gradle build.gradle.
+
+27
+00:01:38,490 --> 00:01:44,490
+And let's add the dependencies for retrofit and the libraries that we'll use in this application.
+
+28
+00:01:44,490 --> 00:01:53,490
+Since I'm going to use mVVM architecture I need to add the lifecycle ViewModel and LiveData dependencies.
+
+29
+00:01:53,490 --> 00:02:02,100
+So for that go to Developer.android.com slash jetpack slash Android slash releases slash lifecycle.
+
+30
+00:02:02,100 --> 00:02:05,040
+Then you scroll down to get the dependencies.
+
+31
+00:02:05,040 --> 00:02:09,810
+Select Kotlin and here I'll copy this lifecycle version.
+
+32
+00:02:09,810 --> 00:02:13,350
+Paste it here and I need to use the ViewModel.
+
+33
+00:02:13,350 --> 00:02:14,670
+This is the ViewModel.
+
+34
+00:02:14,670 --> 00:02:17,700
+And I need to use the live data.
+
+35
+00:02:17,700 --> 00:02:19,560
+So copy live data.
+
+36
+00:02:25,150 --> 00:02:30,660
+And if you notice there is x, you can remove it because this is for Kotlin.
+
+37
+00:02:30,670 --> 00:02:34,660
+Later on when we move to the Kotlin section, we'll use the dash.
+
+38
+00:02:35,320 --> 00:02:45,160
+Or you can simply scroll down to select Java here the Java codes and select the view model and the live
+
+39
+00:02:45,160 --> 00:02:45,640
+data.
+
+40
+00:02:45,640 --> 00:02:49,300
+So I'll copy them and val lifecycle okay.
+
+41
+00:02:49,300 --> 00:02:51,880
+This is for Java because we're working with Java.
+
+42
+00:02:51,910 --> 00:02:55,870
+The second library that we're going to use is the retrofit.
+
+43
+00:02:55,870 --> 00:02:56,890
+This is our friend.
+
+44
+00:02:56,890 --> 00:03:03,040
+So go to square dot Github.io slash retrofit and click on download.
+
+45
+00:03:03,040 --> 00:03:06,520
+And here I need to get this dependency copy.
+
+46
+00:03:06,520 --> 00:03:09,490
+And here I'll use retrofit.
+
+47
+00:03:09,520 --> 00:03:12,400
+Then I need to get the latest version.
+
+48
+00:03:12,400 --> 00:03:20,230
+To get it I'll go to view GitHub project and select down to 92.9.0.
+
+49
+00:03:20,230 --> 00:03:21,850
+Here I'll put it like this.
+
+50
+00:03:21,850 --> 00:03:28,330
+And don't miss to add and change this dependency into this syntax.
+
+51
+00:03:28,330 --> 00:03:29,920
+I need a converter.
+
+52
+00:03:29,920 --> 00:03:32,650
+So back to our retrofit.
+
+53
+00:03:32,650 --> 00:03:41,980
+I'll go up and I'll use Json copy it implementation retrofit converter Json and 2.9.0.
+
+54
+00:03:42,010 --> 00:03:49,630
+Make sure that you get the same version for the converter and the retrofit 2.9.0 sink.
+
+55
+00:03:49,630 --> 00:03:53,560
+Now later on we'll talk about these retrofit converters.
+
+56
+00:03:53,560 --> 00:03:57,820
+Close it and you can see the problems are solved.
+
+57
+00:03:57,820 --> 00:04:04,810
+We created question option one, option two, option three, option four and correct option variables.
+
+58
+00:04:04,810 --> 00:04:15,010
+These six strings represent our modal class, our data that is fetched from the database into our application.
+
+59
+00:04:15,010 --> 00:04:18,130
+I'll remove this and annotation here.
+
+60
+00:04:18,130 --> 00:04:24,700
+I'll add dot modal class okay in order to solve because I'm going to place it or I place it.
+
+61
+00:04:24,700 --> 00:04:26,860
+The question inside the modal.
+

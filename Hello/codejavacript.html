@@ -1,0 +1,60 @@
+<!--Hãy tạo form để nhập
+    - chiều cao, cân nặng vào các TextBox, (document.gêtlementByID)
+    - Tính BMI và thông báo trạng thái dựa theo giá trị của BMI-->
+<!--Bài 2 xây dựng form để nhập
+    - Một danh sách các số nguyên được ngăn cách với nhau bằng dấu ';'
+    - gới ý sử dụng làm split
+    - đọc và chuyển toàn bộ các số nguyên sang mảng số nguyên-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .khung1 input {
+           width: 300px;
+           height: 40px;
+        }
+        .khung2 {
+           margin-top: 20px;
+        }
+        .khung2 input {
+           width: 300px;
+           height: 40px;
+        }
+        .form {
+           
+        }
+        .button {
+            margin-top: 30px;
+            margin-right: 10%;
+        }
+    </style>
+    <script>
+            var can_nang=1;
+            var chieu_cao=2;
+            
+            
+            function xuLy(can_nang,chieu_cao) {
+                document.getElementById("can_nang").va
+                var congthuc = (can_nang/((2*chieu_cao)*(2*chieu_cao)/100));
+                    if(congthuc>=0) {
+                        document.getElementById("ketqua").innerHTML = "Kết quả: "+ "gầy";
+                    }
+            }
+    </script>
+</head>
+<body>
+    <center>
+        <div class="form">
+            <h1>Tính BMI</h1>
+            <div class="khung1"><input id="can_nang" type="text" value="Cân nặng: "></div>
+            <div class="khung2"><input id="chieu_cao" type="text" value="Chiều cao: "></div>
+            <input class="button" type="button" onclick="xuLy(can_nang,chieu_cao)" value="Tính">
+            <label id="ketqua">Kết quả: </label>
+        </div>
+    </center>
+</body>
+</html>

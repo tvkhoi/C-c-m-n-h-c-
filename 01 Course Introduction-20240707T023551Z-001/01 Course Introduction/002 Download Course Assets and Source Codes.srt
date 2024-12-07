@@ -1,0 +1,91 @@
+1
+00:00:00,020 --> 00:00:00,740
+Chào mừng trở lại.
+
+2
+00:00:00,740 --> 00:00:07,010
+Trong video này, tôi sẽ hướng dẫn bạn cách tải xuống nội dung và mã nguồn cho mọi ứng dụng bạn sẽ xây dựng
+
+3
+00:00:07,010 --> 00:00:08,180
+trong khóa học này.
+
+4
+00:00:08,180 --> 00:00:14,570
+Trong mỗi phần, chúng tôi bao gồm một thư mục tài nguyên để bạn có thể truy cập, chẳng hạn như phần 29 và
+
+5
+00:00:14,570 --> 00:00:15,800
+ứng dụng Trình quản lý bối cảnh.
+
+6
+00:00:15,800 --> 00:00:17,630
+Bạn có thể thấy thư mục tài nguyên.
+
+7
+00:00:17,630 --> 00:00:18,380
+Nhấn vào nó.
+
+số 8
+00:00:18,380 --> 00:00:21,260
+Nhấp vào thư mục zip ứng dụng Trình quản lý bối cảnh này.
+
+9
+00:00:21,260 --> 00:00:24,590
+Lưu nó và bạn có thể thấy mã nguồn được tải xuống.
+
+10
+00:00:24,590 --> 00:00:30,830
+Ngoài ra, nếu bạn cuộn xuống các thông báo, bạn có thể thấy thông báo mới nhất mà tôi tiết lộ cho
+
+11
+00:00:30,890 --> 00:00:33,560
+và những cập nhật mà chúng tôi đã thực hiện cho khóa học này.
+
+12
+00:00:33,560 --> 00:00:38,630
+Ngoài ra, bạn có thể thêm câu hỏi ở đây về bài giảng hoặc hướng dẫn này.
+
+13
+00:00:38,660 --> 00:00:45,350
+Hơn nữa, bạn có thể tải xuống các bài thuyết trình này từ thư mục tài nguyên trong bài giảng này.
+
+14
+00:00:45,350 --> 00:00:47,360
+Vì vậy hãy đến phần Giới thiệu khóa học.
+
+15
+00:00:47,360 --> 00:00:52,730
+Chọn thư mục tài nguyên và tải xuống tệp PDF chấm Android Notes.
+
+16
+00:00:52,730 --> 00:01:00,200
+Tất cả các ghi chú đều có trong tập tin này, vì vậy tôi khuyên bạn nên tải chúng xuống vì có rất nhiều
+
+17
+00:01:00,200 --> 00:01:06,920
+thông tin, rất nhiều ghi chú giúp bạn ghi nhớ code Android ngày càng nhanh hơn.
+
+18
+00:01:06,920 --> 00:01:12,620
+Được rồi, vì vậy tôi khuyên bạn nên tải xuống tất cả những nội dung này trước khi bắt đầu khóa học này.
+
+19
+00:01:12,620 --> 00:01:15,560
+Bạn được mời tham gia nhóm telegram của tôi.
+
+20
+00:01:15,560 --> 00:01:20,870
+Bạn có thể nhận được các thông báo và thông báo mới nhất cũng như các cập nhật về khóa học.
+
+21
+00:01:20,870 --> 00:01:26,600
+Ngoài ra, bạn có thể đặt câu hỏi, gửi cho tôi ảnh chụp màn hình lỗi của bạn và tôi sẽ giải quyết cho bạn.
+
+22
+00:01:26,600 --> 00:01:28,310
+Tôi ở đây để giúp các bạn.
+
+23
+00:01:28,340 --> 00:01:31,940
+Đừng ngần ngại liên hệ với tôi bất cứ khi nào bạn muốn.

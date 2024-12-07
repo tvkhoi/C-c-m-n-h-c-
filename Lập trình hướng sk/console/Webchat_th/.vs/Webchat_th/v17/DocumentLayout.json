@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\webchat_th\\postmsg.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|solutionrelative:postmsg.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\webchat_th\\messagelist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|solutionrelative:messagelist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\webchat_th\\messagelist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|solutionrelative:messagelist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\webchat_th\\postmsg.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|solutionrelative:postmsg.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\webchat_th\\members.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|solutionrelative:members.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\webchat_th\\members.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|solutionrelative:members.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\webchat_th\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD2D41DF-6ED0-4E1A-8CE2-82926735E083}|Webchat_th.csproj|solutionrelative:message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 309,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessageList.aspx.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\MessageList.aspx.cs",
+              "RelativeDocumentMoniker": "MessageList.aspx.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\MessageList.aspx.cs",
+              "RelativeToolTip": "MessageList.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T16:38:37.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageList.aspx",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\MessageList.aspx",
+              "RelativeDocumentMoniker": "MessageList.aspx",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\MessageList.aspx",
+              "RelativeToolTip": "MessageList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-05T16:38:08.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostMsg.aspx.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\PostMsg.aspx.cs",
+              "RelativeDocumentMoniker": "PostMsg.aspx.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\PostMsg.aspx.cs",
+              "RelativeToolTip": "PostMsg.aspx.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T16:37:37.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostMsg.aspx",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\PostMsg.aspx",
+              "RelativeDocumentMoniker": "PostMsg.aspx",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\PostMsg.aspx",
+              "RelativeToolTip": "PostMsg.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-05T16:37:04.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Members.aspx.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\Members.aspx.cs",
+              "RelativeDocumentMoniker": "Members.aspx.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\Members.aspx.cs",
+              "RelativeToolTip": "Members.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T16:34:19.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Members.aspx",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\Members.aspx",
+              "RelativeDocumentMoniker": "Members.aspx",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\Members.aspx",
+              "RelativeToolTip": "Members.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-05T16:33:55.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\Message.cs",
+              "RelativeDocumentMoniker": "Message.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\Webchat_th\\Message.cs",
+              "RelativeToolTip": "Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T16:33:22.429Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

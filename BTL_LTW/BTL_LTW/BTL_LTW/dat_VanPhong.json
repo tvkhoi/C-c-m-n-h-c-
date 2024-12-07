@@ -1,0 +1,124 @@
+{
+  "sanphamf": [
+    {
+      "masp": "sp1",
+      "hinhanh": "~/img/vp_1.jpg",
+      "ten": "ASUS",
+      "mota": "Laptop ASUS Zenbook UX8406MA-PZ307W (Ultra7-155H/RAM 16GB/512GB SSD/ Windows 11)",
+      "gia": "49.990.000 ₫",
+      "giagoc": "49.990.000₫",
+      "giamgia": "0%",
+      "congketnoi": "1 x USB 3.2 , 2 x Thunderbolt 4 , Audio combo",
+      "vixuly": "Intel Core Ultra 7-155H ",
+      "card": " Onboard Intel Arc Graphics"
+    },
+    {
+      "masp": "sp2",
+      "hinhanh": "~/img/vp_2.jpg",
+      "ten": "LG",
+      "mota": "Laptop LG Gram 2023 14Z90R-G.AH75A5 (i7-1360P/RAM 16GB/512GB SSD)",
+      "gia": "26.890.000 ₫",
+      "giagoc": "38.990.000₫",
+      "giamgia": "31.034%",
+      "congketnoi": "2 x USB 3.2 , 2 x Thunderbolt 4 , 1 x micro SD card slot , Audio combo , LAN 100 Mbps.",
+      "vixuly": "AMD Ryzen 5 6600H",
+      "card": " RTX 3050 4GB GDDR6 / AMD Radeon 660M"
+    },
+    {
+      "masp": "sp3",
+      "hinhanh": "~/img/vp_3.jpg",
+      "ten": "HP",
+      "mota": "Laptop AI HP Victus 16-e 1107AXH FLIPZ (7C140PA) (AMD Ryzen 5 6600H)",
+      "gia": "17.990.000 ₫",
+      "giagoc": "25.490.000₫",
+      "giamgia": "-29.423%",
+      "congketnoi": "1 x USB Type C / DisplayPort / Power Delivery , 3 x USB 3.2 , 1 x SD card slot , Audio combo , LAN 1 Gb/s.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " Intel UHD Graphics"
+    },
+    {
+      "masp": "sp4",
+      "hinhanh": "~/img/vp_4.jpg",
+      "ten": "ASUS",
+      "mota": "Laptop ASUS Zenbook 14 UX3405MA-PP151W (Ultra 5-125H/RAM 16GB/512GB SSD/ Windows 11)",
+      "gia": "27.990.000 ₫",
+      "giagoc": "28.990.000₫",
+      "giamgia": "-3.449%",
+      "congketnoi": "1 x USB 3.2 , 2 x Thunderbolt 4 , Audio combo.",
+      "vixuly": "Intel Core Ultra 5-125H ",
+      "card": " Onboard Intel Arc Graphics"
+    },
+    {
+      "masp": "sp5",
+      "hinhanh": "~/img/vp_5.jpg",
+      "ten": "DELL",
+      "mota": "Laptop Dell Vostro 3430VPS 51VV AWS ( V3430-i7U165 W11 GRD2) (i7 - 1355U)",
+      "gia": "24.890.000₫",
+      "giagoc": "26.690.000₫",
+      "giamgia": "-6.744%",
+      "congketnoi": "1 x USB Type C / DisplayPort / Power Delivery , 1 x USB 3.2 , 1 x USB 2.0 , 1 x SD card slot , Audio combo , LAN 1 Gb/s.",
+      "vixuly": "Intel Core i7-1355U ",
+      "card": " GeForce MX550 2GB GDDR6 / Intel UHD Graphics. "
+    },
+    {
+      "masp": "sp6",
+      "hinhanh": "~/img/vp_6.jpg",
+      "ten": "DELL",
+      "mota": "Laptop Dell Vostro 14 3430 - 60YGM (i5-1335U) (Xám)",
+      "gia": "18.790.000₫",
+      "giagoc": "20.690.000₫",
+      "giamgia": "-9.183%",
+      "congketnoi": "1 x USB Type C / DisplayPort / Power Delivery , 1 x USB 3.2 , 1 x USB 2.0 , 1 x SD card slot , Audio combo , LAN 1 Gb/s.",
+      "vixuly": "Intel Core i3 1215U ",
+      "card": " GeForce MX550 2GB GDDR6 / Intel UHD Graphics"
+    },
+    {
+      "masp": "sp7",
+      "hinhanh": "~/img/vp_7.jpg",
+      "ten": "DELL",
+      "mota": "Laptop Dell Vostro 3430 - 71021669 (i5-1335U)",
+      "gia": "19.290.000₫",
+      "giagoc": "19.990.000₫",
+      "giamgia": "-3.502%",
+      "congketnoi": "2 x USB Type C / DisplayPort / Power Delivery , 1 x USB 3.2 , 1 x USB 2.0 , Audio combo , LAN 1 Gb/s.",
+      "vixuly": "Intel Core i5-1335U ",
+      "card": " Onboard Intel Iris Xe Graphics"
+    },
+    {
+      "masp": "sp8",
+      "hinhanh": "~/img/vp_8.jpg",
+      "ten": "DELL",
+      "mota": "Laptop Dell Vostro 3530 - V5I5267W1 (i5-1335U) (Xám)",
+      "gia": "16.290.000 ₫",
+      "giagoc": "17.990.000₫",
+      "giamgia": "-9.45%",
+      "congketnoi": "1 x USB Type C , 1 x USB 3.2 , 1 x USB 2.0 , 1 x SD card slot , Audio combo , LAN 1 Gb/s.",
+      "vixuly": "Intel Core i5-1335U ",
+      "card": " Onboard Intel Iris Xe Graphics"
+    },
+    {
+      "masp": "sp9",
+      "hinhanh": "~/img/vp_9.jpg",
+      "ten": "DELL",
+      "mota": "Laptop Dell Vostro 15 3530 - 80GG93 (i5-1335U) (Xám)",
+      "gia": "18.490.000 ₫",
+      "giagoc": "19.490.000₫",
+      "giamgia": "-5.131%",
+      "congketnoi": "1 x USB Type C , 1 x USB 3.2 , 1 x USB 2.0 , 1 x SD card slot , Audio combo , LAN 1 Gb/s.",
+      "vixuly": "Intel Core i5-1335U ",
+      "card": " Onboard Intel Iris Xe Graphics"
+    },
+    {
+      "masp": "sp10",
+      "hinhanh": "~/img/vp_10.jpg",
+      "ten": "ASUS",
+      "mota": "Laptop Asus Zenbook 14 Flip OLED UP3404VA-KN039W (i7-1360P) (Xanh)",
+      "gia": "29.890.000 ₫",
+      "giagoc": "33.990.000₫",
+      "giamgia": "-12.062%",
+      "congketnoi": " 1 x USB 3.2 , 2 x Thunderbolt 4 , Audio combo.",
+      "vixuly": "Intel Core i7-1360P ",
+      "card": " Onboard Intel Iris Xe Graphics"
+    }
+  ]
+}

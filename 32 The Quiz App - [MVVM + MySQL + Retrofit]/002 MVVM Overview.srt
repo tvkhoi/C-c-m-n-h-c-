@@ -1,0 +1,160 @@
+1
+00:00:00,230 --> 00:00:02,180
+Hello my friends, and welcome back.
+
+2
+00:00:02,180 --> 00:00:05,930
+In this video we're going to make a quick recap about the layers.
+
+3
+00:00:05,930 --> 00:00:11,060
+And we'll see the steps we're going to follow to build our amazing app NVM.
+
+4
+00:00:11,060 --> 00:00:17,570
+Which stands for Model View ViewModel, is an architectural design pattern commonly used in Android
+
+5
+00:00:17,570 --> 00:00:18,470
+app development.
+
+6
+00:00:18,470 --> 00:00:24,020
+It's designed to help developers separate concerns and improve their maintainability and testability
+
+7
+00:00:24,020 --> 00:00:24,980
+of their codes.
+
+8
+00:00:24,980 --> 00:00:29,600
+Here's a brief explanation of each component in the mVVM architecture.
+
+9
+00:00:29,600 --> 00:00:33,630
+The first component and the first layer is the modal.
+
+10
+00:00:33,650 --> 00:00:37,820
+The modal represents the data and business logic of the application.
+
+11
+00:00:37,820 --> 00:00:44,450
+It encapsulates the data and provides methods to interact with the data, such as retrieving, storing,
+
+12
+00:00:44,450 --> 00:00:45,800
+or manipulating it.
+
+13
+00:00:46,040 --> 00:00:53,330
+In Android, this can include data sources like databases, APIs, and other back end services.
+
+14
+00:00:53,360 --> 00:00:54,050
+The view.
+
+15
+00:00:54,080 --> 00:01:00,320
+The view is responsible for the user interface and the presentation of the data.
+
+16
+00:01:00,320 --> 00:01:07,610
+It includes XML layout files, activities, fragments, and UI elements like buttons, text, views
+
+17
+00:01:07,610 --> 00:01:08,510
+and widgets.
+
+18
+00:01:08,510 --> 00:01:15,530
+In mVVM, the view observes changes in the view model and updates the UI accordingly.
+
+19
+00:01:15,530 --> 00:01:16,480
+The view model.
+
+20
+00:01:16,490 --> 00:01:20,480
+The view model acts as a bridge between the model and the view.
+
+21
+00:01:20,510 --> 00:01:27,590
+It holds the UI related data and business logic, but doesn't have direct references to the view.
+
+22
+00:01:27,620 --> 00:01:35,420
+It exposes data and commands that the view can bind to, and it responds to user interactions by updating
+
+23
+00:01:35,420 --> 00:01:38,120
+the model or providing data to the view.
+
+24
+00:01:38,150 --> 00:01:45,140
+View models are designed to be easily testable and can help in managing UI state and logic.
+
+25
+00:01:45,140 --> 00:01:46,850
+Let's start with the model.
+
+26
+00:01:46,850 --> 00:01:50,870
+We're going to use the remote data source in our application.
+
+27
+00:01:50,870 --> 00:01:55,040
+So we're going to build a database, create our own API.
+
+28
+00:01:55,040 --> 00:01:59,240
+And from this API we're going to fetch the Json response.
+
+29
+00:01:59,240 --> 00:02:05,840
+And using the retrofit updating the UI and designing the app following this mVVM.
+
+30
+00:02:06,080 --> 00:02:11,210
+So the first step we're going to create our local database using the MySQL.
+
+31
+00:02:11,240 --> 00:02:19,220
+Then we're going to create our own API and using PHP, fetch the Json response from database using this
+
+32
+00:02:19,220 --> 00:02:27,710
+API, using retrofit to create Java objects, display questions in Android app and follow the mVVM architecture.
+
+33
+00:02:27,710 --> 00:02:30,770
+So let's see the steps in more details.
+
+34
+00:02:30,770 --> 00:02:37,940
+First of all, we'll create our own API that fetches the data from our own database and also will create
+
+35
+00:02:37,940 --> 00:02:38,900
+in MySQL.
+
+36
+00:02:38,930 --> 00:02:44,420
+Then we're going to fetch the data and the response in a Json format.
+
+37
+00:02:44,420 --> 00:02:51,650
+And using retrofit, we're going to transform this Json response to plain old Java objects.
+
+38
+00:02:51,650 --> 00:02:55,280
+And these objects will be displayed in the app UI.
+
+39
+00:02:55,310 --> 00:02:56,660
+This is our mission.
+
+40
+00:02:56,660 --> 00:03:02,930
+So I want from you to focus with me because it's a very important application we're going to build together.
+

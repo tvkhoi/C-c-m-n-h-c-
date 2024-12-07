@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="ktracss.css">
+    </head>
+    <body>
+        <form >
+            <fieldset>  
+                <div>
+                    <label for="txtUsername">Username:</label>
+                    <input type="text" id="txtUsername">
+                </div>
+                <span id="warningMessageUsername" style="color: red; display: none;">Vui lòng nhập tài khoản.</span>
+                <span id="warningMessageUsernameLength" style="color: red; display: none;">Username phải lớn hơn 6 ký tự.</span>
+                <div>
+                    <label for="txtPassword">Password:</label>
+                    <input type="password" id="txtPassword">
+                </div>
+                <span id="warningMessagePassword" style="color: red; display: none;">Vui lòng nhập mật khẩu.</span>
+                <span id="warningMessagePasswordLength" style="color: red; display: none;">Password phải lớn hơn 8 ký tự.</span>
+                <div id="indexButton">
+                    <input type="button" id="btnPerform" value="Đăng nhập">
+                    <input type="reset" class="vt" value="Hủy">
+                    <span id="logSuccess" style="color: rgb(5, 149, 79); display: none;">Đăng nhập thành công.</span>
+                </div>
+            </fieldset>
+            <script src="ktrajs.js"></script>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,296 @@
+1
+00:00:00,200 --> 00:00:05,120
+We'll continue with our API creation and I installed Notepad Plus.
+
+2
+00:00:05,120 --> 00:00:11,810
+Plus it's better click on edit with Notepad Plus Plus and you can see it's more beautiful than the notepad
+
+3
+00:00:11,810 --> 00:00:12,680
+in the windows.
+
+4
+00:00:12,680 --> 00:00:17,480
+Here I need to retrieve data from the result set of the prepared statement.
+
+5
+00:00:17,480 --> 00:00:20,750
+So for that I'll start with Stmt.
+
+6
+00:00:21,080 --> 00:00:25,310
+This function bind underscore result method.
+
+7
+00:00:25,310 --> 00:00:31,010
+This line binds variables to the result set columns in the order you provide.
+
+8
+00:00:31,010 --> 00:00:37,220
+So I'll create the variables here at question option one and the other options.
+
+9
+00:00:42,860 --> 00:00:50,330
+The variables question option one, two, three and four and the correct option are used to store the
+
+10
+00:00:50,330 --> 00:00:53,130
+values retrieved from the result set.
+
+11
+00:00:53,150 --> 00:01:01,400
+When the prepared statement is executed, the values from the selected columns will be stored in these
+
+12
+00:01:01,400 --> 00:01:02,030
+variables.
+
+13
+00:01:02,030 --> 00:01:11,300
+So if I execute this statement, I need to get all these columns question and store it inside the question
+
+14
+00:01:11,300 --> 00:01:11,890
+variable.
+
+15
+00:01:11,900 --> 00:01:18,320
+Go to the option one column and get the value of the record and put it inside.
+
+16
+00:01:18,320 --> 00:01:22,970
+Option one, option two, option three four and the correct option.
+
+17
+00:01:22,970 --> 00:01:31,880
+So all of these columns, all of these records in these columns will be stored inside the variables
+
+18
+00:01:31,880 --> 00:01:32,450
+here.
+
+19
+00:01:32,480 --> 00:01:38,840
+Again guys here we use the variables to store the values retrieved from the result set.
+
+20
+00:01:38,870 --> 00:01:44,600
+When the prepared statement is executed, the values from the selected column will be stored in these
+
+21
+00:01:44,600 --> 00:01:45,260
+variables.
+
+22
+00:01:45,260 --> 00:01:50,600
+Then I'll create an empty array because this array will store the variables.
+
+23
+00:01:50,600 --> 00:01:54,230
+Question option one, two, three and four and the correct option.
+
+24
+00:01:54,230 --> 00:02:01,910
+So to create an array in PHP, I'll start with the name of the PHP and the dollar sign questions.
+
+25
+00:02:01,910 --> 00:02:05,840
+Underscore array equals to array method.
+
+26
+00:02:05,870 --> 00:02:08,300
+This is how we create an array.
+
+27
+00:02:08,300 --> 00:02:15,050
+Then we need to traverse through all the questions and store them into the questions array.
+
+28
+00:02:15,050 --> 00:02:17,570
+For that I'll use a while loop.
+
+29
+00:02:17,600 --> 00:02:24,620
+A while loop is used to fetch rows from the result set of the prepared statement stmt.
+
+30
+00:02:24,680 --> 00:02:32,180
+So I'll start with stmt and I'll use the method fetch for each row.
+
+31
+00:02:32,210 --> 00:02:38,060
+Fetch it and you empty array named temp is created again.
+
+32
+00:02:38,060 --> 00:02:40,790
+Guys, I'll create an empty array.
+
+33
+00:02:40,790 --> 00:02:49,940
+So the loop the while loop continues as long as there are rows in the result set to fetch.
+
+34
+00:02:49,940 --> 00:02:57,890
+For each iteration of the loop, a row from the result set is fetched and the loop's body is executed
+
+35
+00:02:57,890 --> 00:03:07,220
+inside the loop and you empty array temp is created to temporarily store the data from the current row.
+
+36
+00:03:07,250 --> 00:03:13,910
+This array will hold the values for each column in the result set for the current row.
+
+37
+00:03:13,940 --> 00:03:21,140
+Then inside this loop I'll start with temp question equals to question variable.
+
+38
+00:03:21,140 --> 00:03:29,150
+This line assigns the value of the question variable to the question key in the temp array.
+
+39
+00:03:29,150 --> 00:03:37,190
+So here is the question key which is from the temp array equals to question variable that we get from
+
+40
+00:03:37,190 --> 00:03:39,440
+the binder underscore result function.
+
+41
+00:03:39,440 --> 00:03:44,810
+And I'll continue with the same algorithm I start with temp.
+
+42
+00:03:44,810 --> 00:03:49,610
+Here I'll specify option one equals to option one.
+
+43
+00:03:49,610 --> 00:03:50,720
+This is the key.
+
+44
+00:03:50,750 --> 00:03:57,850
+Option one of the temp array equals to option one which is the variable we get from the bind result.
+
+45
+00:03:57,860 --> 00:04:00,440
+Again guys I'll continue with others.
+
+46
+00:04:00,440 --> 00:04:01,160
+So.
+
+47
+00:04:11,040 --> 00:04:18,810
+As you loop through the result set, the temp array is updated for each row with the values from the
+
+48
+00:04:18,810 --> 00:04:20,350
+corresponding columns.
+
+49
+00:04:20,370 --> 00:04:27,570
+After populating the temp array, you can store it or use it as needed, and you might store each temp
+
+50
+00:04:27,600 --> 00:04:33,190
+array in another array to create a collection of questions and their options.
+
+51
+00:04:33,210 --> 00:04:39,570
+This is a common technique for processing and displaying tabular data from a database query.
+
+52
+00:04:39,570 --> 00:04:46,650
+So for that I need to use array underscore push method.
+
+53
+00:04:46,650 --> 00:04:54,690
+And I'll link the questions array with the temp array underscore push method in.
+
+54
+00:04:54,960 --> 00:05:00,840
+In PHP is used to add one or more elements to the end of an array.
+
+55
+00:05:00,840 --> 00:05:09,690
+You are using array underscore push method to add the temp array to another array named questions underscore
+
+56
+00:05:09,690 --> 00:05:10,160
+array.
+
+57
+00:05:10,170 --> 00:05:16,620
+This is a common approach for collecting data from a loop, like the one you have when iterating through
+
+58
+00:05:16,620 --> 00:05:19,920
+a database result set and storing it in an array.
+
+59
+00:05:19,920 --> 00:05:28,320
+So I am adding the temp array at the end of the questions array for each iteration of the while loop.
+
+60
+00:05:28,320 --> 00:05:34,470
+This effectively builds an array of questions and their options in questions.
+
+61
+00:05:34,470 --> 00:05:38,010
+Underscore array after the loop completes questions.
+
+62
+00:05:38,010 --> 00:05:44,520
+Underscore array contains all the collected data, and you can work with this array to display, process,
+
+63
+00:05:44,520 --> 00:05:47,340
+or manipulate the information as needed.
+
+64
+00:05:47,340 --> 00:05:56,130
+So for that, I'll use and display the results in Json format echo, Json, underscore, decode or encode
+
+65
+00:05:56,130 --> 00:05:56,850
+function.
+
+66
+00:05:56,850 --> 00:06:00,390
+And we need to display the questions.
+
+67
+00:06:00,390 --> 00:06:03,480
+Underscore array in Json format.
+
+68
+00:06:03,510 --> 00:06:12,240
+Echo is used to output this Json string to the client, and Json underscore encode function is used
+
+69
+00:06:12,240 --> 00:06:16,410
+to convert questions array into a Json string format.
+
+70
+00:06:16,410 --> 00:06:20,850
+Then we need to close the file by this ending tag.
+
+71
+00:06:20,850 --> 00:06:30,240
+Okay, then save as and I'll name it as my quiz API dot php save.
+
+72
+00:06:30,240 --> 00:06:35,100
+And here is our my quiz api dot php file.
+
+73
+00:06:35,100 --> 00:06:36,480
+Congratulations guys!
+
+74
+00:06:36,480 --> 00:06:38,010
+We finished the API.
+

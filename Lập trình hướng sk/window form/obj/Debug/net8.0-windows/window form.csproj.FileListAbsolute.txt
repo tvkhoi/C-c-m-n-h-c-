@@ -1,0 +1,20 @@
+D:\Lập trình hướng sk\window form\bin\Debug\net8.0-windows\window form.exe
+D:\Lập trình hướng sk\window form\bin\Debug\net8.0-windows\window form.deps.json
+D:\Lập trình hướng sk\window form\bin\Debug\net8.0-windows\window form.runtimeconfig.json
+D:\Lập trình hướng sk\window form\bin\Debug\net8.0-windows\window form.dll
+D:\Lập trình hướng sk\window form\bin\Debug\net8.0-windows\window form.pdb
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\App.g.cs
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form_MarkupCompile.cache
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form_MarkupCompile.lref
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form.g.resources
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form.AssemblyInfoInputs.cache
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form.AssemblyInfo.cs
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form.csproj.CoreCompileInputs.cache
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form.dll
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\refint\window form.dll
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form.pdb
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\window form.genruntimeconfig.cache
+D:\Lập trình hướng sk\window form\obj\Debug\net8.0-windows\ref\window form.dll

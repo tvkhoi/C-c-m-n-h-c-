@@ -1,0 +1,4 @@
+D:\Lập trình hướng sk\lập trình hướng sự kiện 2\obj\Debug\net6.0\lập trình hướng sự kiện 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Lập trình hướng sk\lập trình hướng sự kiện 2\obj\Debug\net6.0\lập trình hướng sự kiện 2.AssemblyInfoInputs.cache
+D:\Lập trình hướng sk\lập trình hướng sự kiện 2\obj\Debug\net6.0\lập trình hướng sự kiện 2.AssemblyInfo.cs
+D:\Lập trình hướng sk\lập trình hướng sự kiện 2\obj\Debug\net6.0\lập trình hướng sự kiện 2.csproj.CoreCompileInputs.cache

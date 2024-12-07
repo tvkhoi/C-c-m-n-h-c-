@@ -1,0 +1,124 @@
+{
+  "sanphamf": [
+    {
+      "masp": "sp1",
+      "hinhanh": "~/img/gg_9.png",
+      "ten": "Logitech",
+      "mota": "Chuột gaming không dây Logitech G903 Hero",
+      "gia": "1.899.000 ₫",
+      "giagoc": "3.790.000₫",
+      "giamgia": "-49.894%",
+      "congketnoi": "Lightspeed Wireless, USB 2.0.",
+      "vixuly": "HERO ",
+      "card": " 25600DPI"
+    },
+    {
+      "masp": "sp2",
+      "hinhanh": "~/img/gg_10.png",
+      "ten": "LOGITECH",
+      "mota": "Chuột gaming Logitech G102 Gen2 Lightsync",
+      "gia": "399.000 ₫",
+      "giagoc": "589.000₫",
+      "giamgia": "-32.258%",
+      "congketnoi": "USB 2.0.",
+      "vixuly": "Optical ",
+      "card": "8000DPI"
+    },
+    {
+      "masp": "sp3",
+      "hinhanh": "~/img/gg_11.png",
+      "ten": "LOGITECH",
+      "mota": "Chuột gaming không dây Logitech MX ANYWHERE 3S Đen (Graphite)",
+      "gia": "1.599.000 ₫",
+      "giagoc": "2.139.000₫",
+      "giamgia": "-25.245%",
+      "congketnoi": "Bluetooth.",
+      "vixuly": "Darkfield ",
+      "card": "8000DPI"
+    },
+    {
+      "masp": "sp4",
+      "hinhanh": "~/img/gg-12.png",
+      "ten": "LOGITECH",
+      "mota": "Chuột gaming không dây Logitech G502 X Plus",
+      "gia": "3.189.000 ₫",
+      "giagoc": "3.890.000₫",
+      "giamgia": "-18.021%",
+      "congketnoi": "Lightspeed Wireless.",
+      "vixuly": "Hero",
+      "card": " 25600DPI"
+    },
+    {
+      "masp": "sp5",
+      "hinhanh": "~/img/gg_13.png",
+      "ten": "STEELSERIES",
+      "mota": "Chuột gaming không dây Aerox 3 Wireless Onyx màu đen SteelSeries",
+      "gia": "2.789.000 ₫",
+      "giagoc": "2.990.000₫",
+      "giamgia": "-6.722%",
+      "congketnoi": "2.4 GHz Wireless, Bluetooth.",
+      "vixuly": "SteelSeries TrueMove Air ",
+      "card": " 18000DPI"
+    },
+    {
+      "masp": "sp6",
+      "hinhanh": "~/img/gg_1.png",
+      "ten": "E-DRA",
+      "mota": "Bàn phím cơ gaming E-Dra EK375 Beta Blue Switch (EK375-BE-BL)",
+      "gia": "649.000 ₫",
+      "giagoc": "649.000₫",
+      "giamgia": "0%",
+      "congketnoi": "Bàn phím có dây.",
+      "vixuly": "EK375-BE-RE ",
+      "card": " Blue Switch"
+    },
+    {
+      "masp": "sp7",
+      "hinhanh": "~/img/gg_2.png",
+      "ten": "AKKO",
+      "mota": "Bàn phím AKKO 3098S World Tour London ( AKKO CS switch - Jelly Pink)",
+      "gia": "1.599.000 ₫",
+      "giagoc": "1.999.000₫",
+      "giamgia": "-20.01%",
+      "congketnoi": "USB Type-C.",
+      "vixuly": "3098S World Tour London ",
+      "card": " Akko CS - Jelly Pink"
+    },
+    {
+      "masp": "sp8",
+      "hinhanh": "~/img/gg_3.png",
+      "ten": "AKKO",
+      "mota": "Bàn phím cơ AKKO 3098B Plus Black (Akko switch v3 - Cream Blue Pro)",
+      "gia": "1.499.000 ₫",
+      "giagoc": "1.700.000₫",
+      "giamgia": "-11.824%",
+      "congketnoi": "USB Type-C, Bluetooth 5.0, 2.4 GHz Wireless.",
+      "vixuly": "Akko Cream Blue Pro v3 ",
+      "card": " 3098B Plus"
+    },
+    {
+      "masp": "sp9",
+      "hinhanh": "~/img/gg_4.png",
+      "ten": "E-DRA",
+      "mota": "Bàn phím cơ gaming E-Dra EK375 Alpha Blue Switch (EK375-AL-BL)",
+      "gia": "649.000 ₫",
+      "giagoc": "649.000₫",
+      "giamgia": "0%",
+      "congketnoi": "Bàn phím có dây.",
+      "vixuly": "EK375 Alpha ",
+      "card": " Rainbow"
+    },
+    {
+      "masp": "sp10",
+      "hinhanh": "~/img/gg_5.png",
+      "ten": "NEWMEN",
+      "mota": "Bàn phím cơ Gaming Newmen GM328 White-Grey, Red Switch",
+      "gia": "549.000 ₫",
+      "giagoc": "699.000₫",
+      "giamgia": "-21.459%",
+      "congketnoi": "USB Type-C.",
+      "vixuly": "GM328",
+      "card": "NEWMEN"
+    }
+  ]
+}

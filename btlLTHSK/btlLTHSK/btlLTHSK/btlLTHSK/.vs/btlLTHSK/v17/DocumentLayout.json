@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\resources\\chitietnhapcs01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\resources\\chitietnhapcs01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|c:\\users\\acer\\downloads\\btllthsk\\btllthsk\\btllthsk\\btllthsk\\btllthsk\\hdnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\hdnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\hdnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\hdnhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\chitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\chitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\chitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\chitietnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btllthsk\\resources\\hoadonnhapcs01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{917842DD-90F5-4E83-97F7-2F8AA6716A7B}|btlLTHSK\\btlLTHSK.csproj|solutionrelative:btllthsk\\resources\\hoadonnhapcs01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HDNhapHang.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\HDNhapHang.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\HDNhapHang.cs",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\HDNhapHang.cs",
+              "RelativeToolTip": "btlLTHSK\\HDNhapHang.cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAAAMwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T11:01:06.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChiTietNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\ChiTietNhap.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\ChiTietNhap.cs",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\ChiTietNhap.cs [Design]",
+              "RelativeToolTip": "btlLTHSK\\ChiTietNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:20:46.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChiTietNhap.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\ChiTietNhap.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\ChiTietNhap.cs",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\ChiTietNhap.cs",
+              "RelativeToolTip": "btlLTHSK\\ChiTietNhap.cs",
+              "ViewState": "AQIAAOcBAAAAAAAAAAAiwAUCAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:18:53.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HoadonNhapcs01.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\HoadonNhapcs01.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\Resources\\HoadonNhapcs01.cs",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\HoadonNhapcs01.cs",
+              "RelativeToolTip": "btlLTHSK\\Resources\\HoadonNhapcs01.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAiwOEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:05:21.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HDNhapHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\HDNhapHang.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\HDNhapHang.cs",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\HDNhapHang.cs [Design]",
+              "RelativeToolTip": "btlLTHSK\\HDNhapHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T08:57:34.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "..\\SQLQuery1.sql",
+              "ToolTip": "SQLQuery1.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-20T04:07:21.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChiTietNhapcs01.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\ChiTietNhapcs01.cs",
+              "RelativeDocumentMoniker": "btlLTHSK\\Resources\\ChiTietNhapcs01.cs",
+              "ToolTip": "C:\\Users\\Acer\\Downloads\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\btlLTHSK\\Resources\\ChiTietNhapcs01.cs",
+              "RelativeToolTip": "btlLTHSK\\Resources\\ChiTietNhapcs01.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAAAJoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T15:54:42.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

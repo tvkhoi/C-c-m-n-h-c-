@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .khoi2 {
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        function kiemtra() {
+            var text1 = document.getElementById("Text1").value.trim();
+            var text2 = document.getElementById("Text2").value.trim();
+            var form = document.getElementById("formf");
+            
+            if (text1 === "" && text2 === "") {
+                alert("Vui lòng không được để trống");
+                return false;
+            } else if (text1 === "") {
+                alert("Tên không được để trống");
+                return false;
+            } else if (text2 === "") {
+                alert("Năm không được để trống");
+                return false;
+            } else {
+                if (text2 < 0) {
+                    alert("Năm sinh phải lớn hơn 0");
+                    return false;
+                }
+                form.submit(); // Gửi dữ liệu khi cả hai ô nhập đều không trống
+                document.getElementById("Text1").value = "";
+                document.getElementById("Text2").value = "";
+                return true;
+               
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="formf" method="get" action="Xuly.aspx">
+        <div>
+            <label>Họ và tên:</label>
+            <input name="hoten" id="Text1" type="text" />
+        </div>
+        <div class="khoi2">
+            <label>Năm sinh:</label>
+            <input name="namsinh" id="Text2" type="number" />
+        </div>
+        <input id="Submit1" type="button" value="submit" onclick="kiemtra()" />
+    </form>
+</body>
+</html>

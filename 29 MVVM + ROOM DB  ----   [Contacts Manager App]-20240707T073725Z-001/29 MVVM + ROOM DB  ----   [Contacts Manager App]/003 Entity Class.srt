@@ -1,0 +1,328 @@
+1
+00:00:00,080 --> 00:00:01,850
+Hello, my friends, and welcome back.
+
+2
+00:00:01,850 --> 00:00:05,990
+In this video, we'll start building our contacts manager application.
+
+3
+00:00:05,990 --> 00:00:10,190
+We'll follow the Mvvm design pattern with room database.
+
+4
+00:00:10,220 --> 00:00:18,320
+So in our local data source, the room database, I'll start designing the entity SQLite, which is
+
+5
+00:00:18,320 --> 00:00:25,640
+the database and the Dao and the contacts Manager Application room database contains only one table,
+
+6
+00:00:25,640 --> 00:00:32,479
+which is the entity named as contacts, table or contacts in this entity.
+
+7
+00:00:32,479 --> 00:00:40,160
+This table I have three columns contact id, which is of type int contact name, which is of type string
+
+8
+00:00:40,160 --> 00:00:43,160
+and the contact email which is of type string.
+
+9
+00:00:43,160 --> 00:00:47,360
+Let's jump into Android studio and start creating our database.
+
+10
+00:00:47,360 --> 00:00:52,700
+And the first step in creating our database is to start with the entity class.
+
+11
+00:00:52,700 --> 00:01:00,810
+To use the room database, we need to add its dependency from the Developer.android.com website.
+
+12
+00:01:00,810 --> 00:01:08,490
+So scroll down, search for Android X room or go to this link developer.android.com slash jetpack slash
+
+13
+00:01:08,490 --> 00:01:13,830
+android slash releases slash room and copy this dependency.
+
+14
+00:01:13,830 --> 00:01:20,930
+These are optional and if you are using the Capt or KSP Kotlin symbol processing, you can use these.
+
+15
+00:01:20,940 --> 00:01:28,020
+I created a new project called Contacts Manager Application in Android Studio and go to build.gradle
+
+16
+00:01:28,950 --> 00:01:37,350
+and paste this dependency the room database Click sync now and I need the annotation processor because
+
+17
+00:01:37,350 --> 00:01:43,860
+all operations like insert, delete, update and et-cetera are annotated also there.
+
+18
+00:01:43,890 --> 00:01:52,410
+As mentioned before, the Add entity Dao database annotations are included, so I need to use the annotation
+
+19
+00:01:52,410 --> 00:01:53,100
+processor.
+
+20
+00:01:53,100 --> 00:02:00,990
+And the annotation processor is a tool that processes annotations at compile time to generate code and
+
+21
+00:02:00,990 --> 00:02:02,640
+perform other tasks.
+
+22
+00:02:02,640 --> 00:02:11,640
+It's often used to automate repetitive code generation and to enforce specific behaviors in your code
+
+23
+00:02:11,640 --> 00:02:12,330
+base.
+
+24
+00:02:12,330 --> 00:02:19,470
+So these annotations provide additional information to the compiler or tools about how to handle the
+
+25
+00:02:19,470 --> 00:02:20,850
+marked elements.
+
+26
+00:02:20,850 --> 00:02:27,480
+For example, in Android you might use annotations like Override, suppress length or custom annotations
+
+27
+00:02:27,480 --> 00:02:28,440
+that you define.
+
+28
+00:02:28,440 --> 00:02:36,810
+Let's start with the first step by creating a new Java class and I'll name it as contacts and to tell
+
+29
+00:02:36,810 --> 00:02:42,540
+Android studio that this class will act as an entity class in our room database.
+
+30
+00:02:42,540 --> 00:02:45,870
+I'll annotated with entity annotation.
+
+31
+00:02:45,870 --> 00:02:53,250
+An entity is a fundamental component that represents a table in the SQLite database.
+
+32
+00:02:53,250 --> 00:03:00,750
+Each entity class corresponds to one table and the fields properties or the variables within the entity
+
+33
+00:03:00,750 --> 00:03:04,260
+class represent INT columns in that table.
+
+34
+00:03:04,260 --> 00:03:09,120
+Entities define the structure and the schema of your database tables.
+
+35
+00:03:09,120 --> 00:03:16,890
+As mentioned before, I have only one entity class called contacts, and I have inside this table three
+
+36
+00:03:16,890 --> 00:03:24,120
+columns, contact ID, contact name and contact email one of type int and two of type strings.
+
+37
+00:03:24,120 --> 00:03:30,450
+And by the way, you can specify various attributes within the entity annotation such as the table name,
+
+38
+00:03:30,450 --> 00:03:32,460
+primary keys and indices.
+
+39
+00:03:32,460 --> 00:03:42,450
+So for example, I'll name this entity or this table table name equal to contacts underscore table.
+
+40
+00:03:42,450 --> 00:03:46,770
+You can specify it like contacts or name it whatever you want.
+
+41
+00:03:46,800 --> 00:03:55,950
+If you don't specify the table name here in the entity, the name of the table is specified exactly
+
+42
+00:03:55,950 --> 00:03:57,990
+as the name of the class.
+
+43
+00:03:57,990 --> 00:04:05,490
+If I remove this table, name the table in our database, but I prefer specifying the table name and
+
+44
+00:04:05,490 --> 00:04:08,610
+I'll name it as contacts underscore table.
+
+45
+00:04:08,610 --> 00:04:13,080
+So now I created this table, this empty table, no columns.
+
+46
+00:04:13,080 --> 00:04:15,420
+I name it as contacts table.
+
+47
+00:04:15,420 --> 00:04:21,750
+The fields within the entity class represent columns in the database table.
+
+48
+00:04:21,750 --> 00:04:29,850
+In this example we have ID name and email fields corresponding to columns in the users table or the
+
+49
+00:04:29,850 --> 00:04:31,470
+contacts underscore table.
+
+50
+00:04:31,470 --> 00:04:39,450
+So for that I'll create private int id, private string name and private string email.
+
+51
+00:04:39,450 --> 00:04:44,490
+Three fields represent three columns in my contacts.
+
+52
+00:04:44,490 --> 00:04:50,790
+Underscore table the name of Collins till now our ID name and email.
+
+53
+00:04:50,790 --> 00:04:57,330
+If I need to change the name of the column you can use at column info.
+
+54
+00:04:57,360 --> 00:04:59,940
+The column info annotation is used.
+
+55
+00:05:00,130 --> 00:05:09,130
+To specify additional details about how a field, property or variable in an entity class maps to a
+
+56
+00:05:09,130 --> 00:05:11,320
+column in the database table.
+
+57
+00:05:11,320 --> 00:05:17,020
+This annotation provides control over column specific properties and behaviors.
+
+58
+00:05:17,020 --> 00:05:24,130
+You can use column info annotation to explicitly specify the name of the database column that corresponds
+
+59
+00:05:24,130 --> 00:05:25,930
+to a field in your entity.
+
+60
+00:05:25,960 --> 00:05:34,240
+For example, this ID if I need to create a database table with the first column contact underscore
+
+61
+00:05:34,270 --> 00:05:42,910
+ID, I can create a field without a column ID like this contact underscore ID and the room database
+
+62
+00:05:42,910 --> 00:05:51,190
+will create a column named as contact ID, or I can specify here the ID as a variable and the column
+
+63
+00:05:51,220 --> 00:05:56,230
+info and I'll specify the name property equal to contacts.
+
+64
+00:05:56,260 --> 00:05:57,430
+Underscore ID.
+
+65
+00:05:57,460 --> 00:06:03,140
+The name of the column will be contact, underscore ID and not ID here.
+
+66
+00:06:03,140 --> 00:06:05,900
+The name of the column is name.
+
+67
+00:06:05,900 --> 00:06:13,760
+I can change it using the same way the column info name equal to contact underscore name.
+
+68
+00:06:13,760 --> 00:06:22,490
+I'm just showing you the power of using the annotations in room and in Android column info.
+
+69
+00:06:22,490 --> 00:06:31,820
+Again guys, you can skip this column info annotation so the room database will create columns using
+
+70
+00:06:31,820 --> 00:06:35,090
+the name of the variable you create in all tables.
+
+71
+00:06:35,090 --> 00:06:42,950
+We need to specify a primary key using a unique and primary key that it will not be repetitive and in
+
+72
+00:06:42,950 --> 00:06:47,960
+this case the contact underscore ID will act as a primary key.
+
+73
+00:06:47,960 --> 00:06:56,930
+So here in the ID field, I'll use an annotation called Primary Key and I'll specify autogenerate equal
+
+74
+00:06:56,930 --> 00:06:57,560
+to true.
+
+75
+00:06:57,560 --> 00:07:05,030
+The primary key annotation indicates that the ID field is the primary key for this table.
+
+76
+00:07:05,030 --> 00:07:13,310
+The autogenerate equal to true attribute means that the SQL will automatically assign unique IDs to
+
+77
+00:07:13,310 --> 00:07:14,870
+the new records.
+
+78
+00:07:14,870 --> 00:07:18,410
+I'll create the constructors Alt+ insert.
+
+79
+00:07:19,360 --> 00:07:24,040
+One having all fields and one having nothing.
+
+80
+00:07:24,040 --> 00:07:27,880
+And this is used to prevent any null pointer exception.
+
+81
+00:07:27,880 --> 00:07:30,250
+I'll create getters and setters.
+
+82
+00:07:31,460 --> 00:07:33,410
+For all elements.
+

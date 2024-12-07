@@ -1,0 +1,192 @@
+1
+00:00:00,140 --> 00:00:07,140
+If we look at the run method of the runnable, we can see that the returning type is void.
+
+2
+00:00:07,160 --> 00:00:10,220
+This means that it will return nothing.
+
+3
+00:00:10,220 --> 00:00:13,070
+If we go to get all contacts method.
+
+4
+00:00:13,070 --> 00:00:21,560
+We can't execute this in the background because at first the run will not return anything and I need
+
+5
+00:00:21,560 --> 00:00:23,930
+to return a list of contacts object.
+
+6
+00:00:23,930 --> 00:00:32,060
+And the second reason is that I need to publish contacts to get all contacts and publish it to the UI.
+
+7
+00:00:32,090 --> 00:00:38,210
+So this is will be executed in the background and the add contact contact.
+
+8
+00:00:38,210 --> 00:00:43,730
+The insert method will be executed on a separate thread and in the background.
+
+9
+00:00:43,730 --> 00:00:52,040
+But this I need to be executed and published the UI with the new contacts received from the database.
+
+10
+00:00:52,040 --> 00:00:55,440
+So for that I'll use the live data.
+
+11
+00:00:55,460 --> 00:01:03,180
+Live data is often used in both the repository and the Dao to facilitate the observation of database
+
+12
+00:01:03,180 --> 00:01:07,410
+changes and provide real time updates to the UI.
+
+13
+00:01:07,440 --> 00:01:14,200
+The first step is to go to the Dao and I need to update this list.
+
+14
+00:01:14,220 --> 00:01:23,400
+I'll encapsulate this list inside the live data object of type list of contacts objects.
+
+15
+00:01:23,400 --> 00:01:25,590
+Import the class of the live data.
+
+16
+00:01:25,590 --> 00:01:32,250
+When you have methods that are annotated with query and you are going to display something using the
+
+17
+00:01:32,250 --> 00:01:34,170
+select operator in SQL.
+
+18
+00:01:34,200 --> 00:01:39,210
+Always use the live data by returning data as live data.
+
+19
+00:01:39,240 --> 00:01:46,440
+The room library ensures that the data is observed by the repository or ViewModel allowing for real
+
+20
+00:01:46,440 --> 00:01:49,770
+time updates when the underlying data changes.
+
+21
+00:01:49,770 --> 00:01:57,360
+And if you have any trouble in the live data import from the lifecycle, you can import the dependency
+
+22
+00:01:57,360 --> 00:01:57,930
+for it.
+
+23
+00:01:57,930 --> 00:02:04,480
+By using this live data implement station and the live or the view model here.
+
+24
+00:02:04,480 --> 00:02:09,009
+So I'll copy this implementation for the ViewModel and the live data.
+
+25
+00:02:09,009 --> 00:02:13,470
+In the next video we'll talk about ViewModel so I can import it here.
+
+26
+00:02:13,480 --> 00:02:18,280
+Latest versions of Android X, The life cycle is included.
+
+27
+00:02:18,280 --> 00:02:25,480
+So as you can see, I imported Android X dot lifecycle dot live data without any problem and usage of
+
+28
+00:02:25,480 --> 00:02:26,530
+this dependency.
+
+29
+00:02:26,530 --> 00:02:36,310
+Also the live data and I need to use the lifecycle version variable sync now so I can use ViewModel
+
+30
+00:02:36,310 --> 00:02:38,290
+and the live data in my application.
+
+31
+00:02:38,290 --> 00:02:41,680
+If I have any problem, just add the dependency.
+
+32
+00:02:41,680 --> 00:02:50,860
+If we go to the repository now, I need to change the returning type of this method to live data object.
+
+33
+00:02:50,860 --> 00:02:57,070
+This is the type of the live data and this is the type of the list in the repository.
+
+34
+00:02:57,070 --> 00:03:04,620
+Live data is typically used to expose data from the room database to the ViewModel and ultimately to
+
+35
+00:03:04,620 --> 00:03:07,350
+the UI components, activities or fragments.
+
+36
+00:03:07,350 --> 00:03:14,910
+The repository interacts with the room database to retrieve data and it wraps the data in a live data
+
+37
+00:03:14,910 --> 00:03:17,880
+object before passing it to the ViewModel.
+
+38
+00:03:17,880 --> 00:03:25,410
+By using the live data, the repository ensures that the data can be observed by the ViewModel, and
+
+39
+00:03:25,410 --> 00:03:33,090
+any changes in the underlying data are automatically reflected in the UI without the need to for explicit
+
+40
+00:03:33,120 --> 00:03:33,930
+updates.
+
+41
+00:03:33,930 --> 00:03:38,820
+And one last step in the repository is to change this parameter.
+
+42
+00:03:38,820 --> 00:03:41,640
+Pass an application alt+ enter.
+
+43
+00:03:41,640 --> 00:03:52,290
+And here I need to initialize the context database so contacts database equal to course or contacts
+
+44
+00:03:52,290 --> 00:03:54,090
+database dot get instance.
+
+45
+00:03:54,090 --> 00:03:58,770
+And here I need to pass the context which is the application in this case.
+
+46
+00:03:58,770 --> 00:04:07,020
+And this contact dao this dot contact dao equal to contact database dot get contact Dao.
+
+47
+00:04:07,050 --> 00:04:13,470
+This is how we initialize the database in the repository and how to initialize the Dao in the repository
+
+48
+00:04:13,470 --> 00:04:18,480
+and execute the methods and the background threads.
+

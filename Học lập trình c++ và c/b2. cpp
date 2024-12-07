@@ -1,0 +1,46 @@
+#include<iostream>
+#include<string.h>
+#include<alloc.h>
+using namespace std;
+struct danhsach{
+	char masv[100];
+	char hoten[100];
+	int tuoi;
+};
+typedef struct danhsach SinhVien ;
+void nhap (danhsach *SinhVien, int &n ){
+	cout<<"Nhap so luong sinh vien: ";
+	cin>>n;
+	for(int i=0; i<n; i++){
+		cout<<"\nNhap danh sach thu "<<i+1;
+		cout<<"\nNhap Ma sinh vien: ";fflush(stdin);  gets((SinhVien+i)->masv);
+		cout<<"Nhap Ho va ten: "; gets((SinhVien+i)->hoten);
+		cout<<"Nhap so tuoi: "; cin>>(SinhVien+i)->tuoi;
+	}
+}
+void xuat(danhsach *SinhVien, int n ){
+	cout<<"\nDanh sach sinh vien vua nhap: "<<endl;
+	for(int i=0;i<n;i++){
+		cout<<(SinhVien+i)->masv<<"\t"<<(SinhVien+i)->hoten<<"\t"<<(SinhVien+i)->tuoi;
+		cout<<endl;
+	}
+}
+void hienminT(danhsach *SinhVien, int n ){
+	int t;
+	cout<<"\nNhap T= "; cin>>t;
+	cout<<"\nDanh sach sinh vien tuoi nho hon "<<t<<" la: "<<endl;
+	for(int i=0;i<n;i++){
+		if((SinhVien+i)->tuoi<t){
+		cout<<(SinhVien+i)->masv<<"\t"<<(SinhVien+i)->hoten<<"\t"<<(SinhVien+i)->tuoi;
+		cout<<endl;
+		}
+	}
+}
+int main (int argc, char** argv){
+	danhsach *SinhVien;
+	int n;
+	SinhVien=(danhsach*)malloc(n*sizeof(danhsach));
+	nhap(SinhVien,n);
+	xuat(SinhVien,n);
+	hienminT(SinhVien,n);
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "FV2I918RHpxYmMI8DSdySZ/YDe/xrZm+RVsOjoOnHL+2ziJ4R685BedzI/2Ar1jBc5btokb9CfO3d69XFnX/ew==",
+  "success": true,
+  "projectFilePath": "D:\\Lập trình hướng sk\\console\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.1\\microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.1\\microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.1\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

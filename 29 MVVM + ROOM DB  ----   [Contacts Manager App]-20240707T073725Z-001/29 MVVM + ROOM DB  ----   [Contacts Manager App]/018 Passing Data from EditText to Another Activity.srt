@@ -1,0 +1,304 @@
+1
+00:00:00,260 --> 00:00:01,090
+Welcome back.
+
+2
+00:00:01,100 --> 00:00:07,460
+In this video, I'll mention a very important concept, which is how to get the data from edit text
+
+3
+00:00:07,460 --> 00:00:13,760
+and pass them to the main activity using data binding and using the intents, of course.
+
+4
+00:00:13,760 --> 00:00:16,730
+So I want from you to focus with me.
+
+5
+00:00:16,730 --> 00:00:20,840
+For that I'll create a new variable called Click Handler.
+
+6
+00:00:20,840 --> 00:00:25,160
+And the type of this variable is a new class that I'll created.
+
+7
+00:00:25,160 --> 00:00:28,970
+Now add new contact Click Handler.
+
+8
+00:00:28,970 --> 00:00:35,660
+This class will handle the click events on this button and direct the user from this activity to the
+
+9
+00:00:35,660 --> 00:00:36,650
+main activity.
+
+10
+00:00:36,680 --> 00:00:40,220
+Getting the name and the email from edit text.
+
+11
+00:00:40,220 --> 00:00:47,540
+For that, I'll create a contact object in order to pass the name and the email to it and assign them.
+
+12
+00:00:47,540 --> 00:00:53,150
+And I need a context object because I am going to use the intents.
+
+13
+00:00:53,180 --> 00:01:01,230
+I'll create the constructor having these two variables and I'll create a new method called on Submit
+
+14
+00:01:01,230 --> 00:01:02,040
+button.
+
+15
+00:01:02,040 --> 00:01:02,520
+Click.
+
+16
+00:01:02,520 --> 00:01:06,480
+Don't miss to pass a view as an object.
+
+17
+00:01:06,480 --> 00:01:08,160
+This is for data binding.
+
+18
+00:01:08,160 --> 00:01:15,720
+Always make sure when you are going to execute any method, you should add the view as a parameter.
+
+19
+00:01:15,750 --> 00:01:26,190
+Then let's check if contact dot get name doesn't equal to or equal equal to null or contact dot get
+
+20
+00:01:26,220 --> 00:01:28,320
+email equal equal to null.
+
+21
+00:01:28,320 --> 00:01:30,240
+I don't need to make anything.
+
+22
+00:01:30,240 --> 00:01:35,730
+I need to display an error message telling him that fields can't be empty.
+
+23
+00:01:38,130 --> 00:01:44,140
+Else I need to pass the data from the edit text to the main activity.
+
+24
+00:01:44,160 --> 00:01:48,210
+So else here I need to start intent.
+
+25
+00:01:48,240 --> 00:01:58,020
+I equal to new intent and I'll use the context object that I created to get the current destination
+
+26
+00:01:58,020 --> 00:01:58,770
+context.
+
+27
+00:01:58,770 --> 00:02:03,450
+And next destination is the main activity dot class.
+
+28
+00:02:03,450 --> 00:02:06,750
+And I mentioned this in the intent section.
+
+29
+00:02:06,750 --> 00:02:12,750
+I need to put extra to put more information to this intent.
+
+30
+00:02:12,780 --> 00:02:21,570
+I equal to put extra and here I'll pass key value pairs one for the name and one for the email.
+
+31
+00:02:21,570 --> 00:02:23,100
+And the name and the email.
+
+32
+00:02:23,130 --> 00:02:25,970
+Two variables are of type string.
+
+33
+00:02:25,980 --> 00:02:30,060
+The key of the name would be name and the value of it.
+
+34
+00:02:30,060 --> 00:02:39,340
+It's get it from the context dot get name and I dot put extra the key of the email is email and make
+
+35
+00:02:39,340 --> 00:02:43,600
+sure that you'll type them later on in the main activity.
+
+36
+00:02:43,600 --> 00:02:51,010
+In the same way you type the key because you need to specify the key and it's a case sensitive to get
+
+37
+00:02:51,010 --> 00:02:53,740
+the value context dot get email.
+
+38
+00:02:53,740 --> 00:03:00,420
+Then I need to start the activity context dot start activity and I need to pass I.
+
+39
+00:03:00,490 --> 00:03:08,350
+Now the last step is to link the data binding with function that we created here on submit button.
+
+40
+00:03:08,350 --> 00:03:12,910
+Click and link the edit text with the contact object.
+
+41
+00:03:12,910 --> 00:03:14,780
+Here I'll create.
+
+42
+00:03:14,800 --> 00:03:23,320
+Com dot master coding context manager app and here I need to specify add new contact click handler.
+
+43
+00:03:23,320 --> 00:03:27,040
+Then let's move down to the edit text here.
+
+44
+00:03:27,040 --> 00:03:36,400
+It's very important step to specify text equals and when using two way binding, you should mention
+
+45
+00:03:36,400 --> 00:03:46,720
+this equal sign contact dot name and the second edit text is text at equals contact dot email.
+
+46
+00:03:46,750 --> 00:03:48,760
+Then let's move to the button.
+
+47
+00:03:48,760 --> 00:03:58,510
+And here we should mention onClick attribute at without the equal sign handler to Collins on submit
+
+48
+00:03:58,510 --> 00:03:59,680
+button click.
+
+49
+00:03:59,710 --> 00:04:08,740
+The last step is to move to the Add new Contact Activity class and initialize the data binding private
+
+50
+00:04:08,740 --> 00:04:09,760
+activity.
+
+51
+00:04:09,790 --> 00:04:17,079
+Add the new contact binding binding, and I need to create an instance from the class that we created
+
+52
+00:04:17,079 --> 00:04:18,519
+for the click handling.
+
+53
+00:04:19,990 --> 00:04:21,750
+Object type cont.
+
+54
+00:04:21,790 --> 00:04:24,400
+Then I'll move to the Oncreate method.
+
+55
+00:04:24,400 --> 00:04:33,340
+Contacts equal to new contacts equals data binding util dot setcontentview.
+
+56
+00:04:33,340 --> 00:04:39,580
+And here I need to specify the layout or dot layout dot add new count.
+
+57
+00:04:39,610 --> 00:04:44,020
+This refers to the context of this add new contact activity.
+
+58
+00:04:44,020 --> 00:04:46,900
+Then I need to set the contact.
+
+59
+00:04:46,900 --> 00:04:56,730
+I need to pass this contact object and to pass it to the binding binding dot set contact to contacts.
+
+60
+00:04:56,740 --> 00:04:58,510
+This is a very important step.
+
+61
+00:04:58,510 --> 00:04:59,920
+Many people miss this.
+
+62
+00:04:59,920 --> 00:05:08,410
+I need to create and initialize the handler new add, new contact handler and I need to pass two parameters.
+
+63
+00:05:08,410 --> 00:05:13,000
+The first one is the context and the context of the Add new contact activity.
+
+64
+00:05:13,000 --> 00:05:18,670
+And the second parameter is the contacts object that we created before.
+
+65
+00:05:18,670 --> 00:05:24,560
+I need to switch between them because the first one is the context and the second is the context.
+
+66
+00:05:24,590 --> 00:05:29,300
+Then I need to link this handler with the data binding.
+
+67
+00:05:29,300 --> 00:05:32,030
+So set click handler to handle.
+
+68
+00:05:32,030 --> 00:05:38,510
+What we've done here is to create and initialize the binding the handler and to create a new object
+
+69
+00:05:38,510 --> 00:05:42,050
+called contacts and assign it to this variable.
+
+70
+00:05:42,050 --> 00:05:47,960
+And the click handler is passed here and assigned to this by using set click handler.
+
+71
+00:05:47,960 --> 00:05:50,180
+Let's run, click on this fab.
+
+72
+00:05:50,180 --> 00:05:54,110
+If I don't add anything, fields can't be empty.
+
+73
+00:05:54,140 --> 00:05:55,610
+Those messages will appear.
+
+74
+00:05:55,610 --> 00:06:02,690
+I'll add John john@gmail.com click add contacts to room and here we go.
+
+75
+00:06:02,690 --> 00:06:09,500
+We are directed to the main activity and having the intent extra, which is the name and the email.
+
+76
+00:06:09,500 --> 00:06:16,430
+In the next videos we're going to insert email and name that we passed here into our database.
+

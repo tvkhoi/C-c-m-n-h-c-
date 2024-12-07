@@ -1,0 +1,44 @@
+#include<iostream>
+#include<iomanip>
+#include<conio.h>
+using namespace std;
+typedef int mang[20];
+void nhap(int *mang,int &n){
+	int i;
+	int *m=&mang[0];
+	cout<<"nhap so phan tu:";
+	cin>>n;
+	for(i=0;i<n;i++){
+		cout<<"mang["<<i<<"]=";
+		cin>>*(m+i);
+		}
+}
+void hien(int mang[],int &n){
+	int i;
+	int *m=&mang[0];
+	cout<<"hien mang:"<<endl;
+	for(i=0;i<n;i++){
+		cout<<setw(3)<<*(m+i);}
+}
+void sapxep(int *mang,int &n){
+	int j,i;
+	int dem;
+	for(i=0;i<n;i++){
+		for(j=i;j<n-1;j++){
+			if(mang[i]>mang[j+1]){
+				dem=mang[i];			
+				mang[i]=mang[j+1];
+				mang[j+1]=dem;}
+			} }
+	cout<<endl;
+}	
+int main()
+{ int mang[100];
+  int *m=mang;  
+  int n;
+  nhap(m,n);
+  hien(m,n);
+  sapxep(m,n);
+  hien(m,n);
+  getchar ();	
+}

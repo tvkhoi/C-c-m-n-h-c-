@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\xuly_dat_hang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:xuly_dat_hang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\btl_ltw\\manage\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:manage\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\manage\\donhang\\donhangcontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:manage\\donhang\\donhangcontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\manage\\giohang\\giohangcontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:manage\\giohang\\giohangcontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\btl_ltw\\manage\\dangnhap\\dangnhaprcontrol1.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:manage\\dangnhap\\dangnhaprcontrol1.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\btl_ltw\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\btl_ltw\\manage\\menu\\menucontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:manage\\menu\\menucontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\btl_ltw\\manage\\laptop_gaming\\laptopgamingcontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:manage\\laptop_gaming\\laptopgamingcontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|d:\\l\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\btl_ltw\\manage\\donhang\\donhangcontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:manage\\donhang\\donhangcontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\manage\\giohang\\giohangcontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:manage\\giohang\\giohangcontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\manage\\laptop_vanphong\\laptopvanphongcontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:manage\\laptop_vanphong\\laptopvanphongcontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\dat_vanphong.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{91D45ABE-2C6B-483A-B6E0-8E5BAFD70C94}|BTL_LTW.csproj|solutionrelative:dat_vanphong.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 451,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Manage\\Global.asax.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\Global.asax.cs",
+              "RelativeToolTip": "Manage\\Global.asax.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T03:04:45.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dangnhaprControl1.ascx",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\dangnhap\\dangnhaprControl1.ascx",
+              "RelativeDocumentMoniker": "Manage\\dangnhap\\dangnhaprControl1.ascx",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\dangnhap\\dangnhaprControl1.ascx",
+              "RelativeToolTip": "Manage\\dangnhap\\dangnhaprControl1.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-04-15T01:48:38.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\CSS\\style.css",
+              "RelativeDocumentMoniker": "CSS\\style.css",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\CSS\\style.css",
+              "RelativeToolTip": "CSS\\style.css",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-15T01:27:31.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "menuControl.ascx",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\menu\\menuControl.ascx",
+              "RelativeDocumentMoniker": "Manage\\menu\\menuControl.ascx",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\menu\\menuControl.ascx",
+              "RelativeToolTip": "Manage\\menu\\menuControl.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-04-15T01:27:08.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "laptopgamingControl.ascx",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\Laptop_gaming\\laptopgamingControl.ascx",
+              "RelativeDocumentMoniker": "Manage\\Laptop_gaming\\laptopgamingControl.ascx",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\Laptop_gaming\\laptopgamingControl.ascx",
+              "RelativeToolTip": "Manage\\Laptop_gaming\\laptopgamingControl.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-04-15T01:26:54.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "donhangControl.ascx",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\DonHang\\donhangControl.ascx",
+              "RelativeDocumentMoniker": "Manage\\DonHang\\donhangControl.ascx",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\DonHang\\donhangControl.ascx",
+              "RelativeToolTip": "Manage\\DonHang\\donhangControl.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-04-14T17:34:26.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "giohangControl.ascx",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\GioHang\\giohangControl.ascx",
+              "RelativeDocumentMoniker": "Manage\\GioHang\\giohangControl.ascx",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\GioHang\\giohangControl.ascx",
+              "RelativeToolTip": "Manage\\GioHang\\giohangControl.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-04-14T17:33:58.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "laptopvanphongControl.ascx.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\Laptop_vanphong\\laptopvanphongControl.ascx.cs",
+              "RelativeDocumentMoniker": "Manage\\Laptop_vanphong\\laptopvanphongControl.ascx.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\Laptop_vanphong\\laptopvanphongControl.ascx.cs",
+              "RelativeToolTip": "Manage\\Laptop_vanphong\\laptopvanphongControl.ascx.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:07:38.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dat_VanPhong.json",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\dat_VanPhong.json",
+              "RelativeDocumentMoniker": "dat_VanPhong.json",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\dat_VanPhong.json",
+              "RelativeToolTip": "dat_VanPhong.json",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-14T17:06:51.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "donhangControl.ascx.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\DonHang\\donhangControl.ascx.cs",
+              "RelativeDocumentMoniker": "Manage\\DonHang\\donhangControl.ascx.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\DonHang\\donhangControl.ascx.cs",
+              "RelativeToolTip": "Manage\\DonHang\\donhangControl.ascx.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACAAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T16:15:05.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "xuLy_dat_hang.aspx.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\xuLy_dat_hang.aspx.cs",
+              "RelativeDocumentMoniker": "xuLy_dat_hang.aspx.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\xuLy_dat_hang.aspx.cs",
+              "RelativeToolTip": "xuLy_dat_hang.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T10:49:15.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "giohangControl.ascx.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\GioHang\\giohangControl.ascx.cs",
+              "RelativeDocumentMoniker": "Manage\\GioHang\\giohangControl.ascx.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh h\u01B0\u1EDBng sk\\console\\BTL_LTW\\Manage\\GioHang\\giohangControl.ascx.cs",
+              "RelativeToolTip": "Manage\\GioHang\\giohangControl.ascx.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAAAHAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T10:47:04.653Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

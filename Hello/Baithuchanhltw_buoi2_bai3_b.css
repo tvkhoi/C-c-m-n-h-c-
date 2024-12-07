@@ -1,0 +1,101 @@
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+.row::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+[class*="col-"] {
+    float: left;
+    padding: 0px;
+    width: 100%;
+    
+}
+.col-6{
+    padding: 40px 10px 0px 10px;
+}
+.col-6 h3{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.col-6 h3:hover {
+    color: brown;
+}
+.col-6_chitiet {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.col-6_chitiet a:hover {
+    color: brown;
+}
+.col-6_chitiet a {
+    text-decoration: none;
+}
+header {
+    font-size: 15px;
+    background-color: black;
+    color: aliceblue;
+    height: 80px;
+}
+header h1 {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.maunen {
+    padding:20px;
+}
+.maunen li {
+    margin-left: 0;
+    background-color: rgb(201, 122, 18);
+    list-style-type: none;
+    margin-top: 4px;
+    height: 40px;
+    padding: 10px 0px 0px 20px;
+    
+}
+.maunen ul li a {
+    text-decoration: none;
+}
+.maunen li:hover {
+    background-color: bisque;
+}
+@media only screen and (min-width: 768px){
+    .col-1{width: 8.33%;}.col-2{width: 16.66%;}.col-3{width: 25%;}.col-4{width: 33.33%;}.col-5{width: 41.66%;}.col-6{width: 50%;} 
+    .col-7{width: 58.33%;}.col-8{width: 66.66%;}.col-9{width: 75%;}.col-10{width: 83.33%;}.col-11{width: 91.66%;}.col-12{width: 100%;}
+    
+}
+.col-3 {
+    margin-top: 30px;
+    padding-right: 30px;
+
+}
+.col-3 .khunganh {
+    padding-left: 70px;
+    border: 5px solid black;
+}
+.nen_footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    height: 50px;
+}

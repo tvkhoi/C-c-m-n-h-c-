@@ -1,0 +1,128 @@
+1
+00:00:00,170 --> 00:00:01,100
+Welcome back.
+
+2
+00:00:01,130 --> 00:00:08,360
+Till now, we succeeded in creating our own API and transforming and converting the database data and
+
+3
+00:00:08,360 --> 00:00:10,910
+records into Json response.
+
+4
+00:00:10,940 --> 00:00:14,960
+Now let's move to the next step which is retrofit.
+
+5
+00:00:14,960 --> 00:00:22,520
+And since we're going to follow the mVVM architecture in this application, I'll start from the section
+
+6
+00:00:22,520 --> 00:00:23,390
+which is removed.
+
+7
+00:00:23,390 --> 00:00:27,080
+Data source and retrofit configurations in Android.
+
+8
+00:00:27,080 --> 00:00:28,090
+Development.
+
+9
+00:00:28,100 --> 00:00:36,260
+Retrofit is a popular library for making network requests to a Rest API representational State Transfer
+
+10
+00:00:36,260 --> 00:00:37,970
+Application programming interface.
+
+11
+00:00:38,000 --> 00:00:44,090
+It simplifies the process of sending and receiving data from a web service.
+
+12
+00:00:44,090 --> 00:00:51,590
+When working with retrofit, you'll often come across concepts like data classes, retrofit instances,
+
+13
+00:00:51,590 --> 00:00:54,140
+and API service interface.
+
+14
+00:00:54,140 --> 00:00:57,530
+Let's start with the data classes or Pojo.
+
+15
+00:00:57,530 --> 00:00:59,810
+Plain old Java objects.
+
+16
+00:00:59,810 --> 00:01:06,860
+When working with retrofit data, classes are commonly used to represent the structure of the data you
+
+17
+00:01:06,860 --> 00:01:10,550
+expect to send or receive from a web service.
+
+18
+00:01:10,550 --> 00:01:18,140
+You would use data classes or modal classes to represent the structure of the data you want to send
+
+19
+00:01:18,140 --> 00:01:23,690
+as the request body, or the data you expect to receive as the response from the API.
+
+20
+00:01:23,720 --> 00:01:30,680
+As mentioned in the previous section, we can use online tools to transform our Json response into Pojo
+
+21
+00:01:30,680 --> 00:01:33,650
+classes, or we can do it manually.
+
+22
+00:01:33,650 --> 00:01:38,870
+The second part, or the second step is to create the API service interface.
+
+23
+00:01:38,900 --> 00:01:48,560
+In retrofit, an API or service interface is a simple interface that defines the endpoints Http methods
+
+24
+00:01:48,560 --> 00:01:55,640
+like get, post, put, delete, and the structure of the network requests to a rest API.
+
+25
+00:01:55,670 --> 00:02:04,430
+Each method in the interface represents a specific API endpoint, and retrofit will generate the necessary
+
+26
+00:02:04,430 --> 00:02:09,320
+code to handle the network request and response processing.
+
+27
+00:02:09,320 --> 00:02:12,740
+The third part is the retrofit instance.
+
+28
+00:02:12,770 --> 00:02:18,170
+A retrofit instance is the entry point to using the retrofit library.
+
+29
+00:02:18,170 --> 00:02:26,660
+It's responsible for configuring the settings that apply to all your network requests, such as the
+
+30
+00:02:26,660 --> 00:02:34,790
+base URL of the API, converters for parsing responses, and Http client settings.
+
+31
+00:02:34,790 --> 00:02:37,250
+These are the parts of retrofit.
+
+32
+00:02:37,280 --> 00:02:44,030
+Now let's start with the data classes, then move to the service interface and the retrofit instance.
+

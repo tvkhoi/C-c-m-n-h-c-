@@ -1,0 +1,259 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BtlWebBasic\\BtlWebBasic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|d:\\btlwebbasic\\btlwebbasic\\dangnhap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:dangnhap.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|d:\\btlwebbasic\\btlwebbasic\\style\\dangnhap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:style\\dangnhap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|d:\\btlwebbasic\\btlwebbasic\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\dangxuat.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:dangxuat.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\trangsanphamchitiet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:trangsanphamchitiet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\style\\giohang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:style\\giohang.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\xoagiohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:xoagiohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\xoagiohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:xoagiohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\giohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:giohang.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\js\\giohang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:js\\giohang.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\danhmucsanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:danhmucsanpham.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\giohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:giohang.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|D:\\BtlWebBasic\\BtlWebBasic\\trangsanphamchitiet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA8D547-E92E-46F1-8C51-5E91F441A532}|BtlWebBasic.csproj|solutionrelative:trangsanphamchitiet.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dangnhap.aspx",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Dangnhap.aspx",
+              "RelativeDocumentMoniker": "Dangnhap.aspx",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Dangnhap.aspx",
+              "RelativeToolTip": "Dangnhap.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-15T01:58:22.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dangnhap.css",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Style\\Dangnhap.css",
+              "RelativeDocumentMoniker": "Style\\Dangnhap.css",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Style\\Dangnhap.css",
+              "RelativeToolTip": "Style\\Dangnhap.css",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-15T01:58:14.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T15:24:56.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dangxuat.aspx",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Dangxuat.aspx",
+              "RelativeDocumentMoniker": "Dangxuat.aspx",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Dangxuat.aspx",
+              "RelativeToolTip": "Dangxuat.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-14T15:23:10.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Trangsanphamchitiet.aspx.cs",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Trangsanphamchitiet.aspx.cs",
+              "RelativeDocumentMoniker": "Trangsanphamchitiet.aspx.cs",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Trangsanphamchitiet.aspx.cs",
+              "RelativeToolTip": "Trangsanphamchitiet.aspx.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwDAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T14:53:56.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Giohang.js",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\js\\Giohang.js",
+              "RelativeDocumentMoniker": "js\\Giohang.js",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\js\\Giohang.js",
+              "RelativeToolTip": "js\\Giohang.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-13T14:52:55.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Trangsanphamchitiet.aspx",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Trangsanphamchitiet.aspx",
+              "RelativeDocumentMoniker": "Trangsanphamchitiet.aspx",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Trangsanphamchitiet.aspx",
+              "RelativeToolTip": "Trangsanphamchitiet.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-13T14:52:02.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "giohang.css",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Style\\giohang.css",
+              "RelativeDocumentMoniker": "Style\\giohang.css",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Style\\giohang.css",
+              "RelativeToolTip": "Style\\giohang.css",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAIUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-13T14:33:52.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Danhmucsanpham.aspx",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Danhmucsanpham.aspx",
+              "RelativeDocumentMoniker": "Danhmucsanpham.aspx",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Danhmucsanpham.aspx",
+              "RelativeToolTip": "Danhmucsanpham.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-13T14:30:10.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Giohang.aspx.cs",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Giohang.aspx.cs",
+              "RelativeDocumentMoniker": "Giohang.aspx.cs",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Giohang.aspx.cs",
+              "RelativeToolTip": "Giohang.aspx.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T14:29:02.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Giohang.aspx",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Giohang.aspx",
+              "RelativeDocumentMoniker": "Giohang.aspx",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Giohang.aspx",
+              "RelativeToolTip": "Giohang.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-13T10:14:25.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Xoagiohang.aspx.cs",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Xoagiohang.aspx.cs",
+              "RelativeDocumentMoniker": "Xoagiohang.aspx.cs",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Xoagiohang.aspx.cs",
+              "RelativeToolTip": "Xoagiohang.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:13:51.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Xoagiohang.aspx",
+              "DocumentMoniker": "D:\\BtlWebBasic\\BtlWebBasic\\Xoagiohang.aspx",
+              "RelativeDocumentMoniker": "Xoagiohang.aspx",
+              "ToolTip": "D:\\BtlWebBasic\\BtlWebBasic\\Xoagiohang.aspx",
+              "RelativeToolTip": "Xoagiohang.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-13T10:13:41.694Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+1
+00:00:00,200 --> 00:00:02,250
+Hello my friends, and welcome back.
+
+2
+00:00:02,270 --> 00:00:06,890
+In this section we're going to build this gorgeous app called the Quiz App.
+
+3
+00:00:06,920 --> 00:00:12,440
+This amazing app will fetch the data from a local database that we're going to build together.
+
+4
+00:00:12,440 --> 00:00:16,040
+And inside this database we'll create math table.
+
+5
+00:00:16,040 --> 00:00:18,440
+And inside this table we have records.
+
+6
+00:00:18,440 --> 00:00:21,470
+And the records are representing questions.
+
+7
+00:00:21,470 --> 00:00:25,610
+These questions will be fetched into Json response.
+
+8
+00:00:25,610 --> 00:00:33,290
+So we're going to transform our database data and records into Json response with the help of the API
+
+9
+00:00:33,320 --> 00:00:34,400
+that will create.
+
+10
+00:00:34,400 --> 00:00:39,920
+So we're going to create our own API in PHP language.
+
+11
+00:00:39,920 --> 00:00:47,930
+And don't worry I'll show you step by step how to create this API that transforms the database records
+
+12
+00:00:47,930 --> 00:00:50,660
+and the questions into Json response.
+
+13
+00:00:50,660 --> 00:00:57,750
+Then we're going to use our old friend retrofit to transform this Json response into Pojo.
+
+14
+00:00:57,770 --> 00:01:02,060
+Plain old Java objects to be displayed into the app UI.
+
+15
+00:01:02,090 --> 00:01:06,440
+This app will teach you how to create your local database.
+
+16
+00:01:06,440 --> 00:01:07,190
+MySQL.
+
+17
+00:01:07,220 --> 00:01:13,970
+How to create your own API, how to fetch the Json response from database, how to use retrofit to create
+
+18
+00:01:13,970 --> 00:01:17,750
+Java objects and display questions into Android app.
+
+19
+00:01:17,780 --> 00:01:25,120
+Of course I'm going to follow mVVM architecture Model view ViewModel in this app.
+
+20
+00:01:25,130 --> 00:01:28,010
+Moreover, I'll use data binding library.
+
+21
+00:01:28,010 --> 00:01:35,330
+So this is an amazing app and beautiful app that allows the user to select one choice.
+
+22
+00:01:35,330 --> 00:01:38,510
+So for example 35 question number two.
+
+23
+00:01:38,960 --> 00:01:46,280
+So we'll be directing the user to the results activity and displaying the scores one over two or the
+
+24
+00:01:46,280 --> 00:01:47,360
+total questions.
+

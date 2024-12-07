@@ -1,0 +1,7 @@
+D:\Lập trình hướng sk\console\Buoi2_lthsk\bin\Debug\Buoi2_lthsk.exe.config
+D:\Lập trình hướng sk\console\Buoi2_lthsk\bin\Debug\Buoi2_lthsk.exe
+D:\Lập trình hướng sk\console\Buoi2_lthsk\bin\Debug\Buoi2_lthsk.pdb
+D:\Lập trình hướng sk\console\Buoi2_lthsk\obj\Debug\Buoi2_lthsk.csproj.AssemblyReference.cache
+D:\Lập trình hướng sk\console\Buoi2_lthsk\obj\Debug\Buoi2_lthsk.csproj.CoreCompileInputs.cache
+D:\Lập trình hướng sk\console\Buoi2_lthsk\obj\Debug\Buoi2_lthsk.exe
+D:\Lập trình hướng sk\console\Buoi2_lthsk\obj\Debug\Buoi2_lthsk.pdb
